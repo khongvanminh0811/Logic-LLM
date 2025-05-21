@@ -1,0 +1,600 @@
+[
+  {
+    "context": "The nature of English literature reflects the rich and diverse vocabulary of the English language, which resulted from the dual influence of the Anglo-Saxon and, later, French languages. The French language, though, is a direct descendant of Latin, with few traces of the Celtic language spoken by the preRoman inhabitants of the area: the hallmark of French literature is its simplicity and clarity.",
+    "question": "Which one of the following can be most reasonably inferred from the information above?",
+    "id": "test_13",
+    "answer": "B",
+    "question_type": 5,
+    "options": [
+      "Simple and clear literature cannot be written in a language with a rich and diverse vocabulary.",
+      "The origin of English played a role in shaping English literature.",
+      "The vocabulary of English is larger than the vocabulary of French.",
+      "The vocabulary of the Anglo-Saxon language was richer than that of the French language."
+    ]
+  },
+  {
+    "context": "Elena: While I was at the dog show, every dog that growled at me was a white poodle, and every white poodle I saw growled at me.",
+    "question": "Which one of the following can be properly inferred from Elena's statement?",
+    "id": "test_179",
+    "answer": "B",
+    "question_type": 5,
+    "options": [
+      "All the white dogs that Elena saw growled at her.",
+      "At the dog show, no gray dogs growled at Elena.",
+      "Elena did not see any gray poodles at the dog show.",
+      "There were no gray poodles at the dog show."
+    ]
+  },
+  {
+    "context": "Unless they are used as strictly temporary measures, rent-control ordinances (municipal regulations placing limits on rent increases) have several negative effects for renters. One of these is that the controls will bring about a shortage of rental units. This disadvantage for renters occurs over the long run, but the advantage -- smaller rent increases -- occurs immediately. In many municipalities, specifically in all those where tenants of rent-control units have a secure hold on political power and can get rent-control ordinances enacted or repealed, it is invariably the desire for short-term gain that guides those tenants in the exercise of that power.",
+    "question": "If the statements above are true, which one of the following can be properly inferred from them?",
+    "id": "test_245",
+    "answer": "A",
+    "question_type": 5,
+    "options": [
+      "In many municipalities there is now, or eventually will be, a shortage of rental units.",
+      "In many municipalities rent-control ordinances are repealed as soon as shortages of rental units arise.",
+      "It is impossible for landlords to raise rents when rent controls are in effect.",
+      "The only negative effect of rent control for renters is that it brings about a shortage of rental units."
+    ]
+  },
+  {
+    "context": "A company' s two divisions performed with remarkable consistency over the past three years: in each of those years, the pharmaceuticals division has accounted for roughly 20 percent of dollar sales and 40 percent of profits, and the chemicals division for the balance.",
+    "question": "Regarding the past three years, which of the following can properly be inferred from the statement above?",
+    "id": "test_322",
+    "answer": "C",
+    "question_type": 5,
+    "options": [
+      "The pharmaceuticals division has faced stiffer competition in its markets than has the chemicals division.",
+      "Total dollar sales for each of the company's divisions have remained roughly constant.",
+      "The chemicals division has realized lower profits per dollar of sales than has the pharmaceuticals division.",
+      "The product mix offered by each of the company's divisions has remained unchanged."
+    ]
+  },
+  {
+    "context": "The Founding Fathers created the Electoral College to balance state-based and population-based representation. The Electoral College allows only electors to vote for the President, and the number of electors per state is equal to the state' s total number of representatives and senators. Each political party nominates its electors based on their own methods. In the past, some electors have cast ballots for candidates that did not receive the most popular votes.",
+    "question": "Which one of the following can be properly inferred from the passage?",
+    "id": "test_569",
+    "answer": "D",
+    "question_type": 5,
+    "options": [
+      "The winning candidate must receive the majority of the electors' votes.",
+      "The number of states' representatives is based on population, while the number of senators is equal for every state.",
+      "No law requires the electors to vote for the candidate that receives the most ballots.",
+      "The Electoral College is not a direct election."
+    ]
+  },
+  {
+    "context": "Cindy always braids her hair on Christmas. Today is Easter. Cindy' s hair is braided.",
+    "question": "If the statements above are correct, then what cannot be true?",
+    "id": "test_656",
+    "answer": "A",
+    "question_type": 5,
+    "options": [
+      "Cindy only braids her hair on Christmas.",
+      "Cindy dislikes braiding her hair since it takes too long.",
+      "Cindy only braids her hair on holidays.",
+      "Cindy never braids her hair during July or August."
+    ]
+  },
+  {
+    "context": "Technician: Laboratory mice that are used for research aimed at improving human health are usually kept in small cages. Such an environment is neither normal nor healthy for mice. Moreover, the reliability of research using animals is diminished if those animals are not in an environment that is normal for them.",
+    "question": "Which one of the following can be properly inferred from the technician's statements?",
+    "id": "test_701",
+    "answer": "C",
+    "question_type": 5,
+    "options": [
+      "If laboratory mice were kept under better conditions, it would be appropriate to use them for research aimed at improving human health.",
+      "Laboratory mice that are used for research that is not directly related to human health are not usually kept in small cages.",
+      "Research using laboratory mice that is aimed at improving human health is compromised by the conditions under which the mice are kept.",
+      "Those who conduct research aimed at improving human health will develop new research techniques."
+    ]
+  },
+  {
+    "context": "Computer scientist: For several decades, the number of transistors on new computer microchips, and hence the microchips' computing speed, has doubled about every 18 months. However, from the mid-1990s into the next decade, each such doubling in a microchip' s computing speed was accompanied by a doubling in the cost of producing that microchip.",
+    "question": "Which one of the following can be properly inferred from the computer scientist's statements?",
+    "id": "test_816",
+    "answer": "C",
+    "question_type": 5,
+    "options": [
+      "It is unlikely that engineers will ever be able to increase the computing speed of microchips without also increasing the cost of producing them.",
+      "For the last several decades, computer engineers have focused on increasing the computing speed of computer microchips without making any attempt to control the cost of producing them.",
+      "From the mid-1990s into the next decade, a doubling in the cost of fabricating new computer microchips accompanied each doubling in the number of transistors on those microchips.",
+      "From the mid-1990s into the next decade, there was little if any increase in the retail cost of computers as a result of the increased number of transistors on microchips."
+    ]
+  },
+  {
+    "context": "Chelas and Stelma are required to leave their respective stations immediately to pursue any prisoner who attempts to escape from their sector. Furthermore, unless they are pursuing such a prisoner, Chelas and Stelma are forbidden to leave their stations until their replacements have arrived. On May 11 at 9 P. M. , when Chelas and Stelma finished the four-hour shift in their sector and their replacements arrived, it was discovered that Chelas had violated these rules and Stelma had not.",
+    "question": "If the statements above are true, each of the following could be true EXCEPT:",
+    "id": "test_869",
+    "answer": "B",
+    "question_type": 5,
+    "options": [
+      "Chelas left his station before 9 P. M. but Stelma did not.",
+      "A prisoner attempted to escape from Chelas and Stelma's sector at 7 P. M. and neither Chelas nor Stelma left his or her station before 9 P. M.",
+      "Chelas and Stelma were at their respective stations at 9 P. M.",
+      "Stelma left her station before 9 P. M. but Chelas did not."
+    ]
+  },
+  {
+    "context": "Philosopher: The rational pursuit of happiness is quite different from always doing what one most strongly desires to do. This is because the rational pursuit of happiness must include consideration of long-term consequences, whereas our desires are usually focused on the short term. Moreover, desires are sometimes compulsions, and while ordinary desires result in at least momentary happiness when their goals are attained, compulsions strongly drive a person to pursue goals that offer no happiness even when reached.",
+    "question": "If all of the philosopher's statements are true, each of the following could be true EXCEPT:",
+    "id": "test_874",
+    "answer": "B",
+    "question_type": 5,
+    "options": [
+      "The majority of people do not have compulsions.",
+      "Attaining the goal of any desire results in momentary happiness.",
+      "Most people want more than their own personal happiness.",
+      "Most people do not pursue happiness rationally."
+    ]
+  },
+  {
+    "context": "Pollen and other allergens can cause cells in the nose to release histamine, a chemical that inflames nasal tissue and causes runny nose, congestion, and sneezing. Antihistamines minimize these allergy symptoms by blocking the action of histamine. In addition, antihistamines have other effects, including drowsiness. However, histamine plays no role in the processes by which colds produce their symptoms.",
+    "question": "If the statements above are true, which one of the following must also be true?",
+    "id": "test_892",
+    "answer": "D",
+    "question_type": 5,
+    "options": [
+      "The sleeplessness that sometimes accompanies allergies can be effectively treated with antihistamines.",
+      "Pollen and other allergens do not cause colds.",
+      "Antihistamines, when taken alone, are ineffective against congestion caused by colds.",
+      "Any effect antihistamines may have in reducing cold symptoms does not result from blocking the action of histamine."
+    ]
+  },
+  {
+    "context": "The fewer restrictions there are on the advertising of legal services, the more lawyers there are who advertise their services, and the lawyers who advertise a specific service usually charge less for that service than the lawyers who do not advertise. Ttherefore, if the state removes any of its current restrictions, such as the one against advertisements that do not specify fee arrangements, overall consumer legal costs will be lower than if the state retains its current restrictions.",
+    "question": "If the statements above are true, which of the following must be true?",
+    "id": "test_943",
+    "answer": "C",
+    "question_type": 5,
+    "options": [
+      "More consumers will use legal services if there are fewer restrictions on the advertising of legal services.",
+      "Some lawyers who now advertise will charge more for specific services if they do not have to specify fee arrangements in the advertisements.",
+      "If the restriction against advertisements that do not specify fee arrangements is removed, more lawyers will advertise their services.",
+      "If more lawyers advertise lower prices for specific services, some lawyers who do not advertise will also charge less than they currently charge for those services."
+    ]
+  },
+  {
+    "context": "Negotiations between the union and the trucking industry will not resume unless one or the other of these parties agrees to make concessions. The trucking industry will not make any concessions without certain prior concessions being made by the union, and the union will make concessions only if the government agrees to act as mediator.",
+    "question": "If the statements above are true, which one of the following must also be true on the basis of them?",
+    "id": "test_0",
+    "answer": "D",
+    "question_type": 5,
+    "options": [
+      "If the union makes concessions, then the trucking industry will also make concessions.",
+      "Differences between the union and the trucking industry will be successfully negotiated if the government agrees to act as mediator.",
+      "Negotiations between the union and the trucking industry will not resume.",
+      "Negotiations between the union and the trucking industry will not resume unless the government agrees to act as mediator."
+    ]
+  },
+  {
+    "context": "Most of the new cars that Regis Motors sold last year were purchased by residents of Blomenville. Regis Motors sold more new cars last year than it did in any previous year. Still, most new cars purchased by Blomenville residents last year were not purchased from Regis Motors.",
+    "question": "If the statements above are true, which one of the following must also be true?",
+    "id": "test_19",
+    "answer": "C",
+    "question_type": 5,
+    "options": [
+      "Regis Motors' share of the new car market in Blomenville last year increased over its share the year before.",
+      "A car retailer other than Regis Motors sold the most new cars to residents of Blomenville last year.",
+      "The number of new cars purchased last year by residents of Blomenville is greater than the number of new cars sold by Regis Motors.",
+      "The total number of new cars purchased by residents of Blomenville was greater last year than it was in any previous year."
+    ]
+  },
+  {
+    "context": "Finding of a survey of Systems magazine subscribers: Thirty percent of all merchandise orders placed by subscribers in response to advertisements in the magazine last year were placed by subscribers under age thirty-five. Finding of a survey of advertisers in Systems magazine: Most of the merchandise orders placed in response to advertisements in Systems last year were placed by people under age thirty-five.",
+    "question": "For both of the findings to be accurate, which of the following must be true?",
+    "id": "test_36",
+    "answer": "D",
+    "question_type": 5,
+    "options": [
+      "Last year, the average dollar amount of merchandise orders placed was less for subscribers under age thirty-five than for those age thirty-five or over.",
+      "More subscribers to Systems who have never ordered merchandise in response to advertisements in the magazine are age thirty-five or over than are under age thirty-five.",
+      "Among subscribers to Systems, the proportion who are under age thirty-five was considerably lower last year than it is now.",
+      "Last year many people who placed orders for merchandise in response to advertisements in Systems were not subscribers to the magazine."
+    ]
+  },
+  {
+    "context": "Any great ape can learn to recognize its reflection in a mirror. Any animal that recognizes its reflection in a mirror has a sense of self. An animal has a sense of the minds of others only if it possesses a sense of self.",
+    "question": "Which one of the following follows logically from the information above?",
+    "id": "test_38",
+    "answer": "B",
+    "question_type": 5,
+    "options": [
+      "All great apes have the ability to develop a sense of the minds of others.",
+      "Any animal that is incapable of developing a sense of self is not a great ape.",
+      "If an animal is not a great ape it is not capable of developing a sense of the minds of others.",
+      "Any animal that does not recognize its reflection in a mirror does not have a sense of self."
+    ]
+  },
+  {
+    "context": "Efficiency and redundancy are contradictory characteristics of linguistic systems; however, they can be used together to achieve usefulness and reliability in communication. If a spoken language is completely efficient, then every possible permutation of its basic language sounds can be an understandable word. However, if the human auditory system is an imperfect receptor of sounds, then it is not true that every possible permutation of a spoken language' s basic language sounds can be an understandable word.",
+    "question": "If all of the statements above are true, which one of the following must also be true?",
+    "id": "test_61",
+    "answer": "B",
+    "question_type": 5,
+    "options": [
+      "If a spoken language were completely redundant, then it could not be useful.",
+      "If the human auditory system is an imperfect receptor of sounds, then a spoken language cannot be completely efficient.",
+      "Efficiency causes a spoken language to be useful and redundancy causes it to be reliable.",
+      "If the human auditory system were a perfect receptor of sounds, then every permutation of language sounds would be an understandable word."
+    ]
+  },
+  {
+    "context": "Recently a court ruled that current law allows companies to reject a job applicant if working in the job would entail a 90 percent chance that the applicant would suffer a heart attack. The presiding judge justified the ruling, saying that it protected both employees and employers.",
+    "question": "The use of this court ruling as part of the law could not be effective in regulating employment practices if which of the following were true?",
+    "id": "test_68",
+    "answer": "B",
+    "question_type": 5,
+    "options": [
+      "The number of people applying for jobs at a company might decline if the company, by screening applicants for risk of heart attack, seemed to suggest that the job entailed high risk of heart attack.",
+      "No legally accepted methods exist for calculating the risk of a job applicant's having a heart attack as a result of being employed in any particular occupation.",
+      "Some jobs might involve health risks other than the risk of heart attack.",
+      "Employees who have a 90 percent chance of suffering a heart attack may be unaware that their risk is so great."
+    ]
+  },
+  {
+    "context": "Most people who are skilled banjo players are also skilled guitar players. But most people who are skilled guitar players are not skilled banjo players.",
+    "question": "If the statements above are true, which one of the following must also be true?",
+    "id": "test_81",
+    "answer": "A",
+    "question_type": 5,
+    "options": [
+      "There are more people who are skilled at playing the guitar than there are people who are skilled at playing the banjo.",
+      "There are more people who are skilled at playing the banjo than there are people who are skilled at playing the guitar.",
+      "A person trying to learn how to play the guitar is more likely to succeed in doing so than is a person trying to learn how to play the banjo.",
+      "There are more people who are skilled at playing both the guitar and the banjo than there are people who are skilled at playing only one of the two instruments."
+    ]
+  },
+  {
+    "context": "Leachate is a solution, frequently highly contaminated, that develops when water permeates a landfill site. If and only if the landfill' s capacity to hold liquids is exceeded does the leachate escape into the environment, generally in unpredictable quantities. A method must be found for disposing of leachate. Most landfill leachate is sent directly to sewage treatment plants, but not all sewage plants are capable of handling the highly contaminated water.",
+    "question": "Which one of the following can be inferred from the passage?",
+    "id": "test_108",
+    "answer": "A",
+    "question_type": 5,
+    "options": [
+      "If leachate does not escape from a landfill into the environment, then the landfill's capacity to hold liquids has not been exceeded.",
+      "The ability to predict the volume of escaping landfill leachate would help solve the disposal problem.",
+      "If any water permeates a landfill, leachate will escape into the environment.",
+      "Some landfill leachate is sent to sewage treatment plants that are incapable of handling it."
+    ]
+  },
+  {
+    "context": "Playing eighteenth-century music on the instruments of that period provides valuable information about how the music originally sounded. Eighteenth-century instruments cannot be played without being restored, however, and restoring such an instrument destroys all of the information that researchers could obtain from it about eighteenth-century instrument-making techniques.",
+    "question": "If the statements above are true, which of the following must be true on the basis of them?",
+    "id": "test_277",
+    "answer": "A",
+    "question_type": 5,
+    "options": [
+      "Eighteenth-century instruments that have been restored can provide information only about how eighteenth-century music originally sounded",
+      "An eighteenth-century instrument cannot serve as a source of new information about eighteenth-century instrument-making techniques once it can be played",
+      "Eighteenth-century instruments are the only source of information about the instrument-making techniques of that period.",
+      "An eighteenth-century instrument that has not been restored can provide more information than can one that has been restored."
+    ]
+  },
+  {
+    "context": "If the standards committee has a quorum, then the general assembly will begin at 6: 00 P. M. today. If the awards committee has a quorum, then the general assembly will begin at 7: 00 P. M. today.",
+    "question": "Which one of the following statements follows logically from the statements above?",
+    "id": "test_321",
+    "answer": "A",
+    "question_type": 5,
+    "options": [
+      "If the standards committee has a quorum, then foe awards committee does not have a quorum.",
+      "If the general assembly does not begin at 6:00 P. M. today, then the awards committee has a quorum.",
+      "If the general assembly does not begin at 7:00 P. M. today, then the standards committee has a quorum.",
+      "If the general assembly begins at 6:00 RM. today, then the standards committee has a quorum"
+    ]
+  },
+  {
+    "context": "If a motor is sound-insulated, then it is quiet enough to use in home appliances. If a motor is quiet enough to use in home appliances, then it can be used in institutional settings. None of the motors manufactured by EM Industries are quiet enough to use in home appliances.",
+    "question": "If the statements above are true, which one of the following must be true?",
+    "id": "test_331",
+    "answer": "B",
+    "question_type": 5,
+    "options": [
+      "None of the motors manufactured by EM Industries can be used in institutional settings.",
+      "None of the motors manufactured by EM Industries are sound-insulated.",
+      "If a motor can be used in institutional settings, then it is sound-insulated.",
+      "At least some of the motors manufactured by EM Industries can be used in institutional settings."
+    ]
+  },
+  {
+    "context": "On the basis of relatively minor morphological differences, some scientists suggest that Neanderthals should be considered a species distinct from Cro-Magnons, the forerunners of modern humans. Yet the fact that the tools used by these two groups of hominids living in different environments were of exactly the same type indicates uncanny behavioral similarities, for only if they faced the same daily challenges and met them in the same way would they have used such similar tools. This suggests that they were members of the same species, and that the morphological differences are due merely to their having lived in different environments.",
+    "question": "If the statements above are true, then each of the following could be true EXCEPT:",
+    "id": "test_390",
+    "answer": "A",
+    "question_type": 5,
+    "options": [
+      "The daily challenges with which an environment confronts its inhabitants are unique to that environment.",
+      "Use of similar tools is required if members of two distinct groups of tool-making hominids are to be considered members of the same species.",
+      "Morphological differences between the members of two populations do not guarantee that the two populations do not belong to the same species.",
+      "Through much of their coexistence, Cro-Magnons and Neanderthals were geographically isolated from one another."
+    ]
+  },
+  {
+    "context": "No mathematician today would flatly refuse to accept the results of an enormous computation as an adequate demonstration of the truth of a theorem. In 1976, however, this was not the case. Some mathematicians at that time refused to accept the results of a complex computer demonstration of a very simple mapping theorem. Although some mathematicians still hold a strong belief that a simple theorem ought to have a short, simple proof, in fact, some simple theorems have required enormous proofs.",
+    "question": "If all of the statements in the passage are true, which one of the following must also be true?",
+    "id": "test_402",
+    "answer": "D",
+    "question_type": 5,
+    "options": [
+      "Some individuals who do not believe that a simple theorem ought to have a simple proof would not be willing to accept the results of an enormous computation as proof of a complex theorem.",
+      "Some nonmathematicians do not believe that a simple theorem ought to have a simple proof.",
+      "Today, some individuals who refuse to accept the results of an enormous computation as a demonstration of the truth of a theorem believe that a simple theorem ought to have a simple proof.",
+      "Today, some mathematicians who believe that a simple theorem ought to have a simple proof would consider accepting the results of an enormous computation as a demonstration of the truth of a theorem."
+    ]
+  },
+  {
+    "context": "The southern half of a certain region of the earth was covered entirely by water during the Cretaceous period, the last 75 million years of the Mesozoic era, the era when dinosaurs roamed the earth. Dinosaurs lived only on land. Thus, plesiosaurs -- swimming reptiles that lived during the Cretaceous period exclusively -- were not dinosaurs. No single species of dinosaur lived throughout the entire Mesozoic era.",
+    "question": "If the statements in the passage are true, each of the following could be true EXCEPT:",
+    "id": "test_410",
+    "answer": "D",
+    "question_type": 5,
+    "options": [
+      "Plesiosaurs did not inhabit the southern half of the region during the Cretaceous period.",
+      "Plesiosaurs did not inhabit the southern half of the region before the Cretaceous period.",
+      "Dinosaurs did not inhabit the northern half of the region during the Cretaceous period.",
+      "Dinosaurs inhabited the southern half of the region throughout the entire Mesozoic era."
+    ]
+  },
+  {
+    "context": "Failure to rotate crops depletes the soil' s nutrients gradually unless other preventive measures are taken. If the soil' s nutrients are completely depleted, additional crops cannot be grown unless fertilizer is applied to the soil. All other things being equal, if vegetables are grown in soil that has had fertilizer applied rather than being grown in non-fertilized soil, they are more vulnerable to pests and, as a consequence, must be treated with larger amounts of pesticides. The more pesticides used on vegetables, the greater the health risks to humans from eating those vegetables. Suppose there were some vegetables that were grown in soil to which fertilizer had never been applied.",
+    "question": "On the basis of the passage, which one of the following would have to be true regarding those vegetables?",
+    "id": "test_469",
+    "answer": "D",
+    "question_type": 5,
+    "options": [
+      "The health risks to humans from eating the vegetables were no less than the health risks to humans from eating the same kinds of vegetables treated with pesticides.",
+      "It is not possible that the vegetables were grown in soil in which crops had been rotated.",
+      "The soil in which the vegetables were grown may have been completely depleted of nutrients because of an earlier failure to rotate crops.",
+      "The vegetables were grown in soil that had not been completely depleted of nutrients but not necessarily soil in which crops had been rotated."
+    ]
+  },
+  {
+    "context": "An editor is compiling a textbook containing essays by several different authors. The book will contain essays by Lind, Knight, or Jones, but it will not contain essays by all three. If the textbook contains an essay by Knight, then it will also contain an essay by Jones.",
+    "question": "If the statements above are true, which one of the following must be true?",
+    "id": "test_495",
+    "answer": "B",
+    "question_type": 5,
+    "options": [
+      "The textbook will not contain an essay by Knight.",
+      "If the textbook contains an essay by Lind, then it will not contain an essay by Knight.",
+      "The textbook will contain an essay by only one of Lind, Knight, and Jones.",
+      "The textbook will contain an essay by Lind."
+    ]
+  },
+  {
+    "context": "Legal theorist: Only two types of theories of criminal sentencing can be acceptable -- retributivist theories, which hold that the purpose of sentences is simply to punish, and rehabilitationist theories, which hold that a sentence is a means to reform the offender. A retributivist theory is not acceptable unless it conforms to the principle that the harshness of a punishment should be proportional to the seriousness of the offense. Retributivist theories that hold that criminals should receive longer sentences for repeat offenses than for an initial offense violate this principle, since repeat offenses may be no more serious than the initial offense.",
+    "question": "Which one of the following can be properly inferred from the legal theorist's statements?",
+    "id": "test_498",
+    "answer": "C",
+    "question_type": 5,
+    "options": [
+      "Any rehabilitationist theory that holds that criminals should receive longer sentences for repeat offenses than for an initial offense is an acceptable theory.",
+      "Reforming a repeat offender sometimes requires giving that offender longer sentences for the repeat offenses than for the initial offense.",
+      "A theory of criminal sentencing that holds that criminals should receive longer sentences for repeat offenses than for an initial offense is acceptable only if it is a rehabilitationist theory.",
+      "All theories of criminal sentencing that conform to the principle that the harshness of a punishment should be proportional to the seriousness of the offense are acceptable."
+    ]
+  },
+  {
+    "context": "Good students learn more than what their parents and teachers compel them to learn. This requires that these students derive pleasure from the satisfaction of their curiosity, and one cannot experience such pleasure unless one is capable of concentrating on a topic so intently that one loses track of one' s own identity.",
+    "question": "If the statements above are true, each of the following could also be true EXCEPT:",
+    "id": "test_525",
+    "answer": "B",
+    "question_type": 5,
+    "options": [
+      "Most people who are capable of becoming so absorbed in a topic that they lose track of their own identities are not good students.",
+      "Most good students do not derive pleasure from the satisfaction of their curiosity.",
+      "Some people who are capable of becoming so absorbed in a topic that they lose track of their own identities are nevertheless incapable of deriving pleasure from the satisfaction of their curiosity.",
+      "Some people who are not good students derive pleasure from losing track of their own identities."
+    ]
+  },
+  {
+    "context": "One of the great difficulties in establishing animal rights based merely on the fact that animals are living things concerns scope. If one construes the term \"living things\" broadly, one is bound to bestow rights on organisms that are not animals (e. g. , plants). But if this term is construed narrowly, one is apt to refuse rights to organisms that, at least biologically, are considered members of the animal kingdom.",
+    "question": "If the statements above are true, which one of the following can be most reasonably inferred from them?",
+    "id": "test_526",
+    "answer": "A",
+    "question_type": 5,
+    "options": [
+      "Successful attempts to establish rights for all animals are likely either to establish rights for some plants or not to depend solely on the observation that animals are living things.",
+      "The problem of delineating the boundary of the set of living things interferes with every attempt to establish animal rights.",
+      "Not all animals should be given rights.",
+      "One cannot bestow rights on animals without also bestowing rights on at least some plants."
+    ]
+  },
+  {
+    "context": "Traffic engineers have increased the capacity of the Krakkenbak Bridge to handle rush-hour traffic flow. The resultant increase in rush-hour traffic flow would not have occurred had the city not invested in computer modeling technology last year at the request of the city' s mayor, and the city' s financial predicament would not have been resolved if the traffic flow across the bridge during rush hour had not been increased.",
+    "question": "Which one of the following can be properly inferred from the information above?",
+    "id": "test_533",
+    "answer": "D",
+    "question_type": 5,
+    "options": [
+      "Traffic flow across the Krakkenbak Bridge during rush hour would not have increased had the city's mayor not made investing in computer modeling technology the highest budgetary priority last year.",
+      "The city's mayor was a proponent of investing in computer modeling technology because of the city's need to increase traffic flow across the Krakkenbak Bridge during rush hour.",
+      "The city's financial predicament would not have been resolved had the city chosen a competing computer modeling software package.",
+      "The city's financial predicament would not have been resolved had the city not invested in computer modeling technology."
+    ]
+  },
+  {
+    "context": "All students at Pitcombe College were asked to label themselves conservative, liberal, or middle-of-the-road politically. Of the students, 25 percent labeled themselves conservative, 24 percent labeled themselves liberal, and 51 percent labeled themselves middle-of-the-road. When asked about a particular set of issues, however, 77 percent of the students endorsed what is generally regarded as a liberal position.",
+    "question": "If all of the statements above are true, which one of the following must also be true?",
+    "id": "test_576",
+    "answer": "D",
+    "question_type": 5,
+    "options": [
+      "All students who labeled themselves liberal endorsed what is generally regarded as a liberal position on that set of issues.",
+      "Some students who labeled themselves liberal endorsed what is generally regarded as a conservative position on that set of issues.",
+      "More students who labeled themselves middle-of-the-road than students who labeled themselves liberal opposed what is generally regarded as a liberal position on that set of issues.",
+      "Some students who labeled themselves conservative endorsed what is generally regarded as a liberal position on that set of issues."
+    ]
+  },
+  {
+    "context": "Every delegate to the convention is a party member. Some delegates to the convention are government officials, and each government official who is at the convention is a speaker at the convention, as well.",
+    "question": "If the statements above are true, then which one of the following statements must be true?",
+    "id": "test_591",
+    "answer": "B",
+    "question_type": 5,
+    "options": [
+      "Every government official at the convention is a party member.",
+      "At least some speakers at the convention are delegates to the convention.",
+      "At least some speakers at the convention are neither delegates nor party members.",
+      "All speakers at the convention are government officials."
+    ]
+  },
+  {
+    "context": "None of the students taking literature are taking physics, but several of the students taking physics are taking art. In addition, none of the students taking rhetoric are taking physics.",
+    "question": "Which one of the following statements follows logically from the statements above?",
+    "id": "test_610",
+    "answer": "D",
+    "question_type": 5,
+    "options": [
+      "None of the students taking literature are taking art.",
+      "There are students who are taking rhetoric but not literature.",
+      "None of the students taking rhetoric are taking literature.",
+      "There are students who are taking art but not literature."
+    ]
+  },
+  {
+    "context": "Everyone in Biba' s neighborhood is permitted to swim at Barton Pool at some time during each day that it is open. No children under the age of 6 are permitted to swim at Barton Pool between noon and 5 P. M. From 5 P. M. until closing, Barton Pool is reserved for adults only.",
+    "question": "If all the sentences above are true, then which one of the following must be true?",
+    "id": "test_643",
+    "answer": "A",
+    "question_type": 5,
+    "options": [
+      "If Biba's next-door neighbor has a child under the age of 6, then Barton Pool is open before noon.",
+      "On days when Barton Pool is open, at least some children swim there in the afternoon.",
+      "Few children under the age of 6 live in Biba's neighborhood.",
+      "Any child swimming in Barton Pool before 5 P. M. must be breaking Barton Pool rules."
+    ]
+  },
+  {
+    "context": "The consistency of ice cream is adversely affected by even slight temperature changes in the freezer. To counteract this problem, manufacturers add stabilizers to ice cream. Unfortunately, stabilizers, though inexpensive, adversely affect flavor. Stabilizers are less needed if storage temperatures are very low. However, since energy costs are constantly going up, those costs constitute a strong incentive in favor of relatively high storage temperatures.",
+    "question": "Which one of the following can be properly inferred from the passage?",
+    "id": "test_697",
+    "answer": "D",
+    "question_type": 5,
+    "options": [
+      "Stabilizers function well only at very low freezer temperatures.",
+      "Cost considerations favor sacrificing consistency over sacrificing flavor.",
+      "Even slight deviations from the proper consistency for ice cream sharply impair its flavor.",
+      "Very low, stable freezer temperatures allow for the best possible consistency and flavor of ice cream."
+    ]
+  },
+  {
+    "context": "In order to save money, many consumers redeem coupons that are distributed by retail stores. However, in general, retail stores that distribute and accept store coupons as a way of discounting the prices on certain products charge more for their products, on average, than other retail stores charge for the same products -- even after lower prices available on coupon-discounted products are factored in. This is because producing and distributing coupons usually costs a great deal. To compensate for this expense without reducing profits, retail stores must pass it on to consumers.",
+    "question": "Which one of the following can be properly inferred from the information above?",
+    "id": "test_703",
+    "answer": "D",
+    "question_type": 5,
+    "options": [
+      "At least some retail stores that do not use coupons do not have expenses that they pass on to consumers.",
+      "The undiscounted price charged for a good for which a retail store offers a coupon will be higher than the price charged for that same good by a retail store that does not offer a coupon for it.",
+      "Many consumers who redeem coupons save little if any money, overall, by doing so.",
+      "Retail stores that distribute coupons generally compensate for the expense of producing and distributing coupons by charging higher prices for certain products."
+    ]
+  },
+  {
+    "context": "Only if the electorate is moral and intelligent will a democracy function well.",
+    "question": "Which one of the following can be logically inferred from the claim above?",
+    "id": "test_726",
+    "answer": "B",
+    "question_type": 5,
+    "options": [
+      "It cannot, at the same time, be true that the electorate is moral and intelligent and that a democracy will not function well.",
+      "If the electorate is not moral or not intelligent, then a democracy will not function well.",
+      "If the electorate is moral and intelligent, then a democracy will function well.",
+      "Either a democracy does not function well or else the electorate is not moral or not intelligent."
+    ]
+  },
+  {
+    "context": "Since the sweetness of sugared beverages makes athletes more likely to drink them, they can be helpful in avoiding dehydration. Furthermore, small amounts of sugar enhance the body' s absorption of water and delay muscle fatigue by maintaining the body' s glucose level. Still, one must use sugared beverages cautiously, for large amounts draw water from the blood to the stomach, thereby exacerbating the dehydration process.",
+    "question": "If the statements above are true, then each of the following could also be true EXCEPT:",
+    "id": "test_767",
+    "answer": "D",
+    "question_type": 5,
+    "options": [
+      "Glucose is not the only type of sugar whose absence or scarcity in one's diet causes muscle fatigue.",
+      "Some situations that exacerbate the problems caused by muscle fatigue do not exacerbate those caused by dehydration.",
+      "The rate at which the body absorbs water depends primarily on the amount of water already present in the blood.",
+      "Problems caused by dehydration are invariably exacerbated if substances that delay muscle fatigue are consumed."
+    ]
+  },
+  {
+    "context": "In an experiment, subjects were shown a series of images on a computer screen, appearing usually at the top but occasionally at the bottom. Subjects were asked to guess each time where the next image would appear on the screen. They guessed correctly less than half of the time. The subjects all reported that they based their guesses on patterns they believed they saw in the sequence. Instead, if they had simply guessed that the next image would always appear at the top, they would have been correct most of the time.",
+    "question": "If all of the statements above are true, which one of the following must also be true?",
+    "id": "test_800",
+    "answer": "B",
+    "question_type": 5,
+    "options": [
+      "Basing one's guesses about what will happen next on the basis of patterns one believes one sees is less likely to lead to correct guesses than always guessing that what has happened before will happen next.",
+      "Some of the subjects sometimes guessed that the next image would appear at the bottom of the computer screen, but were incorrect.",
+      "If the subjects had always guessed that the next image would appear at the top, they would not have been basing their guesses on any pattern they believed they saw in the sequence.",
+      "There was no predictable pattern that one could reasonably believe occurred in the series of images on the computer screen."
+    ]
+  },
+  {
+    "context": "Every political philosopher of the early twentieth century who was either a socialist or a communist was influenced by Rosa Luxemburg. No one who was influenced by Rosa Luxemburg advocated a totalitarian state.",
+    "question": "If the statements above are true, which one of the following must on the basis of them also be true?",
+    "id": "test_803",
+    "answer": "B",
+    "question_type": 5,
+    "options": [
+      "Rosa Luxemburg was the only person to influence every early-twentieth-century political philosopher who was either socialist or communist.",
+      "No early-twentieth-century socialist political philosopher advocated a totalitarian state.",
+      "Every early-twentieth-century political philosopher who was influenced by Rosa Luxemburg and was not a socialist was a communist.",
+      "Every early-twentieth-century political philosopher who did not advocate a totalitarian state was either socialist or communist."
+    ]
+  },
+  {
+    "context": "Politician: It is wrong for the government to restrict the liberty of individuals, except perhaps in those cases when to fail to do so would allow individuals to cause harm. Yet, to publish something is a liberty, and to offend is not to cause harm.",
+    "question": "Which one of the following can be properly inferred from the politician's statements?",
+    "id": "test_876",
+    "answer": "B",
+    "question_type": 5,
+    "options": [
+      "It is not wrong for individuals to publish literature that is offensive.",
+      "It is not right for the government to restrict the publication of literature that is only offensive.",
+      "It is offensive for the government to restrict the liberty of individuals to publish, but it is not harmful.",
+      "It is not wrong for the government to restrict individuals' liberty when failing to do so would allow individuals to cause harm."
+    ]
+  },
+  {
+    "context": "If the economy is weak, then prices remain constant although unemployment rises. But unemployment rises only if investment decreases. Fortunately, investment is not decreasing.",
+    "question": "If the statements above are true, then which one of the following must be false?",
+    "id": "test_900",
+    "answer": "D",
+    "question_type": 5,
+    "options": [
+      "Either unemployment is rising or the economy is not weak.",
+      "The economy is weak only if investment decreases.",
+      "Either the economy is weak or prices are remaining constant.",
+      "Either the economy is weak or investment is decreasing."
+    ]
+  },
+  {
+    "context": "The government health service has said that it definitely will not pay for patients to take the influenza medicine Antinfia until the drug' s manufacturer, PharmCo, provides detailed information about Antinfia' s cost-effectiveness. PharmCo has responded that obtaining such information would require massive clinical trials. These trials cannot be performed until the drug is in widespread circulation, something that will happen only if the government health service pays for Antinfia.",
+    "question": "If the statements of both the government health service and PharmCo are true, which one of the following is most likely to also be true?",
+    "id": "test_975",
+    "answer": "C",
+    "question_type": 5,
+    "options": [
+      "The government health service never pays for any medicine unless that medicine has been shown to be cost-effective.",
+      "The government health service should pay for patients to take Antinfia.",
+      "Antinfia will never be in widespread circulation.",
+      "If the government health service does not pay for Antinfia, then many patients will pay for Antinfia themselves."
+    ]
+  },
+  {
+    "context": "Ashley: Words like \"of\" and \"upon, \" unlike \"pencil\" and \"shirt, \" do not refer to anything. Joshua: I agree; and since such words are meaningless, they should be abandoned.",
+    "question": "Joshua's remarks indicate that he interpreted Ashley's statement to imply that",
+    "id": "test_990",
+    "answer": "A",
+    "question_type": 5,
+    "options": [
+      "only words that refer to something have meaning",
+      "words that refer to something are meaningful",
+      "words that are not useful are meaningless",
+      "all words that refer to something are useful"
+    ]
+  }
+]

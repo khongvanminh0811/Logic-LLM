@@ -7,6 +7,9 @@ from collections import OrderedDict
 from typing import Dict, List, Tuple
 from utils import OpenAIModel
 import argparse
+import openai
+
+openai.api_key = os.environ["OPENAI_API_KEY"]
 
 class LogicProgramGenerator:
     def __init__(self, args):
@@ -17,12 +20,14 @@ class LogicProgramGenerator:
         self.model_name = args.model_name
         self.save_path = args.save_path
 
-        self.openai_api = OpenAIModel(args.api_key, args.model_name, args.stop_words, args.max_new_tokens)
+        self.openai_api = OpenAIModel(args.model_name, args.stop_words, args.max_new_tokens)
         self.prompt_creator = {'FOLIO': self.prompt_folio,
                                'ProntoQA': self.prompt_prontoqa,
                                'ProofWriter': self.prompt_proofwriter,
                                'LogicalDeduction': self.prompt_logicaldeduction, 
-                               'AR-LSAT': self.prompt_arlsat}
+                               'AR-LSAT': self.prompt_arlsat,
+                               'LogiQA': self.prompt_logiqa,
+                               'ReClOR': self.prompt_reclor}
         self.load_prompt_templates()
     
     def load_prompt_templates(self):
@@ -45,7 +50,23 @@ class LogicProgramGenerator:
         full_prompt = self.prompt_template.replace('[[PROBLEM]]', problem).replace('[[QUESTION]]', question)
         full_prompt = full_prompt.replace('[[CHOICES]]', choices_str)
         return full_prompt
+
+    def prompt_logiqa(self, test_data):
+        problem = test_data['context']
+        question = test_data['question'].strip()
+        choices_str = '\n'.join([f'({choice.strip()}' for choice in test_data['options']]).strip()
+        full_prompt = self.prompt_template.replace('[[PROBLEM]]', problem).replace('[[QUESTION]]', question)
+        full_prompt = full_prompt.replace('[[CHOICES]]', choices_str)
+        return full_prompt
     
+    def prompt_reclor(self, test_data):
+        problem = test_data['context']
+        question = test_data['question'].strip()
+        choices_str = '\n'.join([f'({choice.strip()}' for choice in test_data['options']]).strip()
+        full_prompt = self.prompt_template.replace('[[PROBLEM]]', problem).replace('[[QUESTION]]', question)
+        full_prompt = full_prompt.replace('[[CHOICES]]', choices_str)
+        return full_prompt
+
     def prompt_prontoqa(self, test_data):
         problem = test_data['context']
         question = test_data['question'].strip()
@@ -67,6 +88,7 @@ class LogicProgramGenerator:
         return full_prompt
 
     def load_raw_dataset(self, split):
+        print(f"Loading {os.path.join(self.data_path, self.dataset_name, f'{split}.json')}...")
         with open(os.path.join(self.data_path, self.dataset_name, f'{split}.json')) as f:
             raw_dataset = json.load(f)
         return raw_dataset
@@ -89,7 +111,7 @@ class LogicProgramGenerator:
                 output = {'id': example['id'], 
                         'context': example['context'],
                         'question': example['question'], 
-                        'answer': example['answer'],
+                        # 'answer': example['answer'],
                         'options': example['options'],
                         'raw_logic_programs': programs}
                 outputs.append(output)
@@ -110,38 +132,39 @@ class LogicProgramGenerator:
 
         outputs = []
         # split dataset into chunks
-        dataset_chunks = [raw_dataset[i:i + batch_size] for i in range(0, len(raw_dataset), batch_size)]
-        for chunk in tqdm(dataset_chunks):
+        # dataset_chunks = [raw_dataset[i:i + batch_size] for i in range(0, len(raw_dataset), batch_size)]
+        i = 0
+        for example in tqdm(raw_dataset):
             # create prompt
-            full_prompts = [self.prompt_creator[self.dataset_name](example) for example in chunk]
+            full_prompt = self.prompt_creator[self.dataset_name](example)
             try:
-                batch_outputs = self.openai_api.batch_generate(full_prompts)
-                # create output
-                for sample, output in zip(chunk, batch_outputs):
-                    programs = [output]
-                    output = {'id': sample['id'], 
-                            'context': sample['context'],
-                            'question': sample['question'], 
-                            'answer': sample['answer'],
-                            'options': sample['options'],
-                            'raw_logic_programs': programs}
-                    outputs.append(output)
+            #     batch_outputs = self.openai_api.batch_generate(full_prompts)
+            #     # create output
+            #     for sample, output in zip(chunk, batch_outputs):
+            #         programs = [output]
+            #         output = {'id': sample['id'], 
+            #                 'context': sample['context'],
+            #                 'question': sample['question'], 
+            #                 'answer': sample['answer'],
+            #                 'options': sample['options'],
+            #                 'raw_logic_programs': programs}
+            #         outputs.append(output)
+            # except:
+            #     # generate one by one if batch generation fails
+                # for sample, full_prompt in zip(chunk, full_prompts):
+                #     try:
+                output = self.openai_api.generate(full_prompt)
+                programs = [output]
+                output = {'id': example['id'], 
+                        'context': example['context'],
+                        'question': example['question'], 
+                        # 'answer': example['answer'],
+                        'options': example['options'],
+                        'raw_logic_programs': programs}
+                outputs.append(output)
             except:
-                # generate one by one if batch generation fails
-                for sample, full_prompt in zip(chunk, full_prompts):
-                    try:
-                        output = self.openai_api.generate(full_prompt)
-                        programs = [output]
-                        output = {'id': sample['id'], 
-                                'context': sample['context'],
-                                'question': sample['question'], 
-                                'answer': sample['answer'],
-                                'options': sample['options'],
-                                'raw_logic_programs': programs}
-                        outputs.append(output)
-                    except:
-                        print('Error in generating logic programs for example: ', sample['id'])
-
+                print('Error in generating logic programs for example: ', i)
+            i += 1
         # remove examples with duplicate ids from the result
         outputs = list({output['id']: output for output in outputs}.values())
         print(f"Generated {len(outputs)} examples.")
@@ -150,7 +173,7 @@ class LogicProgramGenerator:
         if not os.path.exists(self.save_path):
             os.makedirs(self.save_path)
         
-        with open(os.path.join(self.save_path, f'{self.dataset_name}_{self.split}_{self.model_name}.json'), 'w') as f:
+        with open(os.path.join(self.save_path, f'{self.dataset_name}_{self.split}_{self.model_name}.json'), 'w',  encoding="utf-8") as f:
             json.dump(outputs, f, indent=2, ensure_ascii=False)
 
 def parse_args():
@@ -167,6 +190,8 @@ def parse_args():
     return args
 
 if __name__ == '__main__':
+    # with open(os.path.join('.\data', 'LogiQA', 'test.json')) as f:
+    #     raw_dataset = json.load(f)
     args = parse_args()
     logic_program_generator = LogicProgramGenerator(args)
     logic_program_generator.batch_logic_program_generation()

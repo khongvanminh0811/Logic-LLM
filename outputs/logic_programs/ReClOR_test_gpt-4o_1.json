@@ -1,0 +1,692 @@
+[
+  {
+    "id": "test_13",
+    "context": "The nature of English literature reflects the rich and diverse vocabulary of the English language, which resulted from the dual influence of the Anglo-Saxon and, later, French languages. The French language, though, is a direct descendant of Latin, with few traces of the Celtic language spoken by the preRoman inhabitants of the area: the hallmark of French literature is its simplicity and clarity.",
+    "question": "Which one of the following can be most reasonably inferred from the information above?",
+    "answer": "B",
+    "options": [
+      "Simple and clear literature cannot be written in a language with a rich and diverse vocabulary.",
+      "The origin of English played a role in shaping English literature.",
+      "The vocabulary of English is larger than the vocabulary of French.",
+      "The vocabulary of the Anglo-Saxon language was richer than that of the French language."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nlanguages = EnumSort([English, French, Anglo_Saxon, Latin, Celtic])\nliterature = EnumSort([English_lit, French_lit])\ntraits = EnumSort([rich_diverse_vocabulary, simplicity_clarity])\ninfluences = Function([literature] -> [languages])\nhallmarks = Function([literature] -> [traits])\n\n# Constraints\nAnd(influences(English_lit) == English, influences(French_lit) == French) ::: The nature of English literature reflects the rich and diverse vocabulary of the English language\nAnd(hallmarks(English_lit) == rich_diverse_vocabulary, hallmarks(French_lit) == simplicity_clarity) ::: The hallmark of French literature is its simplicity and clarity\nAnd(influences(English) == Anglo_Saxon, influences(French) == Latin) ::: The dual influence of the Anglo-Saxon and, later, French languages\nNot(Exists([l:languages], influences(French) == Celtic)) ::: Few traces of the Celtic language spoken by the pre-Roman inhabitants\n\n# Options\nQuestion ::: Which one of the following can be most reasonably inferred from the information above?\nis_inferred(influences(English_lit) == Anglo_Saxon) ::: (The origin of English played a role in shaping English literature.)\nis_inferred(Not(Exists([l:languages], And(hallmarks(l) == simplicity_clarity, influences(l) == rich_diverse_vocabulary)))) ::: (Simple and clear literature cannot be written in a language with a rich and diverse vocabulary.)\nis_inferred(Count([l:languages], influences(l) == English) > Count([l:languages], influences(l) == French)) ::: (The vocabulary of English is larger than the vocabulary of French.)\nis_inferred(Count([l:languages], influences(l) == Anglo_Saxon) > Count([l:languages], influences(l) == French)) ::: (The vocabulary of the Anglo-Saxon language was richer than that of the French language.)"
+    ]
+  },
+  {
+    "id": "test_179",
+    "context": "Elena: While I was at the dog show, every dog that growled at me was a white poodle, and every white poodle I saw growled at me.",
+    "question": "Which one of the following can be properly inferred from Elena's statement?",
+    "answer": "B",
+    "options": [
+      "All the white dogs that Elena saw growled at her.",
+      "At the dog show, no gray dogs growled at Elena.",
+      "Elena did not see any gray poodles at the dog show.",
+      "There were no gray poodles at the dog show."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\ndogs = EnumSort([white_poodle, other_dogs])\ngrowled = Function([dogs] -> [bool])\nsaw = Function([dogs] -> [bool])\n\n# Constraints\nForAll([d:dogs], Implies(growled(d), d == white_poodle)) ::: Every dog that growled at Elena was a white poodle\nForAll([d:dogs], Implies(saw(d) and d == white_poodle, growled(d))) ::: Every white poodle Elena saw growled at her\n\n# Options\nQuestion ::: Which one of the following can be properly inferred from Elena's statement?\nis_inferred(ForAll([d:dogs], Implies(saw(d) and d == white_poodle, growled(d)))) ::: (All the white dogs that Elena saw growled at her.)\nis_inferred(Not(Exists([d:dogs], And(d != white_poodle, growled(d))))) ::: (At the dog show, no gray dogs growled at Elena.)\nis_inferred(Not(Exists([d:dogs], And(d != white_poodle, saw(d))))) ::: (Elena did not see any gray poodles at the dog show.)\nis_inferred(Not(Exists([d:dogs], And(d != white_poodle, True)))) ::: (There were no gray poodles at the dog show.)"
+    ]
+  },
+  {
+    "id": "test_245",
+    "context": "Unless they are used as strictly temporary measures, rent-control ordinances (municipal regulations placing limits on rent increases) have several negative effects for renters. One of these is that the controls will bring about a shortage of rental units. This disadvantage for renters occurs over the long run, but the advantage -- smaller rent increases -- occurs immediately. In many municipalities, specifically in all those where tenants of rent-control units have a secure hold on political power and can get rent-control ordinances enacted or repealed, it is invariably the desire for short-term gain that guides those tenants in the exercise of that power.",
+    "question": "If the statements above are true, which one of the following can be properly inferred from them?",
+    "answer": "A",
+    "options": [
+      "In many municipalities there is now, or eventually will be, a shortage of rental units.",
+      "In many municipalities rent-control ordinances are repealed as soon as shortages of rental units arise.",
+      "It is impossible for landlords to raise rents when rent controls are in effect.",
+      "The only negative effect of rent control for renters is that it brings about a shortage of rental units."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nmunicipalities = EnumSort([municipality1, municipality2, municipality3, ...])\neffects = EnumSort([shortage, smaller_rent_increases])\npower_status = EnumSort([tenants_have_power, tenants_do_not_have_power])\ntime_frame = EnumSort([short_term, long_term])\nrent_control_status = EnumSort([enacted, repealed])\n\n# Constraints\nForAll([m:municipalities], Implies(rent_control_status(m) == enacted, Exists([e:effects], e == smaller_rent_increases))) ::: If rent-control ordinances are enacted, smaller rent increases occur immediately\nForAll([m:municipalities], Implies(rent_control_status(m) == enacted, Exists([e:effects], e == shortage))) ::: If rent-control ordinances are enacted, a shortage of rental units occurs over the long run\nForAll([m:municipalities], Implies(power_status(m) == tenants_have_power, rent_control_status(m) == enacted)) ::: In municipalities where tenants have power, rent-control ordinances can be enacted or repealed\nForAll([m:municipalities], Implies(And(power_status(m) == tenants_have_power, Exists([e:effects], e == smaller_rent_increases)), Exists([t:time_frame], t == short_term))) ::: In municipalities where tenants have power, the desire for short-term gain guides tenants\n\n# Options\nQuestion ::: If the statements above are true, which one of the following can be properly inferred from them?\nis_inferred(Exists([m:municipalities], Exists([e:effects], e == shortage))) ::: (A) In many municipalities there is now, or eventually will be, a shortage of rental units.\nis_inferred(ForAll([m:municipalities], Implies(Exists([e:effects], e == shortage), rent_control_status(m) == repealed))) ::: (B) In many municipalities rent-control ordinances are repealed as soon as shortages of rental units arise.\nis_inferred(ForAll([m:municipalities], Implies(rent_control_status(m) == enacted, Not(Exists([r:int], r > 0)))) ::: (C) It is impossible for landlords to raise rents when rent controls are in effect.\nis_inferred(ForAll([m:municipalities], Implies(Exists([e:effects], e == shortage), Not(Exists([e2:effects], e2 != shortage)))) ::: (D) The only negative effect of rent control for renters is that it brings about a shortage of rental units."
+    ]
+  },
+  {
+    "id": "test_322",
+    "context": "A company' s two divisions performed with remarkable consistency over the past three years: in each of those years, the pharmaceuticals division has accounted for roughly 20 percent of dollar sales and 40 percent of profits, and the chemicals division for the balance.",
+    "question": "Regarding the past three years, which of the following can properly be inferred from the statement above?",
+    "answer": "C",
+    "options": [
+      "The pharmaceuticals division has faced stiffer competition in its markets than has the chemicals division.",
+      "Total dollar sales for each of the company's divisions have remained roughly constant.",
+      "The chemicals division has realized lower profits per dollar of sales than has the pharmaceuticals division.",
+      "The product mix offered by each of the company's divisions has remained unchanged."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\ndivisions = EnumSort([pharmaceuticals, chemicals])\nmetrics = EnumSort([sales, profits])\nyears = EnumSort([year1, year2, year3])\npercentage = Function([divisions, metrics, years] -> [int])\n\n# Constraints\nForAll([y:years], And(percentage(pharmaceuticals, sales, y) == 20, percentage(pharmaceuticals, profits, y) == 40)) ::: Pharmaceuticals division accounts for 20% of sales and 40% of profits\nForAll([y:years], And(percentage(chemicals, sales, y) == 80, percentage(chemicals, profits, y) == 60)) ::: Chemicals division accounts for the balance\n\n# Options\nQuestion ::: Regarding the past three years, which of the following can properly be inferred from the statement above?\nis_inferred(ForAll([y:years], percentage(pharmaceuticals, sales, y) < percentage(chemicals, sales, y))) ::: (The pharmaceuticals division has faced stiffer competition in its markets than has the chemicals division.\nis_inferred(ForAll([y1, y2:years], Implies(y1 != y2, percentage(pharmaceuticals, sales, y1) == percentage(pharmaceuticals, sales, y2) && percentage(chemicals, sales, y1) == percentage(chemicals, sales, y2)))) ::: (Total dollar sales for each of the company's divisions have remained roughly constant.\nis_inferred(ForAll([y:years], percentage(chemicals, profits, y) / percentage(chemicals, sales, y) < percentage(pharmaceuticals, profits, y) / percentage(pharmaceuticals, sales, y))) ::: (The chemicals division has realized lower profits per dollar of sales than has the pharmaceuticals division.\nis_inferred(ForAll([y1, y2:years], Implies(y1 != y2, percentage(pharmaceuticals, sales, y1) == percentage(pharmaceuticals, sales, y2) && percentage(pharmaceuticals, profits, y1) == percentage(pharmaceuticals, profits, y2) && percentage(chemicals, sales, y1) == percentage(chemicals, sales, y2) && percentage(chemicals, profits, y1) == percentage(chemicals, profits, y2)))) ::: (The product mix offered by each of the company's divisions has remained unchanged."
+    ]
+  },
+  {
+    "id": "test_569",
+    "context": "The Founding Fathers created the Electoral College to balance state-based and population-based representation. The Electoral College allows only electors to vote for the President, and the number of electors per state is equal to the state' s total number of representatives and senators. Each political party nominates its electors based on their own methods. In the past, some electors have cast ballots for candidates that did not receive the most popular votes.",
+    "question": "Which one of the following can be properly inferred from the passage?",
+    "answer": "D",
+    "options": [
+      "The winning candidate must receive the majority of the electors' votes.",
+      "The number of states' representatives is based on population, while the number of senators is equal for every state.",
+      "No law requires the electors to vote for the candidate that receives the most ballots.",
+      "The Electoral College is not a direct election."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nstates = EnumSort([State])\nelectors = Function([states] -> [int])\nrepresentatives = Function([states] -> [int])\nsenators = Function([states] -> [int])\npolitical_parties = EnumSort([Party])\nnominates = Function([political_parties, states] -> [electors])\nvotes = Function([electors] -> [candidates])\ncandidates = EnumSort([Candidate])\n\n# Constraints\nForAll([s:states], electors(s) == representatives(s) + senators(s)) ::: The number of electors per state is equal to the state's total number of representatives and senators\nForAll([p:political_parties, s:states], nominates(p, s) == electors(s)) ::: Each political party nominates its electors based on their own methods\nExists([e:electors, c:candidates], votes(e) != c) ::: Some electors have cast ballots for candidates that did not receive the most popular votes\n\n# Options\nQuestion ::: Which one of the following can be properly inferred from the passage?\nis_inferred(ForAll([c:candidates], Exists([e:electors], Count([e:electors], votes(e) == c) > Count([e:electors], votes(e) != c)))) ::: (The winning candidate must receive the majority of the electors' votes.\nis_inferred(ForAll([s1:states, s2:states], Implies(s1 != s2, representatives(s1) != representatives(s2) Or senators(s1) == senators(s2)))) ::: (The number of states' representatives is based on population, while the number of senators is equal for every state.\nis_inferred(Exists([e:electors, c:candidates], votes(e) != c)) ::: (No law requires the electors to vote for the candidate that receives the most ballots.\nis_inferred(Exists([e:electors, c:candidates], votes(e) != c)) ::: (The Electoral College is not a direct election."
+    ]
+  },
+  {
+    "id": "test_656",
+    "context": "Cindy always braids her hair on Christmas. Today is Easter. Cindy' s hair is braided.",
+    "question": "If the statements above are correct, then what cannot be true?",
+    "answer": "A",
+    "options": [
+      "Cindy only braids her hair on Christmas.",
+      "Cindy dislikes braiding her hair since it takes too long.",
+      "Cindy only braids her hair on holidays.",
+      "Cindy never braids her hair during July or August."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\ndays = EnumSort([Christmas, Easter, July, August, Other])\nbraids_hair = Function([days] -> [bool])\n\n# Constraints\nbraids_hair(Christmas) == True ::: Cindy always braids her hair on Christmas\nbraids_hair(Easter) == True ::: Cindy's hair is braided on Easter\n\n# Options\nQuestion ::: If the statements above are correct, then what cannot be true?\nis_unsat(ForAll([d:days], Implies(d != Christmas, Not(braids_hair(d))))) ::: Cindy only braids her hair on Christmas\nis_sat(True) ::: Cindy dislikes braiding her hair since it takes too long\nis_unsat(ForAll([d:days], Implies(d != Christmas, Not(braids_hair(d))))) ::: Cindy only braids her hair on holidays\nis_sat(ForAll([d:days], Implies(d == July or d == August, Not(braids_hair(d))))) ::: Cindy never braids her hair during July or August"
+    ]
+  },
+  {
+    "id": "test_701",
+    "context": "Technician: Laboratory mice that are used for research aimed at improving human health are usually kept in small cages. Such an environment is neither normal nor healthy for mice. Moreover, the reliability of research using animals is diminished if those animals are not in an environment that is normal for them.",
+    "question": "Which one of the following can be properly inferred from the technician's statements?",
+    "answer": "C",
+    "options": [
+      "If laboratory mice were kept under better conditions, it would be appropriate to use them for research aimed at improving human health.",
+      "Laboratory mice that are used for research that is not directly related to human health are not usually kept in small cages.",
+      "Research using laboratory mice that is aimed at improving human health is compromised by the conditions under which the mice are kept.",
+      "Those who conduct research aimed at improving human health will develop new research techniques."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nmice = EnumSort([laboratory_mice])\nresearch = EnumSort([aimed_at_improving_human_health, not_directly_related_to_human_health])\nconditions = EnumSort([small_cages, better_conditions])\nreliability = EnumSort([diminished, not_diminished])\nenvironment = Function([mice] -> [conditions])\nresearch_type = Function([mice] -> [research])\nreliability_status = Function([mice] -> [reliability])\n\n# Constraints\nForAll([m:mice], And(research_type(m) == aimed_at_improving_human_health, environment(m) == small_cages)) ::: Laboratory mice that are used for research aimed at improving human health are usually kept in small cages\nForAll([m:mice], environment(m) == small_cages) ::: Such an environment is neither normal nor healthy for mice\nForAll([m:mice], Implies(environment(m) != normal, reliability_status(m) == diminished)) ::: The reliability of research using animals is diminished if those animals are not in an environment that is normal for them\n\n# Options\nQuestion ::: Which one of the following can be properly inferred from the technician's statements?\nis_inferred(ForAll([m:mice], Implies(environment(m) == better_conditions, research_type(m) == aimed_at_improving_human_health))) ::: (A) If laboratory mice were kept under better conditions, it would be appropriate to use them for research aimed at improving human health.\nis_inferred(Exists([m:mice], And(research_type(m) == not_directly_related_to_human_health, environment(m) != small_cages))) ::: (B) Laboratory mice that are used for research that is not directly related to human health are not usually kept in small cages.\nis_inferred(ForAll([m:mice], Implies(research_type(m) == aimed_at_improving_human_health, reliability_status(m) == diminished))) ::: (C) Research using laboratory mice that is aimed at improving human health is compromised by the conditions under which the mice are kept.\nis_inferred(Exists([m:mice], research_type(m) == aimed_at_improving_human_health)) ::: (D) Those who conduct research aimed at improving human health will develop new research techniques."
+    ]
+  },
+  {
+    "id": "test_816",
+    "context": "Computer scientist: For several decades, the number of transistors on new computer microchips, and hence the microchips' computing speed, has doubled about every 18 months. However, from the mid-1990s into the next decade, each such doubling in a microchip' s computing speed was accompanied by a doubling in the cost of producing that microchip.",
+    "question": "Which one of the following can be properly inferred from the computer scientist's statements?",
+    "answer": "C",
+    "options": [
+      "It is unlikely that engineers will ever be able to increase the computing speed of microchips without also increasing the cost of producing them.",
+      "For the last several decades, computer engineers have focused on increasing the computing speed of computer microchips without making any attempt to control the cost of producing them.",
+      "From the mid-1990s into the next decade, a doubling in the cost of fabricating new computer microchips accompanied each doubling in the number of transistors on those microchips.",
+      "From the mid-1990s into the next decade, there was little if any increase in the retail cost of computers as a result of the increased number of transistors on microchips."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\ntime_periods = EnumSort([several_decades, mid_1990s_to_next_decade])\nattributes = EnumSort([transistors, computing_speed, production_cost])\ndoubles = Function([time_periods, attributes] -> [bool])\n\n# Constraints\nForAll([t:time_periods], Implies(t == several_decades, And(doubles(t, transistors), doubles(t, computing_speed)))) ::: For several decades, the number of transistors and computing speed doubled every 18 months\nForAll([t:time_periods], Implies(t == mid_1990s_to_next_decade, And(doubles(t, computing_speed), doubles(t, production_cost)))) ::: From the mid-1990s into the next decade, computing speed and production cost doubled\n\n# Options\nQuestion ::: Which one of the following can be properly inferred from the computer scientist's statements?\nis_inferred(ForAll([t:time_periods], Implies(doubles(t, computing_speed), doubles(t, production_cost)))) ::: (It is unlikely that engineers will ever be able to increase the computing speed of microchips without also increasing the cost of producing them.\nis_inferred(Not(Exists([t:time_periods], Not(doubles(t, production_cost))))) ::: (For the last several decades, computer engineers have focused on increasing the computing speed of computer microchips without making any attempt to control the cost of producing them.\nis_inferred(doubles(mid_1990s_to_next_decade, transistors)) ::: (From the mid-1990s into the next decade, a doubling in the cost of fabricating new computer microchips accompanied each doubling in the number of transistors on those microchips.\nis_inferred(Not(doubles(mid_1990s_to_next_decade, production_cost))) ::: (From the mid-1990s into the next decade, there was little if any increase in the retail cost of computers as a result of the increased number of transistors on microchips."
+    ]
+  },
+  {
+    "id": "test_869",
+    "context": "Chelas and Stelma are required to leave their respective stations immediately to pursue any prisoner who attempts to escape from their sector. Furthermore, unless they are pursuing such a prisoner, Chelas and Stelma are forbidden to leave their stations until their replacements have arrived. On May 11 at 9 P. M. , when Chelas and Stelma finished the four-hour shift in their sector and their replacements arrived, it was discovered that Chelas had violated these rules and Stelma had not.",
+    "question": "If the statements above are true, each of the following could be true EXCEPT:",
+    "answer": "B",
+    "options": [
+      "Chelas left his station before 9 P. M. but Stelma did not.",
+      "A prisoner attempted to escape from Chelas and Stelma's sector at 7 P. M. and neither Chelas nor Stelma left his or her station before 9 P. M.",
+      "Chelas and Stelma were at their respective stations at 9 P. M.",
+      "Stelma left her station before 9 P. M. but Chelas did not."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\npeople = EnumSort([Chelas, Stelma])\nactions = EnumSort([leave_station, stay_station])\ntime = EnumSort([before_9pm, at_9pm])\npursue_prisoner = Function([people, time] -> [bool])\nleave_station = Function([people, time] -> [bool])\n\n# Constraints\nForAll([p:people, t:time], Implies(Not(pursue_prisoner(p, t)), Not(leave_station(p, t)))) ::: Unless pursuing a prisoner, they cannot leave their stations until replacements arrive\nleave_station(Chelas, at_9pm) ::: Chelas left his station at 9 P.M.\nNot(leave_station(Stelma, at_9pm)) ::: Stelma did not leave her station at 9 P.M.\n\n# Options\nQuestion ::: If the statements above are true, each of the following could be true EXCEPT:\nis_exception(is_sat(And(leave_station(Chelas, before_9pm), Not(leave_station(Stelma, before_9pm)))) ::: (A) Chelas left his station before 9 P.M. but Stelma did not.\nis_exception(is_sat(And(pursue_prisoner(Chelas, before_9pm), pursue_prisoner(Stelma, before_9pm), Not(leave_station(Chelas, before_9pm), Not(leave_station(Stelma, before_9pm))))) ::: (B) A prisoner attempted to escape from Chelas and Stelma's sector at 7 P.M. and neither Chelas nor Stelma left his or her station before 9 P.M.\nis_exception(is_sat(And(Not(leave_station(Chelas, before_9pm)), Not(leave_station(Stelma, before_9pm)))) ::: (C) Chelas and Stelma were at their respective stations at 9 P.M.\nis_exception(is_sat(And(leave_station(Stelma, before_9pm), Not(leave_station(Chelas, before_9pm)))) ::: (D) Stelma left her station before 9 P.M. but Chelas did not."
+    ]
+  },
+  {
+    "id": "test_874",
+    "context": "Philosopher: The rational pursuit of happiness is quite different from always doing what one most strongly desires to do. This is because the rational pursuit of happiness must include consideration of long-term consequences, whereas our desires are usually focused on the short term. Moreover, desires are sometimes compulsions, and while ordinary desires result in at least momentary happiness when their goals are attained, compulsions strongly drive a person to pursue goals that offer no happiness even when reached.",
+    "question": "If all of the philosopher's statements are true, each of the following could be true EXCEPT:",
+    "answer": "B",
+    "options": [
+      "The majority of people do not have compulsions.",
+      "Attaining the goal of any desire results in momentary happiness.",
+      "Most people want more than their own personal happiness.",
+      "Most people do not pursue happiness rationally."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nstatements = EnumSort([rational_pursuit, desires_short_term, desires_compulsions, compulsions_no_happiness])\npeople = EnumSort([majority, most])\npursuit = Function([people] -> [bool])\ndesires = Function([people] -> [bool])\ncompulsions = Function([people] -> [bool])\n\n# Constraints\nForAll([s:statements], s == True) ::: All of the philosopher's statements are true\npursuit(majority) == Not(compulsions(majority)) ::: The majority of people do not have compulsions\nForAll([d:desires], d == True) ::: Attaining the goal of any desire results in momentary happiness\ndesires(most) == Not(pursuit(most)) ::: Most people want more than their own personal happiness\npursuit(most) == False ::: Most people do not pursue happiness rationally\n\n# Options\nQuestion ::: If all of the philosopher's statements are true, each of the following could be true EXCEPT:\nis_exception(is_sat(compulsions(majority) == False)) ::: (A)\nis_exception(is_sat(ForAll([d:desires], d == True))) ::: (B)\nis_exception(is_sat(desires(most) == Not(pursuit(most)))) ::: (C)\nis_exception(is_sat(pursuit(most) == False)) ::: (D)"
+    ]
+  },
+  {
+    "id": "test_892",
+    "context": "Pollen and other allergens can cause cells in the nose to release histamine, a chemical that inflames nasal tissue and causes runny nose, congestion, and sneezing. Antihistamines minimize these allergy symptoms by blocking the action of histamine. In addition, antihistamines have other effects, including drowsiness. However, histamine plays no role in the processes by which colds produce their symptoms.",
+    "question": "If the statements above are true, which one of the following must also be true?",
+    "answer": "D",
+    "options": [
+      "The sleeplessness that sometimes accompanies allergies can be effectively treated with antihistamines.",
+      "Pollen and other allergens do not cause colds.",
+      "Antihistamines, when taken alone, are ineffective against congestion caused by colds.",
+      "Any effect antihistamines may have in reducing cold symptoms does not result from blocking the action of histamine."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nconditions = EnumSort([pollen_allergens, colds])\nsymptoms = EnumSort([runny_nose, congestion, sneezing])\nchemicals = EnumSort([histamine, antihistamines])\neffects = EnumSort([block_histamine, drowsiness])\ncauses = Function([conditions, symptoms] -> [bool])\nactions = Function([chemicals, effects] -> [bool])\n\n# Constraints\nForAll([s:symptoms], causes(pollen_allergens, s) == True) ::: Pollen and other allergens can cause cells in the nose to release histamine, causing symptoms\nForAll([s:symptoms], causes(colds, s) == True) ::: Colds produce symptoms\nactions(histamine, block_histamine) == True ::: Histamine causes symptoms\nactions(antihistamines, block_histamine) == True ::: Antihistamines block the action of histamine\nactions(antihistamines, drowsiness) == True ::: Antihistamines have other effects, including drowsiness\nForAll([s:symptoms], causes(colds, s) == Not(actions(histamine, block_histamine))) ::: Histamine plays no role in the processes by which colds produce their symptoms\n\n# Options\nQuestion ::: If the statements above are true, which one of the following must also be true?\nis_true(Not(actions(antihistamines, block_histamine) & causes(colds, congestion))) ::: (A) Antihistamines, when taken alone, are ineffective against congestion caused by colds.\nis_true(Not(actions(antihistamines, block_histamine) & causes(colds, runny_nose))) ::: (B) Any effect antihistamines may have in reducing cold symptoms does not result from blocking the action of histamine."
+    ]
+  },
+  {
+    "id": "test_943",
+    "context": "The fewer restrictions there are on the advertising of legal services, the more lawyers there are who advertise their services, and the lawyers who advertise a specific service usually charge less for that service than the lawyers who do not advertise. Ttherefore, if the state removes any of its current restrictions, such as the one against advertisements that do not specify fee arrangements, overall consumer legal costs will be lower than if the state retains its current restrictions.",
+    "question": "If the statements above are true, which of the following must be true?",
+    "answer": "C",
+    "options": [
+      "More consumers will use legal services if there are fewer restrictions on the advertising of legal services.",
+      "Some lawyers who now advertise will charge more for specific services if they do not have to specify fee arrangements in the advertisements.",
+      "If the restriction against advertisements that do not specify fee arrangements is removed, more lawyers will advertise their services.",
+      "If more lawyers advertise lower prices for specific services, some lawyers who do not advertise will also charge less than they currently charge for those services."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nrestrictions = EnumSort([fewer, current])\nlawyers = EnumSort([advertising, non_advertising])\nservices = EnumSort([specific_service])\ncosts = Function([lawyers, services] -> [int])\nadvertise = Function([restrictions] -> [bool])\n\n# Constraints\nForAll([r:restrictions], Implies(r == fewer, advertise(r) == True)) ::: The fewer restrictions there are on the advertising of legal services, the more lawyers there are who advertise their services\nForAll([l:lawyers], Implies(l == advertising, costs(l, specific_service) < costs(non_advertising, specific_service))) ::: Lawyers who advertise a specific service usually charge less for that service than the lawyers who do not advertise\n\n# Options\nQuestion ::: If the statements above are true, which of the following must be true?\nis_must_true(Exists([c:consumers], advertise(fewer) == True)) ::: More consumers will use legal services if there are fewer restrictions on the advertising of legal services.\nis_must_true(Exists([l:lawyers], And(l == advertising, Not(advertise(current)), costs(l, specific_service) > costs(l, specific_service)))) ::: Some lawyers who now advertise will charge more for specific services if they do not have to specify fee arrangements in the advertisements.\nis_must_true(Implies(Not(advertise(current)), advertise(fewer))) ::: If the restriction against advertisements that do not specify fee arrangements is removed, more lawyers will advertise their services.\nis_must_true(Implies(Exists([l:lawyers], And(l == advertising, costs(l, specific_service) < costs(non_advertising, specific_service))), Exists([l:lawyers], And(l == non_advertising, costs(l, specific_service) < costs(l, specific_service))))) ::: If more lawyers advertise lower prices for specific services, some lawyers who do not advertise will also charge less than they currently charge for those services."
+    ]
+  },
+  {
+    "id": "test_0",
+    "context": "Negotiations between the union and the trucking industry will not resume unless one or the other of these parties agrees to make concessions. The trucking industry will not make any concessions without certain prior concessions being made by the union, and the union will make concessions only if the government agrees to act as mediator.",
+    "question": "If the statements above are true, which one of the following must also be true on the basis of them?",
+    "answer": "D",
+    "options": [
+      "If the union makes concessions, then the trucking industry will also make concessions.",
+      "Differences between the union and the trucking industry will be successfully negotiated if the government agrees to act as mediator.",
+      "Negotiations between the union and the trucking industry will not resume.",
+      "Negotiations between the union and the trucking industry will not resume unless the government agrees to act as mediator."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nparties = EnumSort([union, trucking_industry, government])\nactions = EnumSort([make_concessions, act_as_mediator, resume_negotiations])\nagrees = Function([parties, actions] -> [bool])\n\n# Constraints\nOr(agrees(union, make_concessions), agrees(trucking_industry, make_concessions)) ::: Negotiations will not resume unless one or the other party agrees to make concessions\nImplies(agrees(trucking_industry, make_concessions), agrees(union, make_concessions)) ::: The trucking industry will not make concessions without prior concessions by the union\nImplies(agrees(union, make_concessions), agrees(government, act_as_mediator)) ::: The union will make concessions only if the government agrees to act as mediator\n\n# Options\nQuestion ::: If the statements above are true, which one of the following must also be true on the basis of them?\nis_valid(Implies(agrees(union, make_concessions), agrees(trucking_industry, make_concessions))) ::: (A) If the union makes concessions, then the trucking industry will also make concessions.\nis_valid(Implies(agrees(government, act_as_mediator), agrees(union, make_concessions) & agrees(trucking_industry, make_concessions))) ::: (B) Differences will be successfully negotiated if the government agrees to act as mediator.\nis_valid(Not(agrees(union, make_concessions) | agrees(trucking_industry, make_concessions))) ::: (C) Negotiations will not resume.\nis_valid(Implies(Not(agrees(government, act_as_mediator)), Not(agrees(union, make_concessions) & agrees(trucking_industry, make_concessions)))) ::: (D) Negotiations will not resume unless the government agrees to act as mediator."
+    ]
+  },
+  {
+    "id": "test_19",
+    "context": "Most of the new cars that Regis Motors sold last year were purchased by residents of Blomenville. Regis Motors sold more new cars last year than it did in any previous year. Still, most new cars purchased by Blomenville residents last year were not purchased from Regis Motors.",
+    "question": "If the statements above are true, which one of the following must also be true?",
+    "answer": "C",
+    "options": [
+      "Regis Motors' share of the new car market in Blomenville last year increased over its share the year before.",
+      "A car retailer other than Regis Motors sold the most new cars to residents of Blomenville last year.",
+      "The number of new cars purchased last year by residents of Blomenville is greater than the number of new cars sold by Regis Motors.",
+      "The total number of new cars purchased by residents of Blomenville was greater last year than it was in any previous year."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nretailers = EnumSort([Regis_Motors, Other_Retailers])\nlocations = EnumSort([Blomenville, Other_Locations])\ncars_sold = Function([retailers, locations] -> [int])\n\n# Constraints\ncars_sold(Regis_Motors, Blomenville) > cars_sold(Regis_Motors, Other_Locations) ::: Most of the new cars that Regis Motors sold last year were purchased by residents of Blomenville\ncars_sold(Regis_Motors, Blomenville) + cars_sold(Regis_Motors, Other_Locations) > PreviousYearSales(Regis_Motors) ::: Regis Motors sold more new cars last year than it did in any previous year\ncars_sold(Regis_Motors, Blomenville) < cars_sold(Other_Retailers, Blomenville) ::: Most new cars purchased by Blomenville residents last year were not purchased from Regis Motors\n\n# Options\nQuestion ::: If the statements above are true, which one of the following must also be true?\nis_must_true(cars_sold(Regis_Motors, Blomenville) > PreviousYearShare(Regis_Motors, Blomenville)) ::: (A) Regis Motors' share of the new car market in Blomenville last year increased over its share the year before.\nis_must_true(cars_sold(Other_Retailers, Blomenville) > cars_sold(Regis_Motors, Blomenville)) ::: (B) A car retailer other than Regis Motors sold the most new cars to residents of Blomenville last year.\nis_must_true(cars_sold(Other_Retailers, Blomenville) + cars_sold(Regis_Motors, Blomenville) > cars_sold(Regis_Motors, Blomenville)) ::: (C) The number of new cars purchased last year by residents of Blomenville is greater than the number of new cars sold by Regis Motors.\nis_must_true(cars_sold(Other_Retailers, Blomenville) + cars_sold(Regis_Motors, Blomenville) > PreviousYearTotal(Blomenville)) ::: (D) The total number of new cars purchased by residents of Blomenville was greater last year than it was in any previous year."
+    ]
+  },
+  {
+    "id": "test_36",
+    "context": "Finding of a survey of Systems magazine subscribers: Thirty percent of all merchandise orders placed by subscribers in response to advertisements in the magazine last year were placed by subscribers under age thirty-five. Finding of a survey of advertisers in Systems magazine: Most of the merchandise orders placed in response to advertisements in Systems last year were placed by people under age thirty-five.",
+    "question": "For both of the findings to be accurate, which of the following must be true?",
+    "answer": "D",
+    "options": [
+      "Last year, the average dollar amount of merchandise orders placed was less for subscribers under age thirty-five than for those age thirty-five or over.",
+      "More subscribers to Systems who have never ordered merchandise in response to advertisements in the magazine are age thirty-five or over than are under age thirty-five.",
+      "Among subscribers to Systems, the proportion who are under age thirty-five was considerably lower last year than it is now.",
+      "Last year many people who placed orders for merchandise in response to advertisements in Systems were not subscribers to the magazine."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nages = EnumSort([under_35, over_35])\ngroups = EnumSort([subscribers, non_subscribers])\norders = Function([groups, ages] -> [int])\n\n# Constraints\norders(subscribers, under_35) == 0.3 * TotalOrders(subscribers) ::: Thirty percent of all merchandise orders placed by subscribers in response to advertisements in the magazine last year were placed by subscribers under age thirty-five\norders(non_subscribers, under_35) + orders(subscribers, under_35) > 0.5 * TotalOrders(subscribers) + TotalOrders(non_subscribers) ::: Most of the merchandise orders placed in response to advertisements in Systems last year were placed by people under age thirty-five\n\n# Options\nQuestion ::: For both of the findings to be accurate, which of the following must be true?\nis_true(AvgOrderAmount(subscribers, under_35) < AvgOrderAmount(subscribers, over_35)) ::: (A) Last year, the average dollar amount of merchandise orders placed was less for subscribers under age thirty-five than for those age thirty-five or over.\nis_true(Count(subscribers, over_35, NeverOrdered) > Count(subscribers, under_35, NeverOrdered)) ::: (B) More subscribers to Systems who have never ordered merchandise in response to advertisements in the magazine are age thirty-five or over than are under age thirty-five.\nis_true(Proportion(subscribers, under_35, last_year) < Proportion(subscribers, under_35, now)) ::: (C) Among subscribers to Systems, the proportion who are under age thirty-five was considerably lower last year than it is now.\nis_true(orders(non_subscribers, under_35) > 0) ::: (D) Last year many people who placed orders for merchandise in response to advertisements in Systems were not subscribers to the magazine."
+    ]
+  },
+  {
+    "id": "test_38",
+    "context": "Any great ape can learn to recognize its reflection in a mirror. Any animal that recognizes its reflection in a mirror has a sense of self. An animal has a sense of the minds of others only if it possesses a sense of self.",
+    "question": "Which one of the following follows logically from the information above?",
+    "answer": "B",
+    "options": [
+      "All great apes have the ability to develop a sense of the minds of others.",
+      "Any animal that is incapable of developing a sense of self is not a great ape.",
+      "If an animal is not a great ape it is not capable of developing a sense of the minds of others.",
+      "Any animal that does not recognize its reflection in a mirror does not have a sense of self."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nanimals = EnumSort([great_ape, other_animal])\nabilities = EnumSort([recognize_reflection, sense_of_self, sense_of_minds_of_others])\nhas_ability = Function([animals, abilities] -> [bool])\n\n# Constraints\nForAll([a:animals], Implies(a == great_ape, has_ability(a, recognize_reflection))) ::: Any great ape can learn to recognize its reflection in a mirror\nForAll([a:animals], Implies(has_ability(a, recognize_reflection), has_ability(a, sense_of_self))) ::: Any animal that recognizes its reflection in a mirror has a sense of self\nForAll([a:animals], Implies(has_ability(a, sense_of_minds_of_others), has_ability(a, sense_of_self))) ::: An animal has a sense of the minds of others only if it possesses a sense of self\n\n# Options\nQuestion ::: Which one of the following follows logically from the information above?\nis_valid(ForAll([a:animals], Implies(a == great_ape, has_ability(a, sense_of_minds_of_others)))) ::: (All great apes have the ability to develop a sense of the minds of others.\nis_valid(ForAll([a:animals], Implies(Not(has_ability(a, sense_of_self)), a != great_ape))) ::: (Any animal that is incapable of developing a sense of self is not a great ape.\nis_valid(ForAll([a:animals], Implies(a != great_ape, Not(has_ability(a, sense_of_minds_of_others))))) ::: (If an animal is not a great ape it is not capable of developing a sense of the minds of others.\nis_valid(ForAll([a:animals], Implies(Not(has_ability(a, recognize_reflection)), Not(has_ability(a, sense_of_self))))) ::: (Any animal that does not recognize its reflection in a mirror does not have a sense of self."
+    ]
+  },
+  {
+    "id": "test_61",
+    "context": "Efficiency and redundancy are contradictory characteristics of linguistic systems; however, they can be used together to achieve usefulness and reliability in communication. If a spoken language is completely efficient, then every possible permutation of its basic language sounds can be an understandable word. However, if the human auditory system is an imperfect receptor of sounds, then it is not true that every possible permutation of a spoken language' s basic language sounds can be an understandable word.",
+    "question": "If all of the statements above are true, which one of the following must also be true?",
+    "answer": "B",
+    "options": [
+      "If a spoken language were completely redundant, then it could not be useful.",
+      "If the human auditory system is an imperfect receptor of sounds, then a spoken language cannot be completely efficient.",
+      "Efficiency causes a spoken language to be useful and redundancy causes it to be reliable.",
+      "If the human auditory system were a perfect receptor of sounds, then every permutation of language sounds would be an understandable word."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nlanguage_efficiency = Bool('language_efficiency')\nauditory_system_perfect = Bool('auditory_system_perfect')\nunderstandable_permutations = Bool('understandable_permutations')\n\n# Constraints\nImplies(language_efficiency, understandable_permutations) ::: If a spoken language is completely efficient, then every possible permutation of its basic language sounds can be an understandable word\nImplies(Not(auditory_system_perfect), Not(understandable_permutations)) ::: If the human auditory system is an imperfect receptor of sounds, then it is not true that every possible permutation of a spoken language's basic language sounds can be an understandable word\n\n# Options\nQuestion ::: If all of the statements above are true, which one of the following must also be true?\nis_valid(Implies(Not(auditory_system_perfect), Not(language_efficiency))) ::: (If the human auditory system is an imperfect receptor of sounds, then a spoken language cannot be completely efficient.\nis_valid(Implies(auditory_system_perfect, understandable_permutations)) ::: (If the human auditory system were a perfect receptor of sounds, then every permutation of language sounds would be an understandable word."
+    ]
+  },
+  {
+    "id": "test_68",
+    "context": "Recently a court ruled that current law allows companies to reject a job applicant if working in the job would entail a 90 percent chance that the applicant would suffer a heart attack. The presiding judge justified the ruling, saying that it protected both employees and employers.",
+    "question": "The use of this court ruling as part of the law could not be effective in regulating employment practices if which of the following were true?",
+    "answer": "B",
+    "options": [
+      "The number of people applying for jobs at a company might decline if the company, by screening applicants for risk of heart attack, seemed to suggest that the job entailed high risk of heart attack.",
+      "No legally accepted methods exist for calculating the risk of a job applicant's having a heart attack as a result of being employed in any particular occupation.",
+      "Some jobs might involve health risks other than the risk of heart attack.",
+      "Employees who have a 90 percent chance of suffering a heart attack may be unaware that their risk is so great."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\napplicants = EnumSort([applicant])\njobs = EnumSort([job])\nrisk = Function([applicants, jobs] -> [int])\nthreshold = Const(90, int)\n\n# Constraints\nForAll([a:applicants, j:jobs], And(0 <= risk(a, j), risk(a, j) <= 100)) ::: The risk of a heart attack is expressed as a percentage between 0 and 100\nForAll([a:applicants, j:jobs], Implies(risk(a, j) >= threshold, Not(eligible(a, j)))) ::: Companies can reject applicants if the risk is 90% or higher\n\n# Options\nQuestion ::: The use of this court ruling as part of the law could not be effective in regulating employment practices if which of the following were true?\nis_ineffective(Exists([a:applicants, j:jobs], Not(eligible(a, j)) && risk(a, j) < threshold)) ::: (A) The number of people applying for jobs at a company might decline if the company, by screening applicants for risk of heart attack, seemed to suggest that the job entailed high risk of heart attack.\nis_ineffective(ForAll([a:applicants, j:jobs], Not(Exists([method], calculates_risk(method, a, j))))) ::: (B) No legally accepted methods exist for calculating the risk of a job applicant's having a heart attack as a result of being employed in any particular occupation.\nis_ineffective(Exists([a:applicants, j:jobs], risk(a, j) < threshold && other_health_risks(a, j))) ::: (C) Some jobs might involve health risks other than the risk of heart attack.\nis_ineffective(Exists([a:applicants, j:jobs], risk(a, j) >= threshold && unaware(a))) ::: (D) Employees who have a 90 percent chance of suffering a heart attack may be unaware that their risk is so great."
+    ]
+  },
+  {
+    "id": "test_81",
+    "context": "Most people who are skilled banjo players are also skilled guitar players. But most people who are skilled guitar players are not skilled banjo players.",
+    "question": "If the statements above are true, which one of the following must also be true?",
+    "answer": "A",
+    "options": [
+      "There are more people who are skilled at playing the guitar than there are people who are skilled at playing the banjo.",
+      "There are more people who are skilled at playing the banjo than there are people who are skilled at playing the guitar.",
+      "A person trying to learn how to play the guitar is more likely to succeed in doing so than is a person trying to learn how to play the banjo.",
+      "There are more people who are skilled at playing both the guitar and the banjo than there are people who are skilled at playing only one of the two instruments."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\npeople = EnumSort([Person])\nskills = EnumSort([banjo, guitar])\nskilled = Function([people, skills] -> [bool])\n\n# Constraints\nForAll([p:people], Implies(skilled(p, banjo), skilled(p, guitar))) ::: Most people who are skilled banjo players are also skilled guitar players\nForAll([p:people], Implies(skilled(p, guitar), Not(skilled(p, banjo)))) ::: Most people who are skilled guitar players are not skilled banjo players\n\n# Options\nQuestion ::: If the statements above are true, which one of the following must also be true?\nis_true(Count([p:people], skilled(p, guitar)) > Count([p:people], skilled(p, banjo))) ::: (There are more people who are skilled at playing the guitar than there are people who are skilled at playing the banjo.\nis_true(Count([p:people], skilled(p, banjo)) > Count([p:people], skilled(p, guitar))) ::: (There are more people who are skilled at playing the banjo than there are people who are skilled at playing the guitar.\nis_true(Probability(skilled(Person, guitar)) > Probability(skilled(Person, banjo))) ::: (A person trying to learn how to play the guitar is more likely to succeed in doing so than is a person trying to learn how to play the banjo.\nis_true(Count([p:people], And(skilled(p, banjo), skilled(p, guitar))) > Count([p:people], Or(skilled(p, banjo), skilled(p, guitar)) - And(skilled(p, banjo), skilled(p, guitar)))) ::: (There are more people who are skilled at playing both the guitar and the banjo than there are people who are skilled at playing only one of the two instruments."
+    ]
+  },
+  {
+    "id": "test_108",
+    "context": "Leachate is a solution, frequently highly contaminated, that develops when water permeates a landfill site. If and only if the landfill' s capacity to hold liquids is exceeded does the leachate escape into the environment, generally in unpredictable quantities. A method must be found for disposing of leachate. Most landfill leachate is sent directly to sewage treatment plants, but not all sewage plants are capable of handling the highly contaminated water.",
+    "question": "Which one of the following can be inferred from the passage?",
+    "answer": "A",
+    "options": [
+      "If leachate does not escape from a landfill into the environment, then the landfill's capacity to hold liquids has not been exceeded.",
+      "The ability to predict the volume of escaping landfill leachate would help solve the disposal problem.",
+      "If any water permeates a landfill, leachate will escape into the environment.",
+      "Some landfill leachate is sent to sewage treatment plants that are incapable of handling it."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nlandfill_capacity_exceeded = Bool('landfill_capacity_exceeded')\nleachate_escapes = Bool('leachate_escapes')\nsewage_plant_capable = Function('sewage_plant_capable', [Bool] -> Bool)\n\n# Constraints\nleachate_escapes == landfill_capacity_exceeded ::: If and only if the landfill's capacity to hold liquids is exceeded does the leachate escape into the environment\n\n# Options\nQuestion ::: Which one of the following can be inferred from the passage?\nis_inferred(Implies(Not(leachate_escapes), Not(landfill_capacity_exceeded))) ::: (If leachate does not escape from a landfill into the environment, then the landfill's capacity to hold liquids has not been exceeded.)\nis_inferred(False) ::: (The ability to predict the volume of escaping landfill leachate would help solve the disposal problem.)\nis_inferred(False) ::: (If any water permeates a landfill, leachate will escape into the environment.)\nis_inferred(Exists([c:Bool], And(Not(sewage_plant_capable(c)), c))) ::: (Some landfill leachate is sent to sewage treatment plants that are incapable of handling it.)"
+    ]
+  },
+  {
+    "id": "test_277",
+    "context": "Playing eighteenth-century music on the instruments of that period provides valuable information about how the music originally sounded. Eighteenth-century instruments cannot be played without being restored, however, and restoring such an instrument destroys all of the information that researchers could obtain from it about eighteenth-century instrument-making techniques.",
+    "question": "If the statements above are true, which of the following must be true on the basis of them?",
+    "answer": "A",
+    "options": [
+      "Eighteenth-century instruments that have been restored can provide information only about how eighteenth-century music originally sounded",
+      "An eighteenth-century instrument cannot serve as a source of new information about eighteenth-century instrument-making techniques once it can be played",
+      "Eighteenth-century instruments are the only source of information about the instrument-making techniques of that period.",
+      "An eighteenth-century instrument that has not been restored can provide more information than can one that has been restored."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\ninstruments = EnumSort([restored, not_restored])\ninformation = EnumSort([music_sound, instrument_making_techniques])\nprovides_info = Function([instruments] -> [information])\n\n# Constraints\nForAll([i:instruments], Implies(i == restored, provides_info(i) == music_sound)) ::: Restored instruments provide information only about how eighteenth-century music originally sounded\nForAll([i:instruments], Implies(i == not_restored, provides_info(i) == instrument_making_techniques)) ::: Instruments that are not restored provide information about instrument-making techniques\n\n# Options\nQuestion ::: If the statements above are true, which of the following must be true on the basis of them?\nis_true(ForAll([i:instruments], Implies(i == restored, provides_info(i) == music_sound))) ::: (Eighteenth-century instruments that have been restored can provide information only about how eighteenth-century music originally sounded\nis_true(ForAll([i:instruments], Implies(i == restored, provides_info(i) != instrument_making_techniques))) ::: (An eighteenth-century instrument cannot serve as a source of new information about eighteenth-century instrument-making techniques once it can be played\nis_true(Exists([i:instruments], provides_info(i) == instrument_making_techniques)) ::: (Eighteenth-century instruments are the only source of information about the instrument-making techniques of that period.\nis_true(ForAll([i:instruments], Implies(i == not_restored, provides_info(i) == instrument_making_techniques))) ::: (An eighteenth-century instrument that has not been restored can provide more information than can one that has been restored."
+    ]
+  },
+  {
+    "id": "test_321",
+    "context": "If the standards committee has a quorum, then the general assembly will begin at 6: 00 P. M. today. If the awards committee has a quorum, then the general assembly will begin at 7: 00 P. M. today.",
+    "question": "Which one of the following statements follows logically from the statements above?",
+    "answer": "A",
+    "options": [
+      "If the standards committee has a quorum, then foe awards committee does not have a quorum.",
+      "If the general assembly does not begin at 6:00 P. M. today, then the awards committee has a quorum.",
+      "If the general assembly does not begin at 7:00 P. M. today, then the standards committee has a quorum.",
+      "If the general assembly begins at 6:00 RM. today, then the standards committee has a quorum"
+    ],
+    "raw_logic_programs": [
+      "# Declarations\ncommittees = EnumSort([standards, awards])\ntimes = EnumSort([six_pm, seven_pm])\nquorum = Function([committees] -> [bool])\nassembly_begins = Function([times] -> [bool])\n\n# Constraints\nImplies(quorum(standards), assembly_begins(six_pm)) ::: If the standards committee has a quorum, then the general assembly will begin at 6:00 P.M. today\nImplies(quorum(awards), assembly_begins(seven_pm)) ::: If the awards committee has a quorum, then the general assembly will begin at 7:00 P.M. today\n\n# Options\nQuestion ::: Which one of the following statements follows logically from the statements above?\nImplies(quorum(standards), Not(quorum(awards))) ::: (A) If the standards committee has a quorum, then the awards committee does not have a quorum\nImplies(Not(assembly_begins(six_pm)), quorum(awards)) ::: (B) If the general assembly does not begin at 6:00 P.M. today, then the awards committee has a quorum\nImplies(Not(assembly_begins(seven_pm)), quorum(standards)) ::: (C) If the general assembly does not begin at 7:00 P.M. today, then the standards committee has a quorum\nImplies(assembly_begins(six_pm), quorum(standards)) ::: (D) If the general assembly begins at 6:00 P.M. today, then the standards committee has a quorum"
+    ]
+  },
+  {
+    "id": "test_331",
+    "context": "If a motor is sound-insulated, then it is quiet enough to use in home appliances. If a motor is quiet enough to use in home appliances, then it can be used in institutional settings. None of the motors manufactured by EM Industries are quiet enough to use in home appliances.",
+    "question": "If the statements above are true, which one of the following must be true?",
+    "answer": "B",
+    "options": [
+      "None of the motors manufactured by EM Industries can be used in institutional settings.",
+      "None of the motors manufactured by EM Industries are sound-insulated.",
+      "If a motor can be used in institutional settings, then it is sound-insulated.",
+      "At least some of the motors manufactured by EM Industries can be used in institutional settings."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nmotors = EnumSort([EM_Industries])\nproperties = EnumSort([sound_insulated, quiet_for_home, usable_in_institutional])\nhas_property = Function([motors, properties] -> [bool])\n\n# Constraints\nForAll([m:motors], Implies(has_property(m, sound_insulated), has_property(m, quiet_for_home))) ::: If a motor is sound-insulated, then it is quiet enough to use in home appliances\nForAll([m:motors], Implies(has_property(m, quiet_for_home), has_property(m, usable_in_institutional))) ::: If a motor is quiet enough to use in home appliances, then it can be used in institutional settings\nForAll([m:motors], Not(has_property(m, quiet_for_home))) ::: None of the motors manufactured by EM Industries are quiet enough to use in home appliances\n\n# Options\nQuestion ::: If the statements above are true, which one of the following must be true?\nis_valid(ForAll([m:motors], Not(has_property(m, usable_in_institutional)))) ::: (A) None of the motors manufactured by EM Industries can be used in institutional settings.\nis_valid(ForAll([m:motors], Not(has_property(m, sound_insulated)))) ::: (B) None of the motors manufactured by EM Industries are sound-insulated.\nis_valid(ForAll([m:motors], Implies(has_property(m, usable_in_institutional), has_property(m, sound_insulated)))) ::: (C) If a motor can be used in institutional settings, then it is sound-insulated.\nis_valid(Exists([m:motors], has_property(m, usable_in_institutional))) ::: (D) At least some of the motors manufactured by EM Industries can be used in institutional settings."
+    ]
+  },
+  {
+    "id": "test_390",
+    "context": "On the basis of relatively minor morphological differences, some scientists suggest that Neanderthals should be considered a species distinct from Cro-Magnons, the forerunners of modern humans. Yet the fact that the tools used by these two groups of hominids living in different environments were of exactly the same type indicates uncanny behavioral similarities, for only if they faced the same daily challenges and met them in the same way would they have used such similar tools. This suggests that they were members of the same species, and that the morphological differences are due merely to their having lived in different environments.",
+    "question": "If the statements above are true, then each of the following could be true EXCEPT:",
+    "answer": "A",
+    "options": [
+      "The daily challenges with which an environment confronts its inhabitants are unique to that environment.",
+      "Use of similar tools is required if members of two distinct groups of tool-making hominids are to be considered members of the same species.",
+      "Morphological differences between the members of two populations do not guarantee that the two populations do not belong to the same species.",
+      "Through much of their coexistence, Cro-Magnons and Neanderthals were geographically isolated from one another."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nhominids = EnumSort([Neanderthals, CroMagnons])\nenvironments = EnumSort([environment1, environment2])\ntools = Function([hominids, environments] -> [bool])\nspecies = Function([hominids] -> [bool])\n\n# Constraints\nForAll([h:hominids, e:environments], tools(h, e)) ::: The tools used by these two groups of hominids living in different environments were of exactly the same type\nForAll([h:hominids], species(h)) ::: Suggests that they were members of the same species\nForAll([h:hominids], Exists([e:environments], tools(h, e))) ::: Only if they faced the same daily challenges and met them in the same way would they have used such similar tools\n\n# Options\nQuestion ::: If the statements above are true, then each of the following could be true EXCEPT:\nis_exception(is_sat(ForAll([e:environments], Exists([h:hominids], Not(tools(h, e)))))) ::: (The daily challenges with which an environment confronts its inhabitants are unique to that environment.\nis_exception(is_sat(ForAll([h1:hominids, h2:hominids], Implies(species(h1) == species(h2), Exists([e:environments], tools(h1, e) == tools(h2, e)))))) ::: (Use of similar tools is required if members of two distinct groups of tool-making hominids are to be considered members of the same species.\nis_exception(is_sat(ForAll([h1:hominids, h2:hominids], Implies(Not(species(h1) == species(h2)), Exists([e:environments], tools(h1, e) != tools(h2, e)))))) ::: (Morphological differences between the members of two populations do not guarantee that the two populations do not belong to the same species.\nis_exception(is_sat(Exists([e1:environments, e2:environments], e1 != e2))) ::: (Through much of their coexistence, Cro-Magnons and Neanderthals were geographically isolated from one another."
+    ]
+  },
+  {
+    "id": "test_402",
+    "context": "No mathematician today would flatly refuse to accept the results of an enormous computation as an adequate demonstration of the truth of a theorem. In 1976, however, this was not the case. Some mathematicians at that time refused to accept the results of a complex computer demonstration of a very simple mapping theorem. Although some mathematicians still hold a strong belief that a simple theorem ought to have a short, simple proof, in fact, some simple theorems have required enormous proofs.",
+    "question": "If all of the statements in the passage are true, which one of the following must also be true?",
+    "answer": "D",
+    "options": [
+      "Some individuals who do not believe that a simple theorem ought to have a simple proof would not be willing to accept the results of an enormous computation as proof of a complex theorem.",
+      "Some nonmathematicians do not believe that a simple theorem ought to have a simple proof.",
+      "Today, some individuals who refuse to accept the results of an enormous computation as a demonstration of the truth of a theorem believe that a simple theorem ought to have a simple proof.",
+      "Today, some mathematicians who believe that a simple theorem ought to have a simple proof would consider accepting the results of an enormous computation as a demonstration of the truth of a theorem."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nindividuals = EnumSort([mathematicians, nonmathematicians])\nbeliefs = EnumSort([simple_proof, complex_proof])\nacceptance = EnumSort([accept, refuse])\ntime_periods = EnumSort([today, 1976])\ntheorems = EnumSort([simple, complex])\n\n# Constraints\nForAll([i:individuals, t:time_periods], Or(acceptance(i, t) == accept, acceptance(i, t) == refuse)) ::: Each individual either accepts or refuses the results of an enormous computation as proof\nForAll([i:individuals], Or(beliefs(i) == simple_proof, beliefs(i) == complex_proof)) ::: Each individual either believes a simple theorem ought to have a simple proof or not\nForAll([t:time_periods], acceptance(mathematicians, t) == refuse) ::: In 1976, some mathematicians refused to accept the results of a complex computer demonstration\nExists([i:individuals], And(beliefs(i) == simple_proof, acceptance(i, today) == accept)) ::: Today, some mathematicians who believe a simple theorem ought to have a simple proof would consider accepting the results of an enormous computation\n\n# Options\nQuestion ::: If all of the statements in the passage are true, which one of the following must also be true?\nis_must_true(Exists([i:individuals], And(beliefs(i) == complex_proof, acceptance(i, today) == refuse))) ::: (A) Some individuals who do not believe that a simple theorem ought to have a simple proof would not be willing to accept the results of an enormous computation as proof of a complex theorem.\nis_must_true(Exists([i:individuals], And(i == nonmathematicians, beliefs(i) == simple_proof))) ::: (B) Some nonmathematicians do not believe that a simple theorem ought to have a simple proof.\nis_must_true(Exists([i:individuals], And(acceptance(i, today) == refuse, beliefs(i) == simple_proof))) ::: (C) Today, some individuals who refuse to accept the results of an enormous computation as a demonstration of the truth of a theorem believe that a simple theorem ought to have a simple proof.\nis_must_true(Exists([i:individuals], And(i == mathematicians, beliefs(i) == simple_proof, acceptance(i, today) == accept))) ::: (D) Today, some mathematicians who believe that a simple theorem ought to have a simple proof would consider accepting the results of an enormous computation as a demonstration of the truth of a theorem."
+    ]
+  },
+  {
+    "id": "test_410",
+    "context": "The southern half of a certain region of the earth was covered entirely by water during the Cretaceous period, the last 75 million years of the Mesozoic era, the era when dinosaurs roamed the earth. Dinosaurs lived only on land. Thus, plesiosaurs -- swimming reptiles that lived during the Cretaceous period exclusively -- were not dinosaurs. No single species of dinosaur lived throughout the entire Mesozoic era.",
+    "question": "If the statements in the passage are true, each of the following could be true EXCEPT:",
+    "answer": "D",
+    "options": [
+      "Plesiosaurs did not inhabit the southern half of the region during the Cretaceous period.",
+      "Plesiosaurs did not inhabit the southern half of the region before the Cretaceous period.",
+      "Dinosaurs did not inhabit the northern half of the region during the Cretaceous period.",
+      "Dinosaurs inhabited the southern half of the region throughout the entire Mesozoic era."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nregions = EnumSort([southern_half, northern_half])\neras = EnumSort([Cretaceous, Mesozoic])\ncreatures = EnumSort([plesiosaurs, dinosaurs])\ninhabit = Function([creatures, regions, eras] -> [bool])\n\n# Constraints\nForAll([c:creatures], Not(inhabit(c, southern_half, Cretaceous))) ::: The southern half of the region was covered entirely by water during the Cretaceous period\nForAll([e:eras], Implies(e == Cretaceous, Not(inhabit(dinosaurs, southern_half, e)))) ::: Dinosaurs lived only on land\nForAll([e:eras], Implies(e == Cretaceous, Not(inhabit(plesiosaurs, southern_half, e)))) ::: Plesiosaurs lived during the Cretaceous period exclusively\nExists([e:eras], Not(inhabit(dinosaurs, southern_half, e))) ::: No single species of dinosaur lived throughout the entire Mesozoic era\n\n# Options\nQuestion ::: If the statements in the passage are true, each of the following could be true EXCEPT:\nis_exception(is_sat(Not(inhabit(plesiosaurs, southern_half, Cretaceous)))) ::: (A)\nis_exception(is_sat(Not(inhabit(plesiosaurs, southern_half, Mesozoic)))) ::: (B)\nis_exception(is_sat(Not(inhabit(dinosaurs, northern_half, Cretaceous)))) ::: (C)\nis_exception(is_sat(ForAll([e:eras], inhabit(dinosaurs, southern_half, e)))) ::: (D)"
+    ]
+  },
+  {
+    "id": "test_469",
+    "context": "Failure to rotate crops depletes the soil' s nutrients gradually unless other preventive measures are taken. If the soil' s nutrients are completely depleted, additional crops cannot be grown unless fertilizer is applied to the soil. All other things being equal, if vegetables are grown in soil that has had fertilizer applied rather than being grown in non-fertilized soil, they are more vulnerable to pests and, as a consequence, must be treated with larger amounts of pesticides. The more pesticides used on vegetables, the greater the health risks to humans from eating those vegetables. Suppose there were some vegetables that were grown in soil to which fertilizer had never been applied.",
+    "question": "On the basis of the passage, which one of the following would have to be true regarding those vegetables?",
+    "answer": "D",
+    "options": [
+      "The health risks to humans from eating the vegetables were no less than the health risks to humans from eating the same kinds of vegetables treated with pesticides.",
+      "It is not possible that the vegetables were grown in soil in which crops had been rotated.",
+      "The soil in which the vegetables were grown may have been completely depleted of nutrients because of an earlier failure to rotate crops.",
+      "The vegetables were grown in soil that had not been completely depleted of nutrients but not necessarily soil in which crops had been rotated."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nsoil_nutrients = EnumSort([depleted, not_depleted])\nfertilizer_applied = EnumSort([applied, not_applied])\npesticides_used = EnumSort([used, not_used])\nhealth_risks = EnumSort([high, low])\nvegetables = EnumSort([grown_with_fertilizer, grown_without_fertilizer])\n\n# Constraints\nForAll([v:vegetables], Implies(v == grown_with_fertilizer, fertilizer_applied == applied)) ::: Vegetables grown with fertilizer have fertilizer applied\nForAll([v:vegetables], Implies(v == grown_without_fertilizer, fertilizer_applied == not_applied)) ::: Vegetables grown without fertilizer have no fertilizer applied\nForAll([v:vegetables], Implies(fertilizer_applied == applied, pesticides_used == used)) ::: Vegetables grown with fertilizer are more vulnerable to pests and require pesticides\nForAll([v:vegetables], Implies(pesticides_used == used, health_risks == high)) ::: More pesticides lead to greater health risks\nForAll([v:vegetables], Implies(fertilizer_applied == not_applied, soil_nutrients == not_depleted)) ::: Vegetables grown without fertilizer are in soil not completely depleted\n\n# Options\nQuestion ::: On the basis of the passage, which one of the following would have to be true regarding those vegetables?\nis_true(health_risks == low) ::: (The health risks to humans from eating the vegetables were no less than the health risks to humans from eating the same kinds of vegetables treated with pesticides.\nis_true(Not(soil_nutrients == not_depleted)) ::: (It is not possible that the vegetables were grown in soil in which crops had been rotated.\nis_true(Or(soil_nutrients == depleted, soil_nutrients == not_depleted)) ::: (The soil in which the vegetables were grown may have been completely depleted of nutrients because of an earlier failure to rotate crops.\nis_true(And(soil_nutrients == not_depleted, Not(soil_nutrients == depleted))) ::: (The vegetables were grown in soil that had not been completely depleted of nutrients but not necessarily soil in which crops had been rotated."
+    ]
+  },
+  {
+    "id": "test_495",
+    "context": "An editor is compiling a textbook containing essays by several different authors. The book will contain essays by Lind, Knight, or Jones, but it will not contain essays by all three. If the textbook contains an essay by Knight, then it will also contain an essay by Jones.",
+    "question": "If the statements above are true, which one of the following must be true?",
+    "answer": "B",
+    "options": [
+      "The textbook will not contain an essay by Knight.",
+      "If the textbook contains an essay by Lind, then it will not contain an essay by Knight.",
+      "The textbook will contain an essay by only one of Lind, Knight, and Jones.",
+      "The textbook will contain an essay by Lind."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nauthors = EnumSort([Lind, Knight, Jones])\ncontains_essay = Function([authors] -> [bool])\n\n# Constraints\nNot(And(contains_essay(Lind), contains_essay(Knight), contains_essay(Jones))) ::: The book will not contain essays by all three authors\nImplies(contains_essay(Knight), contains_essay(Jones)) ::: If the textbook contains an essay by Knight, then it will also contain an essay by Jones\n\n# Options\nQuestion ::: If the statements above are true, which one of the following must be true?\nis_true(Not(contains_essay(Knight))) ::: (The textbook will not contain an essay by Knight.\nis_true(Implies(contains_essay(Lind), Not(contains_essay(Knight)))) ::: (If the textbook contains an essay by Lind, then it will not contain an essay by Knight.\nis_true(Count([a:authors], contains_essay(a)) == 1) ::: (The textbook will contain an essay by only one of Lind, Knight, and Jones.\nis_true(contains_essay(Lind)) ::: (The textbook will contain an essay by Lind."
+    ]
+  },
+  {
+    "id": "test_498",
+    "context": "Legal theorist: Only two types of theories of criminal sentencing can be acceptable -- retributivist theories, which hold that the purpose of sentences is simply to punish, and rehabilitationist theories, which hold that a sentence is a means to reform the offender. A retributivist theory is not acceptable unless it conforms to the principle that the harshness of a punishment should be proportional to the seriousness of the offense. Retributivist theories that hold that criminals should receive longer sentences for repeat offenses than for an initial offense violate this principle, since repeat offenses may be no more serious than the initial offense.",
+    "question": "Which one of the following can be properly inferred from the legal theorist's statements?",
+    "answer": "C",
+    "options": [
+      "Any rehabilitationist theory that holds that criminals should receive longer sentences for repeat offenses than for an initial offense is an acceptable theory.",
+      "Reforming a repeat offender sometimes requires giving that offender longer sentences for the repeat offenses than for the initial offense.",
+      "A theory of criminal sentencing that holds that criminals should receive longer sentences for repeat offenses than for an initial offense is acceptable only if it is a rehabilitationist theory.",
+      "All theories of criminal sentencing that conform to the principle that the harshness of a punishment should be proportional to the seriousness of the offense are acceptable."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\ntheories = EnumSort([retributivist, rehabilitationist])\nprinciples = EnumSort([proportionality])\noffenses = EnumSort([initial, repeat])\nacceptability = Function([theories] -> [bool])\nconforms = Function([theories, principles] -> [bool])\nsentence_length = Function([offenses] -> [int])\n\n# Constraints\nacceptability(retributivist) == Implies(conforms(retributivist, proportionality), sentence_length(repeat) <= sentence_length(initial)) ::: A retributivist theory is not acceptable unless it conforms to the principle that the harshness of a punishment should be proportional to the seriousness of the offense\nNot(conforms(retributivist, proportionality)) == (sentence_length(repeat) > sentence_length(initial)) ::: Retributivist theories that hold that criminals should receive longer sentences for repeat offenses than for an initial offense violate this principle\n\n# Options\nQuestion ::: Which one of the following can be properly inferred from the legal theorist's statements?\nis_inferred(Implies(sentence_length(repeat) > sentence_length(initial), acceptability(rehabilitationist))) ::: (A) Any rehabilitationist theory that holds that criminals should receive longer sentences for repeat offenses than for an initial offense is an acceptable theory.\nis_inferred(Exists([o:offenses], sentence_length(repeat) > sentence_length(initial))) ::: (B) Reforming a repeat offender sometimes requires giving that offender longer sentences for the repeat offenses than for the initial offense.\nis_inferred(Implies(sentence_length(repeat) > sentence_length(initial), acceptability(rehabilitationist))) ::: (C) A theory of criminal sentencing that holds that criminals should receive longer sentences for repeat offenses than for an initial offense is acceptable only if it is a rehabilitationist theory.\nis_inferred(ForAll([t:theories], Implies(conforms(t, proportionality), acceptability(t)))) ::: (D) All theories of criminal sentencing that conform to the principle that the harshness of a punishment should be proportional to the seriousness of the offense are acceptable."
+    ]
+  },
+  {
+    "id": "test_525",
+    "context": "Good students learn more than what their parents and teachers compel them to learn. This requires that these students derive pleasure from the satisfaction of their curiosity, and one cannot experience such pleasure unless one is capable of concentrating on a topic so intently that one loses track of one' s own identity.",
+    "question": "If the statements above are true, each of the following could also be true EXCEPT:",
+    "answer": "B",
+    "options": [
+      "Most people who are capable of becoming so absorbed in a topic that they lose track of their own identities are not good students.",
+      "Most good students do not derive pleasure from the satisfaction of their curiosity.",
+      "Some people who are capable of becoming so absorbed in a topic that they lose track of their own identities are nevertheless incapable of deriving pleasure from the satisfaction of their curiosity.",
+      "Some people who are not good students derive pleasure from losing track of their own identities."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nstudents = EnumSort([good_students, others])\nattributes = EnumSort([learn_more, derive_pleasure, concentrate_intently, lose_identity])\nhas_attribute = Function([students, attributes] -> [bool])\n\n# Constraints\nForAll([s:students], Implies(has_attribute(s, good_students), has_attribute(s, learn_more))) ::: Good students learn more than what their parents and teachers compel them to learn\nForAll([s:students], Implies(has_attribute(s, good_students), has_attribute(s, derive_pleasure))) ::: Good students derive pleasure from the satisfaction of their curiosity\nForAll([s:students], Implies(has_attribute(s, derive_pleasure), has_attribute(s, concentrate_intently))) ::: One cannot experience such pleasure unless one is capable of concentrating intently\nForAll([s:students], Implies(has_attribute(s, concentrate_intently), has_attribute(s, lose_identity))) ::: One must be capable of losing track of one's own identity to concentrate intently\n\n# Options\nQuestion ::: If the statements above are true, each of the following could also be true EXCEPT:\nis_exception(is_sat(ForAll([s:students], Implies(has_attribute(s, concentrate_intently), Not(has_attribute(s, good_students)))))) ::: (Most people who are capable of becoming so absorbed in a topic that they lose track of their own identities are not good students.)\nis_exception(is_sat(ForAll([s:students], Implies(has_attribute(s, good_students), Not(has_attribute(s, derive_pleasure)))))) ::: (Most good students do not derive pleasure from the satisfaction of their curiosity.)\nis_exception(is_sat(Exists([s:students], And(has_attribute(s, concentrate_intently), Not(has_attribute(s, derive_pleasure)))))) ::: (Some people who are capable of becoming so absorbed in a topic that they lose track of their own identities are nevertheless incapable of deriving pleasure from the satisfaction of their curiosity.)\nis_exception(is_sat(Exists([s:students], And(Not(has_attribute(s, good_students)), has_attribute(s, lose_identity))))) ::: (Some people who are not good students derive pleasure from losing track of their own identities.)"
+    ]
+  },
+  {
+    "id": "test_526",
+    "context": "One of the great difficulties in establishing animal rights based merely on the fact that animals are living things concerns scope. If one construes the term \"living things\" broadly, one is bound to bestow rights on organisms that are not animals (e. g. , plants). But if this term is construed narrowly, one is apt to refuse rights to organisms that, at least biologically, are considered members of the animal kingdom.",
+    "question": "If the statements above are true, which one of the following can be most reasonably inferred from them?",
+    "answer": "A",
+    "options": [
+      "Successful attempts to establish rights for all animals are likely either to establish rights for some plants or not to depend solely on the observation that animals are living things.",
+      "The problem of delineating the boundary of the set of living things interferes with every attempt to establish animal rights.",
+      "Not all animals should be given rights.",
+      "One cannot bestow rights on animals without also bestowing rights on at least some plants."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\norganisms = EnumSort([animals, plants])\nrights = Function([organisms] -> [bool])\n\n# Constraints\nForAll([o:organisms], Implies(o == animals, rights(o))) ::: Establishing animal rights based on them being living things\nForAll([o:organisms], Implies(o == plants, Not(rights(o)))) ::: Not bestowing rights on non-animal living things\n\n# Options\nQuestion ::: If the statements above are true, which one of the following can be most reasonably inferred from them?\nis_inferred(Or(Exists([o:organisms], And(o == plants, rights(o))), Not(ForAll([o:organisms], Implies(o == animals, rights(o)))))) ::: (A) Successful attempts to establish rights for all animals are likely either to establish rights for some plants or not to depend solely on the observation that animals are living things.\nis_inferred(Exists([o:organisms], And(o == plants, rights(o)))) ::: (B) The problem of delineating the boundary of the set of living things interferes with every attempt to establish animal rights.\nis_inferred(Not(ForAll([o:organisms], Implies(o == animals, rights(o))))) ::: (C) Not all animals should be given rights.\nis_inferred(Exists([o:organisms], And(o == plants, rights(o)))) ::: (D) One cannot bestow rights on animals without also bestowing rights on at least some plants."
+    ]
+  },
+  {
+    "id": "test_533",
+    "context": "Traffic engineers have increased the capacity of the Krakkenbak Bridge to handle rush-hour traffic flow. The resultant increase in rush-hour traffic flow would not have occurred had the city not invested in computer modeling technology last year at the request of the city' s mayor, and the city' s financial predicament would not have been resolved if the traffic flow across the bridge during rush hour had not been increased.",
+    "question": "Which one of the following can be properly inferred from the information above?",
+    "answer": "D",
+    "options": [
+      "Traffic flow across the Krakkenbak Bridge during rush hour would not have increased had the city's mayor not made investing in computer modeling technology the highest budgetary priority last year.",
+      "The city's mayor was a proponent of investing in computer modeling technology because of the city's need to increase traffic flow across the Krakkenbak Bridge during rush hour.",
+      "The city's financial predicament would not have been resolved had the city chosen a competing computer modeling software package.",
+      "The city's financial predicament would not have been resolved had the city not invested in computer modeling technology."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nevents = EnumSort([bridge_capacity_increase, computer_modeling_investment, financial_resolution, traffic_flow_increase])\ncauses = Function([events] -> [bool])\n\n# Constraints\ncauses(traffic_flow_increase) == And(causes(bridge_capacity_increase), causes(computer_modeling_investment)) ::: The increase in rush-hour traffic flow would not have occurred without the bridge capacity increase and computer modeling investment\ncauses(financial_resolution) == causes(traffic_flow_increase) ::: The city's financial predicament would not have been resolved without the traffic flow increase\n\n# Options\nQuestion ::: Which one of the following can be properly inferred from the information above?\nis_inferred(Not(causes(traffic_flow_increase)) == Not(causes(computer_modeling_investment))) ::: (A) Traffic flow across the Krakkenbak Bridge during rush hour would not have increased had the city's mayor not made investing in computer modeling technology the highest budgetary priority last year.\nis_inferred(causes(computer_modeling_investment) == causes(traffic_flow_increase)) ::: (B) The city's mayor was a proponent of investing in computer modeling technology because of the city's need to increase traffic flow across the Krakkenbak Bridge during rush hour.\nis_inferred(Not(causes(financial_resolution)) == Not(causes(computer_modeling_investment))) ::: (C) The city's financial predicament would not have been resolved had the city chosen a competing computer modeling software package.\nis_inferred(Not(causes(financial_resolution)) == Not(causes(computer_modeling_investment))) ::: (D) The city's financial predicament would not have been resolved had the city not invested in computer modeling technology."
+    ]
+  },
+  {
+    "id": "test_576",
+    "context": "All students at Pitcombe College were asked to label themselves conservative, liberal, or middle-of-the-road politically. Of the students, 25 percent labeled themselves conservative, 24 percent labeled themselves liberal, and 51 percent labeled themselves middle-of-the-road. When asked about a particular set of issues, however, 77 percent of the students endorsed what is generally regarded as a liberal position.",
+    "question": "If all of the statements above are true, which one of the following must also be true?",
+    "answer": "D",
+    "options": [
+      "All students who labeled themselves liberal endorsed what is generally regarded as a liberal position on that set of issues.",
+      "Some students who labeled themselves liberal endorsed what is generally regarded as a conservative position on that set of issues.",
+      "More students who labeled themselves middle-of-the-road than students who labeled themselves liberal opposed what is generally regarded as a liberal position on that set of issues.",
+      "Some students who labeled themselves conservative endorsed what is generally regarded as a liberal position on that set of issues."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nstudents = EnumSort([conservative, liberal, middle_of_the_road])\npositions = EnumSort([liberal_position, conservative_position])\nlabeled = Function([students] -> [int])\nendorsed = Function([students, positions] -> [int])\n\n# Constraints\nlabeled(conservative) == 25 ::: 25 percent labeled themselves conservative\nlabeled(liberal) == 24 ::: 24 percent labeled themselves liberal\nlabeled(middle_of_the_road) == 51 ::: 51 percent labeled themselves middle-of-the-road\nendorsed(liberal_position) == 77 ::: 77 percent of the students endorsed a liberal position\n\n# Options\nQuestion ::: If all of the statements above are true, which one of the following must also be true?\nis_must_true(ForAll([s:students], Implies(labeled(s) == liberal, endorsed(s, liberal_position) == labeled(s)))) ::: (A) All students who labeled themselves liberal endorsed what is generally regarded as a liberal position on that set of issues.\nis_must_true(Exists([s:students], And(labeled(s) == liberal, endorsed(s, conservative_position) > 0))) ::: (B) Some students who labeled themselves liberal endorsed what is generally regarded as a conservative position on that set of issues.\nis_must_true(Count([s:students], And(labeled(s) == middle_of_the_road, endorsed(s, liberal_position) < labeled(s))) > Count([s:students], And(labeled(s) == liberal, endorsed(s, liberal_position) < labeled(s)))) ::: (C) More students who labeled themselves middle-of-the-road than students who labeled themselves liberal opposed what is generally regarded as a liberal position on that set of issues.\nis_must_true(Exists([s:students], And(labeled(s) == conservative, endorsed(s, liberal_position) > 0))) ::: (D) Some students who labeled themselves conservative endorsed what is generally regarded as a liberal position on that set of issues."
+    ]
+  },
+  {
+    "id": "test_591",
+    "context": "Every delegate to the convention is a party member. Some delegates to the convention are government officials, and each government official who is at the convention is a speaker at the convention, as well.",
+    "question": "If the statements above are true, then which one of the following statements must be true?",
+    "answer": "B",
+    "options": [
+      "Every government official at the convention is a party member.",
+      "At least some speakers at the convention are delegates to the convention.",
+      "At least some speakers at the convention are neither delegates nor party members.",
+      "All speakers at the convention are government officials."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\ndelegates = EnumSort([delegate1, delegate2, delegate3])  # Represents delegates at the convention\nparty_members = EnumSort([party_member1, party_member2, party_member3])  # Represents party members\ngovernment_officials = EnumSort([official1, official2, official3])  # Represents government officials\nspeakers = EnumSort([speaker1, speaker2, speaker3])  # Represents speakers at the convention\n\n# Constraints\nForAll([d:delegates], Exists([p:party_members], d == p)) ::: Every delegate to the convention is a party member\nExists([d:delegates, g:government_officials], And(d == g, Exists([s:speakers], g == s))) ::: Some delegates to the convention are government officials, and each government official who is at the convention is a speaker at the convention\n\n# Options\nQuestion ::: If the statements above are true, then which one of the following statements must be true?\nis_true(ForAll([g:government_officials], Exists([p:party_members], g == p))) ::: (Every government official at the convention is a party member.\nis_true(Exists([s:speakers, d:delegates], s == d)) ::: (At least some speakers at the convention are delegates to the convention.\nis_true(Exists([s:speakers], And(Not(Exists([d:delegates], s == d)), Not(Exists([p:party_members], s == p))))) ::: (At least some speakers at the convention are neither delegates nor party members.\nis_true(ForAll([s:speakers], Exists([g:government_officials], s == g))) ::: (All speakers at the convention are government officials."
+    ]
+  },
+  {
+    "id": "test_610",
+    "context": "None of the students taking literature are taking physics, but several of the students taking physics are taking art. In addition, none of the students taking rhetoric are taking physics.",
+    "question": "Which one of the following statements follows logically from the statements above?",
+    "answer": "D",
+    "options": [
+      "None of the students taking literature are taking art.",
+      "There are students who are taking rhetoric but not literature.",
+      "None of the students taking rhetoric are taking literature.",
+      "There are students who are taking art but not literature."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nstudents = EnumSort([student1, student2, student3, student4, student5])  # Example enumeration of students\nsubjects = EnumSort([literature, physics, art, rhetoric])\ntakes = Function([students, subjects] -> [bool])\n\n# Constraints\nForAll([s:students], Implies(takes(s, literature), Not(takes(s, physics)))) ::: None of the students taking literature are taking physics\nExists([s:students], And(takes(s, physics), takes(s, art))) ::: Several of the students taking physics are taking art\nForAll([s:students], Implies(takes(s, rhetoric), Not(takes(s, physics)))) ::: None of the students taking rhetoric are taking physics\n\n# Options\nQuestion ::: Which one of the following statements follows logically from the statements above?\nis_valid(ForAll([s:students], Implies(takes(s, literature), Not(takes(s, art))))) ::: (A) None of the students taking literature are taking art.\nis_valid(Exists([s:students], And(takes(s, rhetoric), Not(takes(s, literature))))) ::: (B) There are students who are taking rhetoric but not literature.\nis_valid(ForAll([s:students], Implies(takes(s, rhetoric), Not(takes(s, literature))))) ::: (C) None of the students taking rhetoric are taking literature.\nis_valid(Exists([s:students], And(takes(s, art), Not(takes(s, literature))))) ::: (D) There are students who are taking art but not literature."
+    ]
+  },
+  {
+    "id": "test_643",
+    "context": "Everyone in Biba' s neighborhood is permitted to swim at Barton Pool at some time during each day that it is open. No children under the age of 6 are permitted to swim at Barton Pool between noon and 5 P. M. From 5 P. M. until closing, Barton Pool is reserved for adults only.",
+    "question": "If all the sentences above are true, then which one of the following must be true?",
+    "answer": "A",
+    "options": [
+      "If Biba's next-door neighbor has a child under the age of 6, then Barton Pool is open before noon.",
+      "On days when Barton Pool is open, at least some children swim there in the afternoon.",
+      "Few children under the age of 6 live in Biba's neighborhood.",
+      "Any child swimming in Barton Pool before 5 P. M. must be breaking Barton Pool rules."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\npeople = EnumSort([Biba, Neighbor, Child, Adult])\ntimes = EnumSort([morning, noon, afternoon, evening, closing])\nages = EnumSort([under_6, over_6])\nswim = Function([people, times] -> [bool])\nage = Function([people] -> [ages])\n\n# Constraints\nForAll([p:people], Exists([t:times], swim(p, t))) ::: Everyone in Biba's neighborhood is permitted to swim at Barton Pool at some time during each day that it is open\nForAll([p:people], Implies(age(p) == under_6, Not(Exists([t:times], And(t >= noon, t < 5, swim(p, t)))))) ::: No children under the age of 6 are permitted to swim at Barton Pool between noon and 5 P.M.\nForAll([p:people], Implies(age(p) == under_6, Not(Exists([t:times], And(t >= 5, swim(p, t)))))) ::: From 5 P.M. until closing, Barton Pool is reserved for adults only\n\n# Options\nQuestion ::: If all the sentences above are true, then which one of the following must be true?\nImplies(age(Neighbor) == under_6, Exists([t:times], t < noon)) ::: (If Biba's next-door neighbor has a child under the age of 6, then Barton Pool is open before noon.)\nExists([p:people], And(age(p) == under_6, Exists([t:times], And(t >= noon, t < 5, swim(p, t))))) ::: (On days when Barton Pool is open, at least some children swim there in the afternoon.)\nFew([p:people], age(p) == under_6) ::: (Few children under the age of 6 live in Biba's neighborhood.)\nForAll([p:people], Implies(Exists([t:times], And(t < 5, swim(p, t))), Not(age(p) == under_6))) ::: (Any child swimming in Barton Pool before 5 P.M. must be breaking Barton Pool rules.)"
+    ]
+  },
+  {
+    "id": "test_697",
+    "context": "The consistency of ice cream is adversely affected by even slight temperature changes in the freezer. To counteract this problem, manufacturers add stabilizers to ice cream. Unfortunately, stabilizers, though inexpensive, adversely affect flavor. Stabilizers are less needed if storage temperatures are very low. However, since energy costs are constantly going up, those costs constitute a strong incentive in favor of relatively high storage temperatures.",
+    "question": "Which one of the following can be properly inferred from the passage?",
+    "answer": "D",
+    "options": [
+      "Stabilizers function well only at very low freezer temperatures.",
+      "Cost considerations favor sacrificing consistency over sacrificing flavor.",
+      "Even slight deviations from the proper consistency for ice cream sharply impair its flavor.",
+      "Very low, stable freezer temperatures allow for the best possible consistency and flavor of ice cream."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nvariables = EnumSort([consistency, flavor, temperature, energy_costs, stabilizers])\nconditions = EnumSort([adversely_affected, inexpensive, strong_incentive, less_needed, very_low, high])\n\n# Constraints\nimplies(temperature == high, stabilizers == less_needed) ::: Stabilizers are less needed if storage temperatures are very low\nimplies(stabilizers == inexpensive, flavor == adversely_affected) ::: Stabilizers, though inexpensive, adversely affect flavor\nimplies(energy_costs == strong_incentive, temperature == high) ::: Energy costs constitute a strong incentive in favor of relatively high storage temperatures\nimplies(consistency == adversely_affected, temperature == even_slight_changes) ::: The consistency of ice cream is adversely affected by even slight temperature changes in the freezer\n\n# Options\nQuestion ::: Which one of the following can be properly inferred from the passage?\nis_inferred(implies(temperature == very_low, And(consistency == best_possible, flavor == best_possible))) ::: (A) Very low, stable freezer temperatures allow for the best possible consistency and flavor of ice cream.\nis_inferred(implies(energy_costs == strong_incentive, consistency == sacrificed)) ::: (B) Cost considerations favor sacrificing consistency over sacrificing flavor.\nis_inferred(implies(consistency == even_slight_changes, flavor == sharply_impair)) ::: (C) Even slight deviations from the proper consistency for ice cream sharply impair its flavor.\nis_inferred(implies(stabilizers == function_well, temperature == very_low)) ::: (D) Stabilizers function well only at very low freezer temperatures."
+    ]
+  },
+  {
+    "id": "test_703",
+    "context": "In order to save money, many consumers redeem coupons that are distributed by retail stores. However, in general, retail stores that distribute and accept store coupons as a way of discounting the prices on certain products charge more for their products, on average, than other retail stores charge for the same products -- even after lower prices available on coupon-discounted products are factored in. This is because producing and distributing coupons usually costs a great deal. To compensate for this expense without reducing profits, retail stores must pass it on to consumers.",
+    "question": "Which one of the following can be properly inferred from the information above?",
+    "answer": "D",
+    "options": [
+      "At least some retail stores that do not use coupons do not have expenses that they pass on to consumers.",
+      "The undiscounted price charged for a good for which a retail store offers a coupon will be higher than the price charged for that same good by a retail store that does not offer a coupon for it.",
+      "Many consumers who redeem coupons save little if any money, overall, by doing so.",
+      "Retail stores that distribute coupons generally compensate for the expense of producing and distributing coupons by charging higher prices for certain products."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nstores = EnumSort([coupon_store, non_coupon_store])\nproducts = EnumSort([product])\nprices = Function([stores, products] -> [float])\ncosts = Function([stores] -> [float])\nprofits = Function([stores] -> [float])\n\n# Constraints\nForAll([p:products], prices(coupon_store, p) > prices(non_coupon_store, p)) ::: Retail stores that distribute and accept store coupons charge more for their products, on average, than other retail stores charge for the same products\ncosts(coupon_store) > costs(non_coupon_store) ::: Producing and distributing coupons usually costs a great deal\nprofits(coupon_store) == profits(non_coupon_store) ::: To compensate for this expense without reducing profits, retail stores must pass it on to consumers\n\n# Options\nQuestion ::: Which one of the following can be properly inferred from the information above?\nis_inferred(Exists([s:stores], And(s == non_coupon_store, costs(s) == 0))) ::: (A) At least some retail stores that do not use coupons do not have expenses that they pass on to consumers.\nis_inferred(ForAll([p:products], prices(coupon_store, p) > prices(non_coupon_store, p))) ::: (B) The undiscounted price charged for a good for which a retail store offers a coupon will be higher than the price charged for that same good by a retail store that does not offer a coupon for it.\nis_inferred(Exists([c:consumers], And(redeem(c, coupon), savings(c) <= 0))) ::: (C) Many consumers who redeem coupons save little if any money, overall, by doing so.\nis_inferred(ForAll([p:products], prices(coupon_store, p) > prices(non_coupon_store, p))) ::: (D) Retail stores that distribute coupons generally compensate for the expense of producing and distributing coupons by charging higher prices for certain products."
+    ]
+  },
+  {
+    "id": "test_726",
+    "context": "Only if the electorate is moral and intelligent will a democracy function well.",
+    "question": "Which one of the following can be logically inferred from the claim above?",
+    "answer": "B",
+    "options": [
+      "It cannot, at the same time, be true that the electorate is moral and intelligent and that a democracy will not function well.",
+      "If the electorate is not moral or not intelligent, then a democracy will not function well.",
+      "If the electorate is moral and intelligent, then a democracy will function well.",
+      "Either a democracy does not function well or else the electorate is not moral or not intelligent."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nelectorate = EnumSort([moral, intelligent])\ndemocracy = EnumSort([functions_well, does_not_function_well])\n\n# Constraints\nForAll([e:electorate], Implies(And(e == moral, e == intelligent), democracy == functions_well)) ::: Only if the electorate is moral and intelligent will a democracy function well\n\n# Options\nQuestion ::: Which one of the following can be logically inferred from the claim above?\nis_inferred(Not(And(electorate == moral, electorate == intelligent, democracy == does_not_function_well))) ::: (A)\nis_inferred(Or(electorate != moral, electorate != intelligent, democracy == does_not_function_well)) ::: (B)\nis_inferred(Implies(And(electorate == moral, electorate == intelligent), democracy == functions_well)) ::: (C)\nis_inferred(Or(democracy != functions_well, Or(electorate != moral, electorate != intelligent))) ::: (D)"
+    ]
+  },
+  {
+    "id": "test_767",
+    "context": "Since the sweetness of sugared beverages makes athletes more likely to drink them, they can be helpful in avoiding dehydration. Furthermore, small amounts of sugar enhance the body' s absorption of water and delay muscle fatigue by maintaining the body' s glucose level. Still, one must use sugared beverages cautiously, for large amounts draw water from the blood to the stomach, thereby exacerbating the dehydration process.",
+    "question": "If the statements above are true, then each of the following could also be true EXCEPT:",
+    "answer": "D",
+    "options": [
+      "Glucose is not the only type of sugar whose absence or scarcity in one's diet causes muscle fatigue.",
+      "Some situations that exacerbate the problems caused by muscle fatigue do not exacerbate those caused by dehydration.",
+      "The rate at which the body absorbs water depends primarily on the amount of water already present in the blood.",
+      "Problems caused by dehydration are invariably exacerbated if substances that delay muscle fatigue are consumed."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nstatements = EnumSort([sweetness_increases_drinking, small_sugar_enhances_absorption, large_sugar_exacerbates_dehydration])\ntruth = Function([statements] -> [bool])\n\n# Constraints\ntruth(sweetness_increases_drinking) ::: The sweetness of sugared beverages makes athletes more likely to drink them\ntruth(small_sugar_enhances_absorption) ::: Small amounts of sugar enhance the body's absorption of water and delay muscle fatigue by maintaining the body's glucose level\ntruth(large_sugar_exacerbates_dehydration) ::: Large amounts draw water from the blood to the stomach, thereby exacerbating the dehydration process\n\n# Options\nQuestion ::: If the statements above are true, then each of the following could also be true EXCEPT:\nis_exception(is_sat(Glucose_is_not_the_only_sugar_causing_fatigue)) ::: (A)\nis_exception(is_sat(Some_situations_exacerbate_fatigue_but_not_dehydration)) ::: (B)\nis_exception(is_sat(Water_absorption_depends_on_blood_water_amount)) ::: (C)\nis_exception(is_sat(Dehydration_exacerbated_by_substances_delaying_fatigue)) ::: (D)"
+    ]
+  },
+  {
+    "id": "test_800",
+    "context": "In an experiment, subjects were shown a series of images on a computer screen, appearing usually at the top but occasionally at the bottom. Subjects were asked to guess each time where the next image would appear on the screen. They guessed correctly less than half of the time. The subjects all reported that they based their guesses on patterns they believed they saw in the sequence. Instead, if they had simply guessed that the next image would always appear at the top, they would have been correct most of the time.",
+    "question": "If all of the statements above are true, which one of the following must also be true?",
+    "answer": "B",
+    "options": [
+      "Basing one's guesses about what will happen next on the basis of patterns one believes one sees is less likely to lead to correct guesses than always guessing that what has happened before will happen next.",
+      "Some of the subjects sometimes guessed that the next image would appear at the bottom of the computer screen, but were incorrect.",
+      "If the subjects had always guessed that the next image would appear at the top, they would not have been basing their guesses on any pattern they believed they saw in the sequence.",
+      "There was no predictable pattern that one could reasonably believe occurred in the series of images on the computer screen."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nsubjects = EnumSort([subject1, subject2, ..., subjectN])  # Assuming N subjects\npositions = EnumSort([top, bottom])\nguesses = Function([subjects, int] -> [positions])  # Function mapping each subject and trial to a guess\nactual_position = Function([int] -> [positions])  # Function mapping each trial to the actual position\n\n# Constraints\nForAll([s:subjects, t:int], Or(guesses(s, t) == top, guesses(s, t) == bottom)) ::: Each guess is either top or bottom\nForAll([t:int], Or(actual_position(t) == top, actual_position(t) == bottom)) ::: Each actual position is either top or bottom\nCount([s:subjects, t:int], guesses(s, t) == actual_position(t)) < (N * T) / 2 ::: They guessed correctly less than half of the time\nCount([t:int], actual_position(t) == top) > (T / 2) ::: Most of the time, the image appears at the top\n\n# Options\nQuestion ::: If all of the statements above are true, which one of the following must also be true?\nis_true(ForAll([s:subjects], Count([t:int], guesses(s, t) == actual_position(t)) < Count([t:int], guesses(s, t) == top))) ::: (A) Basing one's guesses about what will happen next on the basis of patterns one believes one sees is less likely to lead to correct guesses than always guessing that what has happened before will happen next.\nis_true(Exists([s:subjects, t:int], And(guesses(s, t) == bottom, guesses(s, t) != actual_position(t)))) ::: (B) Some of the subjects sometimes guessed that the next image would appear at the bottom of the computer screen, but were incorrect.\nis_true(ForAll([s:subjects, t:int], Implies(guesses(s, t) == top, Not(based_on_pattern(s, t))))) ::: (C) If the subjects had always guessed that the next image would appear at the top, they would not have been basing their guesses on any pattern they believed they saw in the sequence.\nis_true(Not(Exists([pattern], ForAll([t:int], pattern(t) == actual_position(t))))) ::: (D) There was no predictable pattern that one could reasonably believe occurred in the series of images on the computer screen."
+    ]
+  },
+  {
+    "id": "test_803",
+    "context": "Every political philosopher of the early twentieth century who was either a socialist or a communist was influenced by Rosa Luxemburg. No one who was influenced by Rosa Luxemburg advocated a totalitarian state.",
+    "question": "If the statements above are true, which one of the following must on the basis of them also be true?",
+    "answer": "B",
+    "options": [
+      "Rosa Luxemburg was the only person to influence every early-twentieth-century political philosopher who was either socialist or communist.",
+      "No early-twentieth-century socialist political philosopher advocated a totalitarian state.",
+      "Every early-twentieth-century political philosopher who was influenced by Rosa Luxemburg and was not a socialist was a communist.",
+      "Every early-twentieth-century political philosopher who did not advocate a totalitarian state was either socialist or communist."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nphilosophers = EnumSort([early_twentieth_century])\nideologies = EnumSort([socialist, communist, totalitarian])\ninfluenced_by = Function([philosophers] -> [bool])\nadvocates = Function([philosophers, ideologies] -> [bool])\n\n# Constraints\nForAll([p:philosophers], Implies(Or(advocates(p, socialist), advocates(p, communist)), influenced_by(p))) ::: Every political philosopher of the early twentieth century who was either a socialist or a communist was influenced by Rosa Luxemburg\nForAll([p:philosophers], Implies(influenced_by(p), Not(advocates(p, totalitarian)))) ::: No one who was influenced by Rosa Luxemburg advocated a totalitarian state\n\n# Options\nQuestion ::: If the statements above are true, which one of the following must on the basis of them also be true?\nis_valid(ForAll([p:philosophers], Implies(advocates(p, socialist), Not(advocates(p, totalitarian))))) ::: (No early-twentieth-century socialist political philosopher advocated a totalitarian state.)\nis_valid(ForAll([p:philosophers], Implies(And(influenced_by(p), Not(advocates(p, socialist))), advocates(p, communist)))) ::: (Every early-twentieth-century political philosopher who was influenced by Rosa Luxemburg and was not a socialist was a communist.)\nis_valid(ForAll([p:philosophers], Implies(Not(advocates(p, totalitarian)), Or(advocates(p, socialist), advocates(p, communist))))) ::: (Every early-twentieth-century political philosopher who did not advocate a totalitarian state was either socialist or communist.)"
+    ]
+  },
+  {
+    "id": "test_876",
+    "context": "Politician: It is wrong for the government to restrict the liberty of individuals, except perhaps in those cases when to fail to do so would allow individuals to cause harm. Yet, to publish something is a liberty, and to offend is not to cause harm.",
+    "question": "Which one of the following can be properly inferred from the politician's statements?",
+    "answer": "B",
+    "options": [
+      "It is not wrong for individuals to publish literature that is offensive.",
+      "It is not right for the government to restrict the publication of literature that is only offensive.",
+      "It is offensive for the government to restrict the liberty of individuals to publish, but it is not harmful.",
+      "It is not wrong for the government to restrict individuals' liberty when failing to do so would allow individuals to cause harm."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nindividuals = EnumSort([individual])\nactions = EnumSort([publish, offend, cause_harm])\ngovernment = EnumSort([restrict_liberty])\nmoral_judgment = EnumSort([right, wrong])\n\n# Constraints\nForAll([a:actions], Implies(a == publish, a == offend)) ::: to publish something is a liberty, and to offend is not to cause harm\nForAll([a:actions], Implies(a == cause_harm, Not(a == offend))) ::: to offend is not to cause harm\nForAll([a:actions], Implies(government == restrict_liberty, Or(a == cause_harm, Not(a == offend)))) ::: It is wrong for the government to restrict the liberty of individuals, except perhaps in those cases when to fail to do so would allow individuals to cause harm\n\n# Options\nQuestion ::: Which one of the following can be properly inferred from the politician's statements?\nis_inferred(moral_judgment(individual, publish) == wrong) ::: (It is not wrong for individuals to publish literature that is offensive.\nis_inferred(moral_judgment(government, restrict_liberty) == wrong) ::: (It is not right for the government to restrict the publication of literature that is only offensive.\nis_inferred(moral_judgment(government, restrict_liberty) == offend) ::: (It is offensive for the government to restrict the liberty of individuals to publish, but it is not harmful.\nis_inferred(moral_judgment(government, restrict_liberty) == right) ::: (It is not wrong for the government to restrict individuals' liberty when failing to do so would allow individuals to cause harm."
+    ]
+  },
+  {
+    "id": "test_900",
+    "context": "If the economy is weak, then prices remain constant although unemployment rises. But unemployment rises only if investment decreases. Fortunately, investment is not decreasing.",
+    "question": "If the statements above are true, then which one of the following must be false?",
+    "answer": "D",
+    "options": [
+      "Either unemployment is rising or the economy is not weak.",
+      "The economy is weak only if investment decreases.",
+      "Either the economy is weak or prices are remaining constant.",
+      "Either the economy is weak or investment is decreasing."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nweak_economy = Bool('weak_economy')\nprices_constant = Bool('prices_constant')\nunemployment_rises = Bool('unemployment_rises')\ninvestment_decreases = Bool('investment_decreases')\n\n# Constraints\nImplies(weak_economy, And(prices_constant, unemployment_rises)) ::: If the economy is weak, then prices remain constant although unemployment rises\nImplies(unemployment_rises, investment_decreases) ::: Unemployment rises only if investment decreases\nNot(investment_decreases) ::: Fortunately, investment is not decreasing\n\n# Options\nQuestion ::: If the statements above are true, then which one of the following must be false?\nis_false(Or(unemployment_rises, Not(weak_economy))) ::: (A) Either unemployment is rising or the economy is not weak\nis_false(Implies(weak_economy, investment_decreases)) ::: (B) The economy is weak only if investment decreases\nis_false(Or(weak_economy, prices_constant)) ::: (C) Either the economy is weak or prices are remaining constant\nis_false(Or(weak_economy, investment_decreases)) ::: (D) Either the economy is weak or investment is decreasing"
+    ]
+  },
+  {
+    "id": "test_975",
+    "context": "The government health service has said that it definitely will not pay for patients to take the influenza medicine Antinfia until the drug' s manufacturer, PharmCo, provides detailed information about Antinfia' s cost-effectiveness. PharmCo has responded that obtaining such information would require massive clinical trials. These trials cannot be performed until the drug is in widespread circulation, something that will happen only if the government health service pays for Antinfia.",
+    "question": "If the statements of both the government health service and PharmCo are true, which one of the following is most likely to also be true?",
+    "answer": "C",
+    "options": [
+      "The government health service never pays for any medicine unless that medicine has been shown to be cost-effective.",
+      "The government health service should pay for patients to take Antinfia.",
+      "Antinfia will never be in widespread circulation.",
+      "If the government health service does not pay for Antinfia, then many patients will pay for Antinfia themselves."
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nentities = EnumSort([government_health_service, PharmCo, Antinfia])\nactions = EnumSort([pay, provide_information, perform_trials, widespread_circulation])\nconditions = EnumSort([cost_effectiveness_shown])\n\n# Constraints\nNot(pay(government_health_service, Antinfia)) -> Not(provide_information(PharmCo, Antinfia)) ::: The government health service will not pay for Antinfia until PharmCo provides cost-effectiveness information\nprovide_information(PharmCo, Antinfia) -> perform_trials(PharmCo, Antinfia) ::: PharmCo needs to perform trials to provide cost-effectiveness information\nperform_trials(PharmCo, Antinfia) -> widespread_circulation(Antinfia) ::: Trials can only be performed if Antinfia is in widespread circulation\nwidespread_circulation(Antinfia) -> pay(government_health_service, Antinfia) ::: Antinfia will be in widespread circulation only if the government pays for it\n\n# Options\nQuestion ::: If the statements of both the government health service and PharmCo are true, which one of the following is most likely to also be true?\nis_likely(Not(widespread_circulation(Antinfia))) ::: (Antinfia will never be in widespread circulation)\nis_likely(Not(pay(government_health_service, Antinfia)) -> Not(cost_effectiveness_shown(Antinfia))) ::: (The government health service never pays for any medicine unless that medicine has been shown to be cost-effective)\nis_likely(pay(government_health_service, Antinfia)) ::: (The government health service should pay for patients to take Antinfia)\nis_likely(Not(pay(government_health_service, Antinfia)) -> Exists([p:patients], pay(p, Antinfia))) ::: (If the government health service does not pay for Antinfia, then many patients will pay for Antinfia themselves)"
+    ]
+  },
+  {
+    "id": "test_990",
+    "context": "Ashley: Words like \"of\" and \"upon, \" unlike \"pencil\" and \"shirt, \" do not refer to anything. Joshua: I agree; and since such words are meaningless, they should be abandoned.",
+    "question": "Joshua's remarks indicate that he interpreted Ashley's statement to imply that",
+    "answer": "A",
+    "options": [
+      "only words that refer to something have meaning",
+      "words that refer to something are meaningful",
+      "words that are not useful are meaningless",
+      "all words that refer to something are useful"
+    ],
+    "raw_logic_programs": [
+      "# Declarations\nwords = EnumSort([of, upon, pencil, shirt])\nmeaningful = Function([words] -> [bool])\nrefers_to_something = Function([words] -> [bool])\n\n# Constraints\nForAll([w:words], Implies(Or(w == of, w == upon), Not(refers_to_something(w)))) ::: Words like \"of\" and \"upon\" do not refer to anything\nForAll([w:words], Implies(Or(w == pencil, w == shirt), refers_to_something(w))) ::: Words like \"pencil\" and \"shirt\" refer to something\n\n# Options\nQuestion ::: Joshua's remarks indicate that he interpreted Ashley's statement to imply that\nis_interpreted(ForAll([w:words], Implies(refers_to_something(w), meaningful(w)))) ::: (only words that refer to something have meaning)\nis_interpreted(ForAll([w:words], Implies(refers_to_something(w), meaningful(w)))) ::: (words that refer to something are meaningful)\nis_interpreted(ForAll([w:words], Implies(Not(refers_to_something(w)), Not(meaningful(w))))) ::: (words that are not useful are meaningless)\nis_interpreted(ForAll([w:words], Implies(refers_to_something(w), meaningful(w)))) ::: (all words that refer to something are useful)"
+    ]
+  }
+]
