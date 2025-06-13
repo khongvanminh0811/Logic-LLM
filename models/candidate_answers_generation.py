@@ -126,11 +126,10 @@ class CandidateAnswersGenerator:
         full_prompt = self.question_template_prompt.replace('[[QUESTION]]', question).replace('[[CANDIDATE_ANSWERS]]', candidate_answers_str)
         return full_prompt
 
-    def candidate_answers_to_fol_prompt_narativeqa(self, paragraph, predicates, premises, template, candidate_answers):
+    def candidate_answers_to_fol_prompt_narativeqa(self, paragraph, predicates, premises, question, candidate_answers):
         prompts = []
         for candidate_answer in candidate_answers:
-            candidate_answer_template = template.replace('[[CANDIDATE_ANSWER]]', candidate_answer)  
-            prompt = self.candidate_answers_to_fol_prompt.replace('[[PARAGRAPH]]', paragraph).replace('[[PREDICATES]]', '\n'.join(predicates)).replace('[[PREMISES]]', '\n'.join(premises)).replace('[[CONCLUSION_SENTENCE]]', candidate_answer_template)
+            prompt = self.candidate_answers_to_fol_prompt.replace('[[PARAGRAPH]]', paragraph).replace('[[PREDICATES]]', '\n'.join(predicates)).replace('[[PREMISES]]', '\n'.join(premises)).replace('[[ANSWER]]', candidate_answer).replace('[[QUESTION]]', question)
             prompts.append(prompt)
         return prompts
         
@@ -143,7 +142,7 @@ class CandidateAnswersGenerator:
             paragraphs = raw_dataset[i]['summary'].split('\n')
             candidate_answer_prompts = [self.candidate_answers_prompt_creator[self.dataset_name](test_data, paragraph) for paragraph in paragraphs]
             
-            if (9 * (len(raw_dataset) / chunk_size) <= i) :
+            if (8 * (len(raw_dataset) / chunk_size) <= i) and (9 * (len(raw_dataset) / chunk_size) > i):
                 while True:
                     try:
                         results = self.openai_api.batch_generate(candidate_answer_prompts)
@@ -210,7 +209,7 @@ class CandidateAnswersGenerator:
                             'reasoning': reasoning,
                             'correct_answer': correct_answer,
                         })
-        with open(os.path.join(self.save_path, f'{self.dataset_name}_{self.split}_{self.model_name}_candidate_answers_10.json'), 'w', encoding="utf-8") as f:
+        with open(os.path.join(self.save_path, f'{self.dataset_name}_{self.split}_{self.model_name}_candidate_answers_9.json'), 'w', encoding="utf-8") as f:
             json.dump(outputs, f, indent=2, ensure_ascii=False)
     
     def generate_question_template_and_answer_fol(self):
@@ -271,11 +270,11 @@ class CandidateAnswersGenerator:
         # with open(os.path.join(self.save_path, f'{self.dataset_name}_{self.split}_{self.model_name}_question_templates_7.json'), 'w', encoding="utf-8") as f:
         #     json.dump(question_templates_outputs, f, indent=2, ensure_ascii=False)
         
-        question_templates_outputs = []
-        for i in range(7):
-            with open(os.path.join(self.save_path, f'{self.dataset_name}_{self.split}_{self.model_name}_question_templates_{i+1}.json'), 'r', encoding="utf-8") as f:
-                data= json.load(f)
-                question_templates_outputs.extend(data)
+        # question_templates_outputs = []
+        # for i in range(7):
+        #     with open(os.path.join(self.save_path, f'{self.dataset_name}_{self.split}_{self.model_name}_question_templates_{i+1}.json'), 'r', encoding="utf-8") as f:
+        #         data= json.load(f)
+        #         question_templates_outputs.extend(data)
 
         with open(os.path.join(self.save_path, f'{self.dataset_name}_{self.split}_gpt-4o-mini_fol_extract.json'), 'r', encoding="utf-8") as f:
             fols_output = json.load(f)
@@ -286,9 +285,11 @@ class CandidateAnswersGenerator:
         dump_outputs = {}
         chunk_size = 5
         for i, test_data in tqdm(enumerate(raw_dataset)):
-            if (i >= 4 * (len(raw_dataset) / chunk_size)) :
-                question_template = question_templates_outputs[i]['question_template']
+            # if i < 10:
+            if ((i >= 4 * (len(raw_dataset) / chunk_size))) :
+                # question_template = question_templates_outputs[i]['question_template']
                 context_id = test_data['context_id']
+                question = test_data['question']
                 paragraphs = raw_dataset[i]['summary'].split('\n')
                 fols = fols_output[context_id]
                 candidate_answers_output =  candidate_answers_outputs_id_dict[str(i)]
@@ -308,10 +309,16 @@ class CandidateAnswersGenerator:
 
                         if mode == "premises" and line:
                             if line.strip() != '':
-                                premises.append(line)
+                                if line.startswith(':::'):
+                                    premises[-1] += ' ' + line
+                                else:
+                                    premises.append(line)
                         elif mode == "predicates" and line:
                             if line.strip() != '':
-                                predicates.append(line)
+                                if line.startswith(':::'):
+                                    predicates[-1] += ' ' + line
+                                else:
+                                    predicates.append(line)
 
                     candidate_answers = []
                     for candidate_answer in candidate_answers_output[j]['candidate_answers']:
@@ -321,7 +328,7 @@ class CandidateAnswersGenerator:
                         print(f"i = {i}, No candidate answers found for context_id {context_id}, paragraph {j}. Skipping...")
                         continue
 
-                    fols_prompts = self.candidate_answers_to_fol_prompt_creator[self.dataset_name](paragraphs[j], predicates, premises, question_template, candidate_answers)
+                    fols_prompts = self.candidate_answers_to_fol_prompt_creator[self.dataset_name](paragraphs[j], predicates, premises, question, candidate_answers)
 
                     while True:
                         try:
@@ -337,7 +344,6 @@ class CandidateAnswersGenerator:
                             'context_id': context_id,
                             'paragraph_id': j,
                             'paragraph': paragraphs[j],
-                            'question_template': question_template,
                             'candidate_answers': candidate_answers,
                             'predicates': predicates,
                             'premises': premises,
@@ -349,7 +355,6 @@ class CandidateAnswersGenerator:
                             'context_id': context_id,
                             'paragraph_id': j,
                             'paragraph': paragraphs[j],
-                            'question_template': question_template,
                             'candidate_answers': candidate_answers,
                             'predicates': predicates,
                             'premises': premises,
@@ -383,5 +388,5 @@ if __name__ == '__main__':
     random.seed(args.seed)
     
     nl2fol_generator = CandidateAnswersGenerator(args)
-    nl2fol_generator.generate_candidate_answers()
-    # nl2fol_generator.generate_question_template_and_answer_fol()
+    # nl2fol_generator.generate_candidate_answers()
+    nl2fol_generator.generate_question_template_and_answer_fol()

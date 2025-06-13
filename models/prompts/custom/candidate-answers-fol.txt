@@ -1,4 +1,4 @@
-You are given a paragraph, along with a set of predicates and premises in first order logic form that have been extracted from that paragraph.  Your task is to use the provided predicates and premises to construct First-Order Logic (FOL) premises that accurately represent the conclusion sentence. 
+You are given a paragraph, along with a set of predicates and premises in first order logic form that have been extracted from that paragraph.  Your task is to use the provided predicates and premises to construct First-Order Logic (FOL) premises that accurately represent the meaning of question and answer. 
 
 A predicate expresses either:
 - A relationship between two or more entities (e.g., WorksIn(John, New York)), or
@@ -45,7 +45,11 @@ SwappedPlaces(data, b4) ∧ Rescued(data, picard) ∧ ReturnedTo(data, enterpris
 PlansToUseFor(shinzon, thalaron_generator) -> Eradicate(earth)::: Shinzon plans to use its thalaron radiation generator to eradicate all life on Earth.
 Invade(shinzon, federation) → ThreatTo(federation) ::: The Scimitar is a threat to the Federation because Shinzon plans to use the warship to invade the Federation
 
-Conclusion sentence: Earth is endangered by Shinzon's plans to use the thalaron radiation generator.
+Question:
+What is endangered by Shinzon's plans to use the thalaron radiation generator?
+
+Answer: 
+Earth
 ###
 PlansToUseFor(shinzon, thalaron_generator) → Eradicate(earth)
 ------
@@ -74,7 +78,10 @@ Feels(ralston, desperation) ∧ Feels(ralston, depression) ::: Ralston feels des
 HallucinatesAbout(ralston, escape) ∧ HallucinatesAbout(ralston, relationships) ∧ HallucinatesAbout(ralston, past_experiences) ::: Ralston hallucinates about escape, relationships, and past experiences.
 Includes(past_experiences, former_lover) ∧ Includes(past_experiences, family) ∧ Includes(past_experiences, hikers) ::: His hallucinations about past experiences include his former lover, family, and hikers.
 
-Conclusion sentence: Ralston considers using his pocket knife to cut himself free, but finds the dull blade unable to cut bone.
+Question: 
+Why don't Ralston cut himself free?
+
+Answer: Ralston considers using his pocket knife to cut himself free, but finds the dull blade unable to cut bone.
 ###
 Dull(blade) -> ¬CutBone(dull_blade) 
 ------
@@ -87,5 +94,9 @@ Predicates:
 Premises:
 [[PREMISES]]
 
-Conclusion sentence: 
-[[CONCLUSION_SENTENCE]]
+Question:
+[[QUESTION]]
+
+Answer:
+[[ANSWER]]
+###
