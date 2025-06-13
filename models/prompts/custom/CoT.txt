@@ -1,0 +1,77 @@
+You are given a paragraph of a long context and a question. Your task is to:
+- Find all candidate answers from the context that could potentially answer the question. These can be phrases, sentences, or short spans that match or relate closely to the question.
+- If no relevant information is found in the paragraph, leave the Candidate Answers section empty.
+- Think step by step to determine which candidate answer best answers the question based on the best match and logical consistency with the question. Explain your thought process in the Reasoning section.
+- Choose the correct answer based on your reasoning.
+
+Format:
+Paragraph:
+(A paragraph of context)
+
+Question:
+(A question based on the context)
+
+###
+Candidate Answers:
+(List all possible answer spans found in the paragraph)
+
+Correct Answer:
+(Choose the best candidate from the list above; if none, leave blank)
+
+Reasoning:
+(Explain your thought process: how you interpreted the question, how each candidate relates to it, and how you selected the best answer)
+
+------
+Context:
+Marie Curie was a physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize and remains the only person to win Nobel Prizes in two different scientific fields.
+
+Question:
+Who was the first woman to win a Nobel Prize?
+
+###
+Candidate Answers:
+Marie Curie
+A physicist and chemist
+The only person to win Nobel Prizes in two different scientific fields
+
+Reasoning:
+The question asks for the identity of the first woman to win a Nobel Prize. The sentence "She was the first woman to win a Nobel Prize" directly states this fact and refers to "Marie Curie" from the previous sentence. Other candidate answers describe her profession and achievements but don't directly answer the question.
+
+Correct Answer:
+Marie Curie
+------
+Paragraph:
+Ricky Verona (Jose Pablo Cantillo), an ambitious small-time criminal uses the opportunity to conspire with Carlito against Chelios; Verona will kill Chelios so the Triads do not retaliate, and then take Chelios's place as Carlito's new hired gun. The morning after Don Kim's death, while Chelios sleeps in his apartment, Verona, his brother Alex (Jay Xcala), and several henchmen break in and inject Chelios with a Chinese synthetic drug which inhibits the flow of adrenaline, slowing the heart and eventually killing the victim. Chelios wakes to find a recording left by Verona showing what he has done. In anger, Chelios smashes his TV and heads out.
+
+Question:
+How does the drug Chelios is injected with eventually kill people?
+
+Candidate Answers:
+A Chinese synthetic drug which inhibits the flow of adrenaline
+Slowing the heart and eventually killing the victim
+
+Reasoning:
+The question asks for the mechanism by which the drug kills people. The paragraph states that the drug is a Chinese synthetic that "inhibits the flow of adrenaline," which in turn "slows the heart and eventually kills the victim." This directly answers the question. Among the candidate answers, “Slowing the heart and eventually killing the victim” most precisely captures the ultimate effect that leads to death, which aligns best with what the question is asking.
+
+Correct Answer:
+Slowing the heart and eventually killing the victim
+------
+Paragraph:
+The story revolves around a struggle to determine which of Satan's (Harvey Keitel) three sons will succeed their father as ruler of Hell. Adrian (Rhys Ifans) is the most intelligent, Cassius (Tom Lister Jr.) is the toughest, and Nicky (Adam Sandler) is their father's favorite, even though Nicky has had a speech impediment and a disfigured jaw since Cassius hit him in the face with a shovel. Furthermore, Adrian and Cassius enjoy tormenting Nicky by claiming that his mother was a goat and assault him by controlling his body with their minds.
+
+Question:
+What does Adrian do in Hell, after he and Nicky are killed by the train?
+
+
+Candidate Answers:
+
+Reasoning:
+The question asks specifically about what Adrian does in Hell, after both he and Nicky are killed by a train. However, the paragraph only describes the background of the three brothers, their personalities, and how they torment Nicky. There is no information in the paragraph about a train incident or what happens to Adrian afterward in Hell. Therefore, no candidate answer from the paragraph can accurately or logically answer the question.
+
+Correct Answer:
+------
+Paragraph:
+[[CONTEXT]]
+
+Question: 
+[[QUESTION]]

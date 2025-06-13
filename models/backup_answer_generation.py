@@ -8,7 +8,7 @@ class Backup_Answer_Generator:
         self.backup_strategy = backup_strategy
         self.backup_LLM_result_path = backup_LLM_result_path
         if self.backup_strategy == 'LLM':
-            with open(backup_LLM_result_path, 'r') as f:
+            with open(backup_LLM_result_path, 'r', encoding='utf-8') as f:
                 LLM_result = json.load(f)
             self.backup_results = {sample['id'] : sample['predicted_answer'] for sample in LLM_result}
 

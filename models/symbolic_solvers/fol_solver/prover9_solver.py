@@ -1,4 +1,5 @@
 import re
+import os
 from nltk.inference.prover9 import *
 from nltk.sem.logic import NegatedExpression
 from .fol_prover9_parser import Prover9_FOL_Formula
@@ -15,7 +16,7 @@ class FOL_Prover9_Program:
         self.dataset_name = dataset_name
 
     def parse_logic_program(self):
-        try:        
+        try:      
             # Split the string into premises and conclusion
             premises_string = self.logic_program.split("Conclusion:")[0].split("Premises:")[1].strip()
             conclusion_string = self.logic_program.split("Conclusion:")[1].strip()
@@ -51,7 +52,6 @@ class FOL_Prover9_Program:
             timeout = 10
             #prover = Prover9()
             #result = prover.prove(goal, assumptions)
-            
             prover = Prover9Command(goal, assumptions, timeout=timeout)
             result = prover.prove()
             # print(prover.proof())
@@ -192,6 +192,29 @@ if __name__ == "__main__":
     Conclusion:
     TakeOut(subway) ∧ ¬NegativeReviews(subway) ::: Subway provides take-out service and does not receive many negative reviews."""
     
+    logic_program = """Predicates:
+    Saved(x, y) ::: x saves y.
+    Orphan(x) ::: x is an orphan child.
+    DisguisedAs(x, y) ::: x is disguised as y.
+    Hides(x, y) ::: x hides y.
+    Fled(x, y) ::: x has fled from y.
+    Burned(x) ::: x is burned.
+    Killed(x) ::: x is killed.
+    Sent(x, y) ::: x is sent to y.
+    BelievedDead(x) ::: x is believed to have died.
+    Premises:
+    Fled(kingCharlesII, London) ::: King Charles I has fled from London.
+    Sent(parliamentarySoldiers, NewForest) ::: Parliamentary soldiers have been sent to search the New Forest.
+    Burned(arnwoodEstate) ::: Arnwood, the house of Colonel Beverley, is burned.
+    ∃x (Orphan(x) ∧ BelievedDead(x)) ::: The four orphan children are believed to have died in the flames.
+    Saved(jacobArmitage, a_5) ::: Jacob Armitage saves Edward's sisters.
+    Saved(jacobArmitage, a_6) ::: Jacob Armitage saves Edward's brother.
+    Hides(jacobArmitage, a_0) ::: Jacob Armitage hides the orphan children in his isolated cottage.
+    DisguisedAs(a_5, grandchildren) ::: Edward's sisters are disguised as Jacob Armitage's grandchildren.
+    DisguisedAs(a_6, grandchildren) ::: Edward's brother is disguised as Jacob Armitage's grandchildren.
+    Conclusion:
+    Saved(jacobArmitage, a_0) ∧ Saved(jacobArmitage, a_5) ∧ Saved(jacobArmitage, a_6) ::: A local verderer"""
     prover9_program = FOL_Prover9_Program(logic_program)
     answer, error_message = prover9_program.execute_program()
     print(answer)
+    print(error_message)

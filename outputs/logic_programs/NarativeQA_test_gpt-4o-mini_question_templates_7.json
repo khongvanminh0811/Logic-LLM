@@ -1,0 +1,2396 @@
+[
+  {
+    "id": 0,
+    "question": "What is the title of this story?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "[[CANDIDATE_ANSWER]] leads the Orc army against Faramir."
+  },
+  {
+    "id": 1,
+    "question": "Who saves the 4 orphans; Edward, Humphrey, Alice and Edith?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "The name of Isildur's sword is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 2,
+    "question": "Where did Jacob hide the 4 orphans?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "The name of the giant spider that paralyzes and binds Frodo is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 3,
+    "question": "What is the name of the hostile Puritan gamekeeper?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "[[CANDIDATE_ANSWER]] attacks Frodo at Mount Doom."
+  },
+  {
+    "id": 4,
+    "question": "Who been awarded the old Arnwood estate?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Gandalf rides on [[CANDIDATE_ANSWER]] to save the hobbits."
+  },
+  {
+    "id": 5,
+    "question": "Why were Edward's sisters sent away?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Gollum achieves getting the ring back at Mount Doom by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 6,
+    "question": "Who eventually falls in love with Edward?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "[[CANDIDATE_ANSWER]] slays the Witch-King."
+  },
+  {
+    "id": 7,
+    "question": "What relation do Edward and his siblings pretend to be towards Jacob Armitage?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "The volcano that Sam and Frodo are trying to reach is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 8,
+    "question": "What was Edward's job title while working for Heatherstone?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Denethor went mad because of [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 9,
+    "question": "Who are the four orphan children of the Arnwood house?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "At the end of the story, [[CANDIDATE_ANSWER]] happened to Aragorn."
+  },
+  {
+    "id": 10,
+    "question": "Who rescues the children from fire at Arnwood?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Frodo goes to [[CANDIDATE_ANSWER]] at the end of the story."
+  },
+  {
+    "id": 11,
+    "question": "Who does Edward work for as a secretary?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "[[CANDIDATE_ANSWER]] dies after encountering the Witch-King."
+  },
+  {
+    "id": 12,
+    "question": "Where are Humphrey live after Edward leaves?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Sauron believes that [[CANDIDATE_ANSWER]] has the One Ring at the beginning of the story."
+  },
+  {
+    "id": 13,
+    "question": "After Edward leaves who raises his sisters Alice and Edith?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "The Army of the Dead follow Aragorn because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 14,
+    "question": "What is the name of the antagonist Puritan gamekeeper?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Gollum leads Frodo into the Spider's web because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 15,
+    "question": "When does the story begin?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "The One Ring is destroyed at [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 16,
+    "question": "What is believed to have happen to Edward, Humphrey, Alice and Edith?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Frodo and Sam are able to enter Mordor because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 17,
+    "question": "Who does Edward love?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Frodo loses [[CANDIDATE_ANSWER]] in his fight with Gollum."
+  },
+  {
+    "id": 18,
+    "question": "Who does Edward feel betrayed by and why?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Pippin looks into the seeing-stone because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 19,
+    "question": "Where does Jacob Armitage hide the four orphan children when he saves them from the fire?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Sauron thinks [[CANDIDATE_ANSWER]] is the ring bearer."
+  },
+  {
+    "id": 20,
+    "question": "What are the children disquised as by Jacob Armitage?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "[[CANDIDATE_ANSWER]] leads Frodo and Samwise to Minas Morgul."
+  },
+  {
+    "id": 21,
+    "question": "Who takes charge of the children after Armitage's death?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Aragorn recruits the Army of the Dead by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 22,
+    "question": "What is Pablo rescued from?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "[[CANDIDATE_ANSWER]] is the giant spider who paralyzes Frodo."
+  },
+  {
+    "id": 23,
+    "question": "What is the name of Heatherstone's daughter?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Aragorn is crowned king in [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 24,
+    "question": "What is Heatherstone's daughter rescued from by Armitage?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Aragorn takes [[CANDIDATE_ANSWER]] as his wife."
+  },
+  {
+    "id": 25,
+    "question": "What two things cause Edward distress and forces him to flee to France?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Gollum secures the ring from Frodo by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 26,
+    "question": "Why did Heatherstone acquire the Arnwood estate?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "[[CANDIDATE_ANSWER]] are the animals that Gandalf uses to rescue the hobbits from the collapsing Mount Doom."
+  },
+  {
+    "id": 27,
+    "question": "What job did Edward do for Heatherstone?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Smith runs into [[CANDIDATE_ANSWER]] when he regains consciousness."
+  },
+  {
+    "id": 28,
+    "question": "Who was originally defeated that caused the soldiers to first search for the New Forest?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "The girl that Smith falls in love with looks [[CANDIDATE_ANSWER]] years old."
+  },
+  {
+    "id": 29,
+    "question": "What king has just been defeated when the story begins?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Smith takes [[CANDIDATE_ANSWER]] in the community."
+  },
+  {
+    "id": 30,
+    "question": "Who lives in Arnwood?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "The people of the house say they speak [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 31,
+    "question": "Who are the orphans in the house saved by?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Yoletta is [[CANDIDATE_ANSWER]] years old."
+  },
+  {
+    "id": 32,
+    "question": "Who does Jacob disguise the children as?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Lying in this community can get you [[CANDIDATE_ANSWER]] as a penalty."
+  },
+  {
+    "id": 33,
+    "question": "Who do the children rescue from a trap?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "[[CANDIDATE_ANSWER]] is allowed to reproduce in this community."
+  },
+  {
+    "id": 34,
+    "question": "Who wants to harm the family?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "[[CANDIDATE_ANSWER]] is another term used for the Alpha male and Queen of the House."
+  },
+  {
+    "id": 35,
+    "question": "Who does Edward work for?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Smith drinks [[CANDIDATE_ANSWER]] to cure his passion for Yoletta."
+  },
+  {
+    "id": 36,
+    "question": "What is Edward's job?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "He finds the bottle that states it can cure the oppressions of time and disease in [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 37,
+    "question": "Who joins the army of King Charles II?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "The narration style used in this story is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 38,
+    "question": "Who acquired the estate for Edward?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Smith sees [[CANDIDATE_ANSWER]] that inspires him to go for help after getting out of the roots at the start of the story."
+  },
+  {
+    "id": 39,
+    "question": "Which named critic gave a positive review of the novel?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Smith meets Yoletta at [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 40,
+    "question": "In what format is the novel written?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Smith agrees to work in the community for a year because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 41,
+    "question": "Why did the New York Times give the novel a bad review?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "The people of the house say they speak [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 42,
+    "question": "In what way was Wace's view on love different than Kempton's?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "The primary characteristics of the people of the house are [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 43,
+    "question": "What literary group were both London and Strunsky apart of?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "There are no children in the community because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 44,
+    "question": "Of the two witters of the novel which one did George Stirling give a negative review?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "The Father of the House to Yoletta is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 45,
+    "question": "What kind of relationship do biographer believe London have with Strunsky?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Smith hopes to accomplish [[CANDIDATE_ANSWER]] by taking a dose of the potion he finds at the end of the story."
+  },
+  {
+    "id": 46,
+    "question": "What kind of relationship did Bessie believe London had with Strunsky?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "The Mother of the House wants to do something with Smith that involves [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 47,
+    "question": "When did Strunsky publish her memoris?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Smith is originally surrounded by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 48,
+    "question": "How many wives is London have?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Smith sees [[CANDIDATE_ANSWER]] in the distance after getting out of the plants."
+  },
+  {
+    "id": 49,
+    "question": "How would you describe Herbert Wace's character?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Smith encounters [[CANDIDATE_ANSWER]] when he walks to the house."
+  },
+  {
+    "id": 50,
+    "question": "How would you describe Dane Kempton's character?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "[[CANDIDATE_ANSWER]] is the name of the girl that Smith sees at the funeral."
+  },
+  {
+    "id": 51,
+    "question": "What subject were the two men discussing in their letters?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Smith is shocked to find out that [[CANDIDATE_ANSWER]] about the people who live in the house."
+  },
+  {
+    "id": 52,
+    "question": "What character does Jack London play?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "The humans in the future gave up [[CANDIDATE_ANSWER]] in order to achieve their utopia."
+  },
+  {
+    "id": 53,
+    "question": "What character does Anna Strunsky play?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "[[CANDIDATE_ANSWER]] can reproduce in the future society."
+  },
+  {
+    "id": 54,
+    "question": "What does Wace believe love revolves around?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Smith feels sadness when he realizes that the humans gave up love and sex because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 55,
+    "question": "What does Wace believe is NOT needed in a relationship?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Smith sees [[CANDIDATE_ANSWER]] on the shelf when he is in the library."
+  },
+  {
+    "id": 56,
+    "question": "What types of women does Jack London describe?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "When Smith drinks the contents of the bottle, [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 57,
+    "question": "How did critics respond to the letters?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "The gun is used for [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 58,
+    "question": "How is the novel structured?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Charley suspects [[CANDIDATE_ANSWER]] of being a vampire in the first place."
+  },
+  {
+    "id": 59,
+    "question": "What is the name of the radical San Francisco literary group?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Charley killed Peter's parents."
+  },
+  {
+    "id": 60,
+    "question": "Who writes Herbert Wace's letters?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Charley receives the special weapon that will kill Jerry from [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 61,
+    "question": "What are the perpectives of the two letters?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Amy is taken by [[CANDIDATE_ANSWER]] as a victim of Jerry."
+  },
+  {
+    "id": 62,
+    "question": "Who writes Dane Kempton's letters?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Charley kills Ed the vampire."
+  },
+  {
+    "id": 63,
+    "question": "Which of the Letters makes the case for feeling and emotion?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "[[CANDIDATE_ANSWER]] assists Charley in the final battle with the vampires."
+  },
+  {
+    "id": 64,
+    "question": "Why is the public's interest initially piqued by the letters?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "[[CANDIDATE_ANSWER]] blessed the stake given to Charley."
+  },
+  {
+    "id": 65,
+    "question": "Why are biographers intrigued by the Kempton-Wace Letters?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Amy injures Jerry with [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 66,
+    "question": "What happens to Jack London's marriage with Bessie?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "After Jerry is dead, [[CANDIDATE_ANSWER]] happens to his victims."
+  },
+  {
+    "id": 67,
+    "question": "In what year did London die?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Ed tells Charley that [[CANDIDATE_ANSWER]] about fellow students and Charley's best friend as well."
+  },
+  {
+    "id": 68,
+    "question": "What is the title of Strunsky's memoirs?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Charley tells Ed that [[CANDIDATE_ANSWER]] and that he doesn't want to be friends anymore."
+  },
+  {
+    "id": 69,
+    "question": "What did Watson believe was wrong with Holmes?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Jerry convinces Ed of [[CANDIDATE_ANSWER]] when he chases him down."
+  },
+  {
+    "id": 70,
+    "question": "What did Smith send to Holmes to try and infect him?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Charley discovers [[CANDIDATE_ANSWER]] when he sneaks into Jerry's house while Jerry is out attacking more neighbors."
+  },
+  {
+    "id": 71,
+    "question": "What was the signal for Inspector Morton to enter the room?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "[[CANDIDATE_ANSWER]] happened to Amy shortly after she injured Jerry with holy water."
+  },
+  {
+    "id": 72,
+    "question": "How did Holmes feel when Watson touched the items in his room?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Peter is [[CANDIDATE_ANSWER]] in addition to being a magician, and his parents were killed by a vampire."
+  },
+  {
+    "id": 73,
+    "question": "Who did Mr. Smith kill before?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "When Peter lights Charley on fire, he tosses [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 74,
+    "question": "Who is Morton?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Amy tries to convince Charley of [[CANDIDATE_ANSWER]] after she is bitten, and he responds to her by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 75,
+    "question": "Why did Watson hide behind a screen?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "[[CANDIDATE_ANSWER]] shot holes in the roof and it accomplished something."
+  },
+  {
+    "id": 76,
+    "question": "How long did Watson starve himself so that he would look sick?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "After Charley stabs Jerry, [[CANDIDATE_ANSWER]] happens."
+  },
+  {
+    "id": 77,
+    "question": "Why was Dr. Watson called to attend to Holmes?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "[[CANDIDATE_ANSWER]] becomes suspicious of Charley's new neighbor in the story."
+  },
+  {
+    "id": 78,
+    "question": "What does Holmes first instruct Dr. Watson to do in fighting this illness?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Charley's girlfriend is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 79,
+    "question": "What does Dr. Watson do that aggravates Holmes?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Charley discovers that [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 80,
+    "question": "What does Holmes ask Dr. Watson to do at 6 p.m.?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "The story takes place [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 81,
+    "question": "What happens when Dr. Watson gets to 13 Lower Burke Street?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Amy tries to convince Charley to become a vampire by explaining how they can be together forever."
+  },
+  {
+    "id": 82,
+    "question": "What does Dr. Watson overhear back at Holmes residence?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Charley goes to [[CANDIDATE_ANSWER]] for professional help for dealing with vampires."
+  },
+  {
+    "id": 83,
+    "question": "How did Holmes possibly contract this illness?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Charley kills [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 84,
+    "question": "What was the intention of Holmes in having Mr. Smith lighting the gaslight to full?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "At the end of the story, [[CANDIDATE_ANSWER]] happens to Jerry."
+  },
+  {
+    "id": 85,
+    "question": "What else does Holmes request from Mr. Smith?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Peter gives Charley [[CANDIDATE_ANSWER]] to kill Jerry."
+  },
+  {
+    "id": 86,
+    "question": "What is the secret Holmes kept hidden from everyone as he investigated this case?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Charley Brewster lives [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 87,
+    "question": "Why was Watson called to Baker Street?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Edward Lee's nickname is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 88,
+    "question": "Why does Homes get upset with Watson?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Charley's childhood friend [[CANDIDATE_ANSWER]] had gone missing first."
+  },
+  {
+    "id": 89,
+    "question": "Where does Homes instruct Watson to go?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Jerry Dandrige lives in [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 90,
+    "question": "Who is Watson supposed to give Holmes' message to?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "[[CANDIDATE_ANSWER]] convinced Ed that he should become a vampire."
+  },
+  {
+    "id": 91,
+    "question": "What is Watson supposed to do after deliviering holmes meassage?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "[[CANDIDATE_ANSWER]] is responsible for setting Charley's house on fire."
+  },
+  {
+    "id": 92,
+    "question": "Why won't Homes allow Watson to examine him?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Charley shot holes in the roof because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 93,
+    "question": "What was Holmes purpose in pretending he was dying?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Charley was wearing [[CANDIDATE_ANSWER]] to protect himself."
+  },
+  {
+    "id": 94,
+    "question": "What was the signal for Inspector Morton to come in?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Charley stabs Jerry in [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 95,
+    "question": "What evidence did Smith put in his pocket?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Charley and Amy do [[CANDIDATE_ANSWER]] in Peter's penthouse."
+  },
+  {
+    "id": 96,
+    "question": "Why did Holmes ask Watson to retuen to Baker street?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Charley's best friend is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 97,
+    "question": "Where is Andy Kaufman from?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Charley lives outside of [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 98,
+    "question": "Who was George Shapiro to Andy Kaufman?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Charley's new neighbor is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 99,
+    "question": "What role did Andy Kaufman play on the sitcom \"Taxi\" ?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Charley goes to [[CANDIDATE_ANSWER]] for help."
+  },
+  {
+    "id": 100,
+    "question": "Who was Tony Clifton?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "[[CANDIDATE_ANSWER]] sets fire to Charley's house."
+  },
+  {
+    "id": 101,
+    "question": "What wrestler did Andy Kaufman have a romantic relationship with?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "[[CANDIDATE_ANSWER]] wounds Jerry with a real estate sign."
+  },
+  {
+    "id": 102,
+    "question": "Who is Bob Zmuda to Andy Kaufman?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Amy hurts Jerry by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 103,
+    "question": "What fatal disease was Andy Kaufman diagnosed with?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Charley's parents were killed by a vampire."
+  },
+  {
+    "id": 104,
+    "question": "On what show did Andy Kaufman throw a drink at Jerry Lawler?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Charley has sex with [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 105,
+    "question": "What was Jerry Lawler's occupation?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "[[CANDIDATE_ANSWER]] tosses Charley the stake to kill Jerry."
+  },
+  {
+    "id": 106,
+    "question": "What was Andy Kaufman's dream venue?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "[[CANDIDATE_ANSWER]] kills the janitor and guidance counselor."
+  },
+  {
+    "id": 107,
+    "question": "In addition to singing kids' songs, why does Kaufman's nightclub act fail?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Ginger kills Sam in front of Brigitte because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 108,
+    "question": "What singer does Kaufman impersonate via his \"foreign man\" character?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "[[CANDIDATE_ANSWER]] confronts Ginger about the death of her dog."
+  },
+  {
+    "id": 109,
+    "question": "On what television sitcom does Kaufman accept a role?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Jason is cured by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 110,
+    "question": "How does Kaufman feel about sitcoms?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Ginger is infected by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 111,
+    "question": "Appearances on which comedy show increase Kaufman's fame?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Brigitte and Sam believe that [[CANDIDATE_ANSWER]] attacked Ginger."
+  },
+  {
+    "id": 112,
+    "question": "What novel does Kaufman read aloud to purposely aggravate his audience?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Sam advised Brigitte to convince Ginger to get a silver belly ring because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 113,
+    "question": "When Kaufman becomes a wrestler, what limitation does he set?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "The suburb experiencing a problem with dog killings is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 114,
+    "question": "What does Kaufman refuse to do on a live ABC show?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Brigitte and Ginger Fitzgerald are fascinated by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 115,
+    "question": "As a result of a wrestling injury, what does Kaufman have to wear?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "[[CANDIDATE_ANSWER]] undergoes physical and mental changes as a result of an attack by a creature."
+  },
+  {
+    "id": 116,
+    "question": "What invitation does Kaufman extend to the audience after his Carnegie Hall perfomance?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "The two teenage sisters form a pact to [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 117,
+    "question": "What was Kaufman diagnosed with?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "[[CANDIDATE_ANSWER]] is caused directly by Ginger beginning her first period."
+  },
+  {
+    "id": 118,
+    "question": "Which show is Kaufman on when he refuses to speak his lines?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "[[CANDIDATE_ANSWER]] runs over the creature after Ginger is bitten."
+  },
+  {
+    "id": 119,
+    "question": "What is Kaufman's dream venue?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Sam tries to cure Ginger with [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 120,
+    "question": "How is Andy banned from Saturday Night Live?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "The girls claim the blood from Trina's death is [[CANDIDATE_ANSWER]] to their parents."
+  },
+  {
+    "id": 121,
+    "question": "Where does Kaufman meet Lynne?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "The sisters ultimately dispose of the body after putting it in the freezer by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 122,
+    "question": "How does Kaufman feel about Taxi?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Brigitte uses [[CANDIDATE_ANSWER]] on Jason, which proves effective."
+  },
+  {
+    "id": 123,
+    "question": "Where does Kaufman go for a medical miracle?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Brigitte and Sam take Ginger to [[CANDIDATE_ANSWER]] after they knock her unconscious with a shovel."
+  },
+  {
+    "id": 124,
+    "question": "Who informs Kaufman that Taxi was cancelled?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Brigette tries to track down Ginger on holiday with the cure for [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 125,
+    "question": "Who gets in fight with Lawler on David Letterman's show?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Ginger does [[CANDIDATE_ANSWER]] at the end of the story to solve the conflict."
+  },
+  {
+    "id": 126,
+    "question": "What sport does Kaufman decide to become a professional of?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "[[CANDIDATE_ANSWER]] is the reason why the dogs are dying."
+  },
+  {
+    "id": 127,
+    "question": "What Stanley Jobson did served time in jail for?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Brigitte and Ginger Fitzgerald are teenage sisters who are fascinated with [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 128,
+    "question": "What did Gabriel Shear want to hire Stanley Jobson for?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Ginger [[CANDIDATE_ANSWER]] when they go to steal a dog."
+  },
+  {
+    "id": 129,
+    "question": "Who is Holly?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Ginger experiences [[CANDIDATE_ANSWER]] as a result of her menstruation."
+  },
+  {
+    "id": 130,
+    "question": "What was Black Cell created for?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "What happens to [[CANDIDATE_ANSWER]]?"
+  },
+  {
+    "id": 131,
+    "question": "How did Gabriel Shear frame Stanley Jobson to force him to participate in the bank heist?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Ginger is different after her attack because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 132,
+    "question": "What job does Stanley Jobsonâs ex-wife Melissa actually have?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Bridgette and Sam believe [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 133,
+    "question": "What was Stanley Jobson going to use to steal the money for Gabriel Shear?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "This will help Ginger by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 134,
+    "question": "What Ginger Knowles truly is?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "[[CANDIDATE_ANSWER]] is the part of the country that Amory Blaine is from."
+  },
+  {
+    "id": 135,
+    "question": "In what bank did the heist occur?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Amory Blaine attends [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 136,
+    "question": "What does Stanley have to do to get Holly back?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Beatrice and Amory are related as [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 137,
+    "question": "Who is Ginger working with?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Amory begins a romantic relationship with [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 138,
+    "question": "Where do Stanley and Holly go?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Amory serves in [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 139,
+    "question": "Which characters are hackers?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "His job in the military was [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 140,
+    "question": "What does Stanley use to shoot down the helicopter?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Amory falls in love with [[CANDIDATE_ANSWER]] after the war."
+  },
+  {
+    "id": 141,
+    "question": "Who Created Black Cell?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "The relationship with Rosalind fails because of [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 142,
+    "question": "What happened to Melissa?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "[[CANDIDATE_ANSWER]] is Amory's mentor."
+  },
+  {
+    "id": 143,
+    "question": "What does Black Cell do?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "[[CANDIDATE_ANSWER]] is the city that Amory is from."
+  },
+  {
+    "id": 144,
+    "question": "Why didn't Gabriel kill Ginger?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Amory Blaine attends college at [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 145,
+    "question": "Who gets the money in the end?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Amory first met Isabelle Borge [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 146,
+    "question": "Why was Stanley in jail?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "They meet again in [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 147,
+    "question": "Who oversees Black Cell?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "The couple falls out of love at [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 148,
+    "question": "Who does Gabriel kidnap that forces Stanley to continue to work for him?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Amory communicates with Isabelle by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 149,
+    "question": "Why did Senator Reisman attempt to assassinate Gabriel?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Amory learns of Monsignor Darcy's death [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 150,
+    "question": "Who does Ginger really work for in the story?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Amory served in [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 151,
+    "question": "Who shoots Ginger?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Amory's job in the military was [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 152,
+    "question": "How does Gabriel escape the bank robbery?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "[[CANDIDATE_ANSWER]] destroys Amory's relationship with Rosalind Connage."
+  },
+  {
+    "id": 153,
+    "question": "Who shoots down the helicopter?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Amory claims that [[CANDIDATE_ANSWER]] is the only person he knows."
+  },
+  {
+    "id": 154,
+    "question": "At the end of the story, who has custody of Holly?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Amory attends [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 155,
+    "question": "What happens in Monte Carlo?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Beatrice is [[CANDIDATE_ANSWER]] in relation to Amory."
+  },
+  {
+    "id": 156,
+    "question": "Why is Stanley forbidden to use a computer?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Amory writes [[CANDIDATE_ANSWER]] for Isabelle while at Princeton."
+  },
+  {
+    "id": 157,
+    "question": "In the early part of the story, why is Stanley unable to visit his daughter Holly?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Amory goes overseas because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 158,
+    "question": "In Los Angeles, Gabriel tests Stanley's hacking skills by having Stanley crack a secure government server in under 1 minute, while presented with what two distractions?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "The war that was taking place is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 159,
+    "question": "What is the name of the secret organization that J Edgar Hoover created to launch retalitory attacks against terrorists?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Amory's job in the arm was [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 160,
+    "question": "How does Stanley neutralize the hydra program that he delivers to Gabriel?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "The relationship between Rosalind and Amory fails because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 161,
+    "question": "What does Gabriel do to cause Stanley trouble after Stanley delivers the hydra?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Monsignor Darcy is [[CANDIDATE_ANSWER]] in relation to Amory."
+  },
+  {
+    "id": 162,
+    "question": "Why does Stanley agree to help Gabriel in the Worldbanc heist after being double-crossed by him?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Amory meets Isabelle in [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 163,
+    "question": "What ruse does Gabriel use to get Stanley to reverse the backdoor and regain control of the stolen money?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Amory is again crushed after Isabelle marries [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 164,
+    "question": "How does Stanley know that Gabriel is most likely not dead after shooting down Gabriel's helicopter with a rocket-propelled grenade?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Ellen Ripley, the young girl Newt, Hicks, and the damaged android Bishop were the four members in the escape pod."
+  },
+  {
+    "id": 165,
+    "question": "What is implied at the end of the story when Gabriel and Ginger watch a yacht explode at sea, followed by a news report?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "[[CANDIDATE_ANSWER]] is what Ripley discovers after crash-landing on Florina."
+  },
+  {
+    "id": 166,
+    "question": "What is the final badge Carl gives Russell?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "Ripley orders an autopsy on [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 167,
+    "question": "What job does Carl have at the zoo?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "[[CANDIDATE_ANSWER]] first comes into the story."
+  },
+  {
+    "id": 168,
+    "question": "Where does Ellie want to move her clubhouse?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "Ripley finds [[CANDIDATE_ANSWER]] when she scans herself with the medical equipment."
+  },
+  {
+    "id": 169,
+    "question": "Who is Alpha?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "The Weyland-Yutani Corporation really sends the rescue ship because of [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 170,
+    "question": "Why can Dug talk?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "Dillon and Ripley come to the agreement that [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 171,
+    "question": "When Muntz sets Carl's house on fire and captures Keven, what does Carl do?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "Ripley and Dillon come up with a plan to lure the creature into the foundry's molding facility, and they succeed with [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 172,
+    "question": "Where does Carl's house land at the end of the story?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "[[CANDIDATE_ANSWER]] tries to convince Ripley to undergo surgery to remove the Queen embryo."
+  },
+  {
+    "id": 173,
+    "question": "How does Carl make his house fly?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "[[CANDIDATE_ANSWER]] does something at the end, and [[CANDIDATE_ANSWER]] survives."
+  },
+  {
+    "id": 174,
+    "question": "Why do Russell and Carl initially meet?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "[[CANDIDATE_ANSWER]] was aboard the escape pod."
+  },
+  {
+    "id": 175,
+    "question": "Who was the famous explorer that Carl idolized?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "[[CANDIDATE_ANSWER]] was the only survivor from the pod."
+  },
+  {
+    "id": 176,
+    "question": "Why did Muntz want to return to Paradise Falls?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "Ellen feared that Newt had been impregnated with [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 177,
+    "question": "Who became Carl's wife?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "[[CANDIDATE_ANSWER]] got to the prison."
+  },
+  {
+    "id": 178,
+    "question": "What type of work did Carl do for a living?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "[[CANDIDATE_ANSWER]] is sending a rescue ship for Ellen."
+  },
+  {
+    "id": 179,
+    "question": "How did Carl plan to get his home to Paradise Falls?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "[[CANDIDATE_ANSWER]] is the person that the alien murders in the infirmary."
+  },
+  {
+    "id": 180,
+    "question": "Who was Ellie to Carl?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "Ellen finds [[CANDIDATE_ANSWER]] inside her after completing a scan of herself."
+  },
+  {
+    "id": 181,
+    "question": "What was Russell's occupation?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "Ellen thinks the adult alien won't kill her because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 182,
+    "question": "What allowed Dug to speak?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "Ellen kills herself and the embryo by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 183,
+    "question": "What was Russell's final reward for helping Carl?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "[[CANDIDATE_ANSWER]] is the name of the colonial marine ship."
+  },
+  {
+    "id": 184,
+    "question": "Who is 9 year old Carl Fredricksen's hero?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "The pod crash lands on [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 185,
+    "question": "What is Charles Muntz famous for?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "[[CANDIDATE_ANSWER]] tells Ripley that she is the only survivor."
+  },
+  {
+    "id": 186,
+    "question": "After Ellie miscarries what plan does she and Carl make?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "Clemens' job title is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 187,
+    "question": "What happens after Carl injures a construction worker for messing up his mailbox?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "Ripley wants an autopsy done on [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 188,
+    "question": "What does Carl use to make his house float?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "The rescue ship being sent for Ripley is from Weyland-Yutani Corporation."
+  },
+  {
+    "id": 189,
+    "question": "Who is Kevin?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "Ripley finds out about her own body when she discovers [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 190,
+    "question": "What is so special about Dug the golden retriever?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "[[CANDIDATE_ANSWER]] is the part of the body that Morse was shot in."
+  },
+  {
+    "id": 191,
+    "question": "How does Muntz die?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "Aaron dies when [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 192,
+    "question": "What did Carl give to Russell for his final merit badge?",
+    "context_id": "145200abf14baeffa646797dfbfa58861cb4b079",
+    "question_template": "Ripley dies because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 193,
+    "question": "What is Paul Barnell's occupation?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Goriot is bankrupt because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 194,
+    "question": "What does Paul find in a dumpster?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "[[CANDIDATE_ANSWER]] arranges for Victorine's brother's murder."
+  },
+  {
+    "id": 195,
+    "question": "Who was responsible for putting the body in the dumpster?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "[[CANDIDATE_ANSWER]] tutors Rastignac in upper class ways."
+  },
+  {
+    "id": 196,
+    "question": "What does Margaret medically suffer from?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Anastasie paid off her lover's debts by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 197,
+    "question": "What does Paul wish to inherit from his missing brother?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "[[CANDIDATE_ANSWER]] arrives at her father's deathbed in time to have a deep conversation with Goriot before he dies."
+  },
+  {
+    "id": 198,
+    "question": "What is Ted Waters' occupation?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "The police have nicknamed Vautrin [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 199,
+    "question": "Who do the mafia hitmen take hostage?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Goriot was physically killed by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 200,
+    "question": "Who beats up Paul?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Vautrin, Rastignac, and Goriot met [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 201,
+    "question": "What does Raymond demand from Paul?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Rastignac is pursuing [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 202,
+    "question": "What does Paul end up doing for Margaret with the insurance money?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Goriot's daughters send [[CANDIDATE_ANSWER]] to their father's funeral."
+  },
+  {
+    "id": 203,
+    "question": "What did travel agent Paul Barnell found in a dumpster?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "[[CANDIDATE_ANSWER]] owns the boarding house in Paris."
+  },
+  {
+    "id": 204,
+    "question": "Who was responsible for the body found the travel agent?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Jean-Joachim Goriot went bankrupt because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 205,
+    "question": "Paul Barnell's wife is suffering from what kind of illness?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Rastignac develops an interest in [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 206,
+    "question": "Why do Mafia hitmen want to get the corpse?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Vautrin proposes that [[CANDIDATE_ANSWER]] be done to get to Victorine's family fortune."
+  },
+  {
+    "id": 207,
+    "question": "What did the Mafia hitmen do to make sure they will get the body?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "[[CANDIDATE_ANSWER]] is the criminal that goes by the name Trompe-la-Mort."
+  },
+  {
+    "id": 208,
+    "question": "How did Paul and Margaret use the money?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Goriot suffers a stroke because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 209,
+    "question": "For what purpose Paul committed fraud?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Anastasie is selling jewelry because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 210,
+    "question": "Margaret was saved from getting killed by which item that stopped the bullet?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Anastasie is related to Delphine as [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 211,
+    "question": "Who killed Raymond?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Goriot's daughters send [[CANDIDATE_ANSWER]] to their father's funeral."
+  },
+  {
+    "id": 212,
+    "question": "When Paul's brother returned, what did he demand from him?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Rastignac dines with [[CANDIDATE_ANSWER]] after the funeral."
+  },
+  {
+    "id": 213,
+    "question": "What did Paul Barnell found in a dumpster?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Goriot is poor because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 214,
+    "question": "Who left the dead body in a dumpster?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Rastignac falls in love with [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 215,
+    "question": "Who was Margaret?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Vautrin offers to [[CANDIDATE_ANSWER]] for Rastignac."
+  },
+  {
+    "id": 216,
+    "question": "What  kind of disease Margaret  had?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Vautrin offers to kill Victorine's brother because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 217,
+    "question": "Who was Ted Waters?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Vautrin's criminal nickname is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 218,
+    "question": "Who was Tiffany?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Vautrin thinks Victorine is a better choice for Rastignac because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 219,
+    "question": "How much Paul collected for his brother life insurance?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Trompe-La-Mort means [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 220,
+    "question": "Who was Raymond?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "[[CANDIDATE_ANSWER]] visited Goriot, but got there after he lost consciousness."
+  },
+  {
+    "id": 221,
+    "question": "Who shot Raymond?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "[[CANDIDATE_ANSWER]] attended Goriot's funeral."
+  },
+  {
+    "id": 222,
+    "question": "What kind of vacation Paul took Margaret?",
+    "context_id": "1528f4c003dde308ae74bdec458466765944ca6a",
+    "question_template": "Goriot's daughters sent [[CANDIDATE_ANSWER]] to Goriot's funeral in their place."
+  },
+  {
+    "id": 223,
+    "question": "Who does Conan want to make his queen?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "The Akwasanse St. Regis Mohawk Reservation is located [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 224,
+    "question": "Which land was Conan king of?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "Ray Eddy has [[CANDIDATE_ANSWER]] kids."
+  },
+  {
+    "id": 225,
+    "question": "Whose heart does Conan want to retrieve?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "Ray's kids are [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 226,
+    "question": "What do the conspirators resort towards to get rid of Conan?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "Ray and Lila begin trafficking [[CANDIDATE_ANSWER]] to make money."
+  },
+  {
+    "id": 227,
+    "question": "Who is the heir to Numedides?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "Ray and Lila bring the illegal immigrants from [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 228,
+    "question": "Which army defeats the Aquilonian army?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "Ray and Lila take the illegal immigrant to [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 229,
+    "question": "Who do the conspirators resurrect?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "Lila is excommunicated for [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 230,
+    "question": "What was going to be done to Conan after he was captured?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "Ray threatens the owner of the strip club with [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 231,
+    "question": "Which empire is Xaltotun from?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "She gives her share of money to Lila with instructions for [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 232,
+    "question": "Which slave risks their life to save Conan?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "Ray Eddy's occupation is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 233,
+    "question": "Where is Conan placed after he loses in the battle?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "Ray Eddy's husband struggles with [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 234,
+    "question": "Who becomes King of Aquilonia?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "Ray Eddy was planning on buying [[CANDIDATE_ANSWER]] with the money Ray's husband took."
+  },
+  {
+    "id": 235,
+    "question": "Who does the group of conspirators want to replace Conan with?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "Ray engages in [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 236,
+    "question": "Valerius was supposed to be the next ruler after who?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "Ray and Lila charge immigrants [[CANDIDATE_ANSWER]] for getting across the Canadian border."
+  },
+  {
+    "id": 237,
+    "question": "Who killed Numedides?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "[[CANDIDATE_ANSWER]] is what the immigrants must cross to reach safety."
+  },
+  {
+    "id": 238,
+    "question": "Who gets resurrected to fight Conan?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "The duffel bag the Pakistani couple tries to bring across the border contains [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 239,
+    "question": "Who defeats the Aquilonian army?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "Ray's body was shot [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 240,
+    "question": "What does Conan intend to do with Zenobia?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "Ray and Lila are helping [[CANDIDATE_ANSWER]] when Ray gets shot."
+  },
+  {
+    "id": 241,
+    "question": "What does Conan set out to capture?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "Ray and Lila are smuggling people to and from [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 242,
+    "question": "When defeated in battle where is Conan placed?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "Ray Eddy's profession is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 243,
+    "question": "Why do the people of Aquilonian riot?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "Lila found the car she was driving [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 244,
+    "question": "About what age is Conan?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "The women charge [[CANDIDATE_ANSWER]] to traffick people from Canada to the U.S."
+  },
+  {
+    "id": 245,
+    "question": "Why do conspirators want to depose Conan?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "Ray has two sons named [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 246,
+    "question": "Who was Conan's predecessor as king?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "T.J. set the trailer on fire because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 247,
+    "question": "Who killed Numedides?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "The women left the Pakistani's infant baby in a bag in the cold because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 248,
+    "question": "What form of magic is used to resurrect Xaltotun?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "Ray is shot in the ear by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 249,
+    "question": "What is the name of the kingdom that defeats the Aquilonian army?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "Ray drives over the lake and crashes the car because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 250,
+    "question": "Conan travel into what lands on his Quest for the Heart of Ahriman?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "Ray will have to go to jail for [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 251,
+    "question": "Whom does Conan vow to make his Queen?",
+    "context_id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+    "question_template": "[[CANDIDATE_ANSWER]] purchases the new trailer."
+  },
+  {
+    "id": 252,
+    "question": "Who did Theseus declare to be the winner?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "[[CANDIDATE_ANSWER]] is a mole for the Massachusetts State Police Department."
+  },
+  {
+    "id": 253,
+    "question": "Who intervenes to kill Arcite?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "[[CANDIDATE_ANSWER]] drops out for the academy to go to prison for credibility purposes."
+  },
+  {
+    "id": 254,
+    "question": "What is the name of the woman Palamon and Arcite fight over?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "[[CANDIDATE_ANSWER]] is Sullivan's girlfriend's name."
+  },
+  {
+    "id": 255,
+    "question": "What is the relationship between Palamon and Arcite?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "Madolyn becomes pregnant in the story."
+  },
+  {
+    "id": 256,
+    "question": "What is Theseus' title?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "[[CANDIDATE_ANSWER]] records all conversations with Sullivan."
+  },
+  {
+    "id": 257,
+    "question": "Where is Emily when Palamon and Arcite both notice her?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "[[CANDIDATE_ANSWER]] kills Costello."
+  },
+  {
+    "id": 258,
+    "question": "Why does Palamon have the \"right\" to woo Emily?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "[[CANDIDATE_ANSWER]] had an affair with Costigan."
+  },
+  {
+    "id": 259,
+    "question": "What is Arcite's dying wish?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "[[CANDIDATE_ANSWER]] kills Costigan."
+  },
+  {
+    "id": 260,
+    "question": "What weapon is used to wound Palamon?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "Sullivan believes that [[CANDIDATE_ANSWER]] deserves something."
+  },
+  {
+    "id": 261,
+    "question": "How many men are in each army for Palamon and Arcite?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "[[CANDIDATE_ANSWER]] kills Sullivan."
+  },
+  {
+    "id": 262,
+    "question": "How is Princess Emily related to the Duke of Athens?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "[[CANDIDATE_ANSWER]] introduced Colin Sullivan to organized crime."
+  },
+  {
+    "id": 263,
+    "question": "Who does Arcite compete against for the love of Emily?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "Costello groomed Colin to be a mole in the Massachusetts State Police until he was accepted into [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 264,
+    "question": "What does Arcite do after being put in exile in order to get closer to Emily?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "[[CANDIDATE_ANSWER]] drops out of the police academy and does time in prison on fake charges."
+  },
+  {
+    "id": 265,
+    "question": "What does Theseus order Arcite and Palamon to do after he catches them dueling over Emily?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "Sullivan begins a romance with [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 266,
+    "question": "What three gods do Emily, Palamon, and Arcite pray to before the tournament?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "[[CANDIDATE_ANSWER]] threw Queenan off the building and killed him."
+  },
+  {
+    "id": 267,
+    "question": "What does Arcite tell Emily just before he dies?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "[[CANDIDATE_ANSWER]] resigns because he doesn't want to work with Sullivan."
+  },
+  {
+    "id": 268,
+    "question": "Who initially wins the battle between Palamon and Arcite?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "[[CANDIDATE_ANSWER]] kills Costello."
+  },
+  {
+    "id": 269,
+    "question": "Which god intervenes and prevents Arcite from claiming the hand of Emily?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "Madolyn had an affair with [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 270,
+    "question": "How is Arcite killed after the tournament?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "[[CANDIDATE_ANSWER]] met at the building where Queenan died."
+  },
+  {
+    "id": 271,
+    "question": "What does the Great Chain of Love do, according to Aristotelian philosophy?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "[[CANDIDATE_ANSWER]] kills Sullivan."
+  },
+  {
+    "id": 272,
+    "question": "What does Theseus do when he captures Palamon and Arcite?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "Frank Costello's ethnic background is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 273,
+    "question": "What month does Palamon catch sight of Emily?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "[[CANDIDATE_ANSWER]] is Frank Costello's profession."
+  },
+  {
+    "id": 274,
+    "question": "Who else falls in love with Emily besides Palamon?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "Colin Sullivan grew up in [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 275,
+    "question": "Why does Arcite return to Athens?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "Costello grooms Colin for [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 276,
+    "question": "How did Palamon escape prison?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "The Special Investigation Unit focuses on [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 277,
+    "question": "How many men do Arcite and Palamon each gather?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "Billy Costigan does [[CANDIDATE_ANSWER]] after he drops out of the police academy."
+  },
+  {
+    "id": 278,
+    "question": "What does Emily pray to Diana for?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "[[CANDIDATE_ANSWER]]'s profession is a police psychiatrist."
+  },
+  {
+    "id": 279,
+    "question": "Who wounds Palamon with a sword?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "[[CANDIDATE_ANSWER]] is the person with whom both Sullivan and Costigan have a romantic relationship."
+  },
+  {
+    "id": 280,
+    "question": "Who wins the battle to marry Emily?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "Costello is with [[CANDIDATE_ANSWER]] when he gives Sullivan an envelope."
+  },
+  {
+    "id": 281,
+    "question": "Who finally marries Emily?",
+    "context_id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+    "question_template": "The envelope that Costello gives Sullivan contains [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 282,
+    "question": "What happens as Benjamin Button ages chronologically?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "In what city is Deckard a police officer? [[CANDIDATE_ANSWER]] is the city where Deckard is a police officer."
+  },
+  {
+    "id": 283,
+    "question": "What is Caroline's relationship to Bejamin?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "[[CANDIDATE_ANSWER]] detains Deckard."
+  },
+  {
+    "id": 284,
+    "question": "What disater hits New Orleans right before Daisy dies?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "Deckard's job while a police officer was [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 285,
+    "question": "What professiion did Daisy partake in before having a car accident?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "[[CANDIDATE_ANSWER]] is in charge of tracking down."
+  },
+  {
+    "id": 286,
+    "question": "In what war does Benjamin Button serve?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "A Blade Runner is supposed to [[CANDIDATE_ANSWER]] when they find a replicant."
+  },
+  {
+    "id": 287,
+    "question": "With whom does Benjamin have an affair with?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "Retiring a replicant is a euphemism for [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 288,
+    "question": "Where does Benjamin Button eventually die?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "Rachael believes she is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 289,
+    "question": "What life stage is Benjamin Button at when he passes away?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "Rachael shows Deckard [[CANDIDATE_ANSWER]] in order to convince him she is human."
+  },
+  {
+    "id": 290,
+    "question": "How old is Benjamin when he dies?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "[[CANDIDATE_ANSWER]]'s memories are implanted in Rachael."
+  },
+  {
+    "id": 291,
+    "question": "What type of family business does Benjamin eventually inherit?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "[[CANDIDATE_ANSWER]] works."
+  },
+  {
+    "id": 292,
+    "question": "Which character is on their deathbed at the beginning of the story?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "A Blade Runner [[CANDIDATE_ANSWER]] does."
+  },
+  {
+    "id": 293,
+    "question": "What is Daisy Fuller's daughters name?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "Nexus-6 models live for [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 294,
+    "question": "What woman decides to care for the baby left at the nursing home?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "The Voight-Kampff test is designed to [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 295,
+    "question": "What is the main characters name?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "[[CANDIDATE_ANSWER]] is different from other Replicants."
+  },
+  {
+    "id": 296,
+    "question": "Who does Benjamin meet on Thanksgiving?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "Roy and Leon go to [[CANDIDATE_ANSWER]] to investigate."
+  },
+  {
+    "id": 297,
+    "question": "Who does Benjamin have an affair with?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "The rogue replicants are searching for Tyrell because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 298,
+    "question": "In what city does Benjamin reunite with Queenie?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "The Methuselah Syndrome is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 299,
+    "question": "What do Benjamin and Daisy do soon after falling in love?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "[[CANDIDATE_ANSWER]] chases Deckard through a building."
+  },
+  {
+    "id": 300,
+    "question": "Whose arms does Benjamin die in?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "Roy describes his memories as he dies as [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 301,
+    "question": "Who was Carolines father?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "Deckard notices [[CANDIDATE_ANSWER]] on the floor at the end."
+  },
+  {
+    "id": 302,
+    "question": "What catastrophic event is occurring that makes Daisy Fuller ask her daughter to read a story?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "[[CANDIDATE_ANSWER]] is the ex-cop in 2019."
+  },
+  {
+    "id": 303,
+    "question": "In 1925, Benjamin declares that a miracle happened because he was previously not able to do what?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "A Blade Runner is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 304,
+    "question": "Why does Daisy tell Benjamin to stay out of his life?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "[[CANDIDATE_ANSWER]] has a penthouse."
+  },
+  {
+    "id": 305,
+    "question": "Why do Benjamin and Daisy continue to see each other?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "[[CANDIDATE_ANSWER]] kills Tyrell in his penthouse."
+  },
+  {
+    "id": 306,
+    "question": "What relationship does Benjamin have with one of the men on the tugboats?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "[[CANDIDATE_ANSWER]] left the apartment alive together."
+  },
+  {
+    "id": 307,
+    "question": "Why is Benjamin a special person?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "[[CANDIDATE_ANSWER]] will be lost like tears in the rain."
+  },
+  {
+    "id": 308,
+    "question": "Daisy dies before what catastrophic event?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "[[CANDIDATE_ANSWER]] was the designer."
+  },
+  {
+    "id": 309,
+    "question": "Why does Benjamin leave Daisy when she tells him about Caroline?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "Rachael showed Deckard [[CANDIDATE_ANSWER]] to make him believe she was real."
+  },
+  {
+    "id": 310,
+    "question": "What disease does the story mention that Benjamin had prior to his death?",
+    "context_id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+    "question_template": "The Normandy American Cemetery and Memorial is located in [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 311,
+    "question": "What kind of house is Act 1 set in?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "The Normandy Invasion took place on [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 312,
+    "question": "Who does Mirabell encouraged to marry in Act 1?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "Three of the four brothers of the Ryan family were killed in action."
+  },
+  {
+    "id": 313,
+    "question": "Who is Mirabell's former lover?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "General who ordered Private James Ryan to be found and returned home is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 314,
+    "question": "Who does Fainall have arrested?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "Capt. Miller sent [[CANDIDATE_ANSWER]] to find Private Ryan."
+  },
+  {
+    "id": 315,
+    "question": "Who does Lady Wishfort want Millamant to marry?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "The name of the medic in the group sent to locate Private Ryan is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 316,
+    "question": "Who blackmails Lady Wishfort in giving her consent to Mirabell's and Millamant's marriage?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "The name of the river running under the bridge Private Ryan is protecting when he is found is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 317,
+    "question": "Who is Sir Wilfull Witwoud?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "The nickname given to the German soldier who is spared by Capt. Miller is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 318,
+    "question": "Who is Sir Rowland?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "[[CANDIDATE_ANSWER]] is with Capt. Miller when he dies."
+  },
+  {
+    "id": 319,
+    "question": "Who did Mrs. Fainall have an affair with?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "When the veteran at the cemetery sees the gravestone, he [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 320,
+    "question": "Who's inheritance will be lost if Mirabell marries Millamant?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "Ryan refused to be sent home because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 321,
+    "question": "Which game were Mirabell and Finall playing in Act 1?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "Ryan is supposed to be sent home because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 322,
+    "question": "How much money will Mirabell loose if Lady Wishfort gets married?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "Three of the four brothers of the Ryan family were killed in action on [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 323,
+    "question": "Who is Lady Wishfort's female servant?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "The squad had done a betting pool on [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 324,
+    "question": "Which person hates her husband?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "Ryan felt [[CANDIDATE_ANSWER]] about losing his brothers."
+  },
+  {
+    "id": 325,
+    "question": "What are Mirabell and Millamant trying to do?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "[[CANDIDATE_ANSWER]] shot Miller."
+  },
+  {
+    "id": 326,
+    "question": "Who does Foible want Lady Wishfort to marry?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "Ryan wanted to know if he was a good man because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 327,
+    "question": "Who does Lady Wishfort want Millament to marry?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "Ryan asked his wife to confirm [[CANDIDATE_ANSWER]] at the end."
+  },
+  {
+    "id": 328,
+    "question": "Whom ultimately had Waitwell arrested?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "[[CANDIDATE_ANSWER]] is with Miller when he dies."
+  },
+  {
+    "id": 329,
+    "question": "How did Lady Wishfort figure out the scam against her?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "[[CANDIDATE_ANSWER]] assembled a group of Rangers to penetrate the German defense."
+  },
+  {
+    "id": 330,
+    "question": "Which person was accused of trying to sabotage the wedding?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "Three of the four brothers of the Ryan family were killed in action."
+  },
+  {
+    "id": 331,
+    "question": "What brings up the subject of marriage in the beginning?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "Miller's last words were [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 332,
+    "question": "Who is Sir Rowland?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "The beginning of the Normandy Invasion is on [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 333,
+    "question": "What is bigamy?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "The veteran collapsed to his knees at the cemetery because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 334,
+    "question": "How much money is the inheritance in question?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "Reiben and Ryan were with [[CANDIDATE_ANSWER]] as he died."
+  },
+  {
+    "id": 335,
+    "question": "Why couldn't Waitwell marry Mrs.Wishfort?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "The name of the veteran who collapsed at the cemetery is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 336,
+    "question": "What are the women discussing in the park?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "Ryan's reaction to the loss of his brothers is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 337,
+    "question": "Who reveals the deception to Mrs. Wishfort?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "Reiben declared his intention to desert the squad because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 338,
+    "question": "Who is able to marry who they wish in this story?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "[[CANDIDATE_ANSWER]] died from being shot by a sniper."
+  },
+  {
+    "id": 339,
+    "question": "What does Fainall plan to do to his wife?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "[[CANDIDATE_ANSWER]] hosts the dinner party."
+  },
+  {
+    "id": 340,
+    "question": "Why does Mrs. Wishfort finally consent to Mirabell's wedding?",
+    "context_id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+    "question_template": "The four guests invited to the dinner party are [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 341,
+    "question": "How many feline siblings are there?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "Bertha is drawn to [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 342,
+    "question": "What is the name of the mother to the feline siblings?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "Bertha's personality is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 343,
+    "question": "What does Tom do to his mother while she is grooming him?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "[[CANDIDATE_ANSWER]] is how Harry is presented to the readers."
+  },
+  {
+    "id": 344,
+    "question": "Where does the mother send her kittens to keep them out of the way while getting ready for the party?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "[[CANDIDATE_ANSWER]] is the homosexual that makes Bertha question her interest in Pearl."
+  },
+  {
+    "id": 345,
+    "question": "Which kitten is too fat for it's clothes?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "Bertha comes to the conclusion that [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 346,
+    "question": "How many puddle-ducks do the kittens encounter in the road?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "Bertha realizes that [[CANDIDATE_ANSWER]] is going on."
+  },
+  {
+    "id": 347,
+    "question": "Which puddle-duck puts on Tom's clothes?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "The title 'Bliss' is ironic because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 348,
+    "question": "What excuse does the mother cat give for the reason why her kittens are not at the party?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "The story takes place [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 349,
+    "question": "Where do the puddle-ducks lose the kittens' clothes?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "The main character throws [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 350,
+    "question": "What does the mother cat do to the kittens when she pulls them off of the wall?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "[[CANDIDATE_ANSWER]] is the main character's husband's name."
+  },
+  {
+    "id": 351,
+    "question": "Why does Mrs. Twitchit have to sew buttons back on Tom's clothing?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "The story takes place in [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 352,
+    "question": "Who was coming for tea when the story opens?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "[[CANDIDATE_ANSWER]] is the main character mysteriously drawn to."
+  },
+  {
+    "id": 353,
+    "question": "Where do the kittens go while their mother prepares for the party?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "[[CANDIDATE_ANSWER]] is considered naive."
+  },
+  {
+    "id": 354,
+    "question": "When does Tom lose his hat?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "[[CANDIDATE_ANSWER]] are close friends of the main character and her husband."
+  },
+  {
+    "id": 355,
+    "question": "What condition are the kittens in when Tabitha discovers them in the road?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "[[CANDIDATE_ANSWER]] first comes across as crude."
+  },
+  {
+    "id": 356,
+    "question": "Why is Tom described as very naughty?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "[[CANDIDATE_ANSWER]] is represented as most likely homosexual."
+  },
+  {
+    "id": 357,
+    "question": "Who put on the clothing that feel off the kittens?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "[[CANDIDATE_ANSWER]] starts to question his/her own sexuality."
+  },
+  {
+    "id": 358,
+    "question": "What does Mrs. Twitchit tell her guests to explain the kittens' absence?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "[[CANDIDATE_ANSWER]] is the character that two different women are attracted to."
+  },
+  {
+    "id": 359,
+    "question": "How do the kittens interrupt their mother's tea party?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "[[CANDIDATE_ANSWER]] is the main character of this story."
+  },
+  {
+    "id": 360,
+    "question": "Where did the Puddle-ducks lose the clothing they got from the kittens?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "[[CANDIDATE_ANSWER]] is Bertha's downfall when it comes to observing life and people."
+  },
+  {
+    "id": 361,
+    "question": "Who is the naughty kitten?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "[[CANDIDATE_ANSWER]] is who Bertha is drawn to."
+  },
+  {
+    "id": 362,
+    "question": "What does Tom Kitten do to his mother?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "[[CANDIDATE_ANSWER]] appears to be the type of person that Harry, Bertha's husband, is."
+  },
+  {
+    "id": 363,
+    "question": "What does the illustration depict Tom wearing?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "[[CANDIDATE_ANSWER]] attended Bertha and Harry's dinner party."
+  },
+  {
+    "id": 364,
+    "question": "Who is coming to visit?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "The story takes place [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 365,
+    "question": "What does Tom's mother have to sew back on him?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "[[CANDIDATE_ANSWER]] is the kind of person Bertha is."
+  },
+  {
+    "id": 366,
+    "question": "What are the names of Tom's siblings?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "Eddie thinks Bertha is fascinated with Pearl because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 367,
+    "question": "What are the ducks called that his mother wants him to stay away from?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "Harry seems to have disdain for [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 368,
+    "question": "What does their mother do when she sees them on the wall?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "Bertha concludes at the end of the story that [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 369,
+    "question": "What does Tom lose going up the wall?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "[[CANDIDATE_ANSWER]] hit Nicky with a shovel."
+  },
+  {
+    "id": 370,
+    "question": "Who tries to help Tom get dressed?",
+    "context_id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+    "question_template": "Nicky was sent to Earth with [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 371,
+    "question": "Utah is sent undercover to where?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "Nicky meets a bulldog named [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 372,
+    "question": "What is his undercover name while in France?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "Nicky falls in love with [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 373,
+    "question": "Who does Utah shoot at the Italian bank?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "[[CANDIDATE_ANSWER]] dethrones Satan."
+  },
+  {
+    "id": 374,
+    "question": "What happens to Jeff while biking and he overshoots his landing?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "Nicky's mother's name is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 375,
+    "question": "How long after Jeff's death before we see Utah again?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "[[CANDIDATE_ANSWER]] ends up going to heaven."
+  },
+  {
+    "id": 376,
+    "question": "What job is Utah going for in the beginning of the story?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "[[CANDIDATE_ANSWER]] appears when Nicky shatters the orb."
+  },
+  {
+    "id": 377,
+    "question": "How does Utah meet Bodhi?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "Nicky sets bees on [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 378,
+    "question": "How does Utah get accepted into the circle of the three criminals?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "Nicky and Valerie's son's name is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 379,
+    "question": "How did Samsara's parents die?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "Satan has [[CANDIDATE_ANSWER]] sons."
+  },
+  {
+    "id": 380,
+    "question": "How did Ozaki die?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "[[CANDIDATE_ANSWER]] is Satan's favorite."
+  },
+  {
+    "id": 381,
+    "question": "What is the Ozkai 8?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "Adrian and Cassius thoroughly enjoy tormenting Nicky."
+  },
+  {
+    "id": 382,
+    "question": "What country does Utah go undercover in?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "Satan has been the Prince of Darkness for [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 383,
+    "question": "Who dies while completing the 6th ordeal?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "Satan gives [[CANDIDATE_ANSWER]] to Nicky before sending him to Earth."
+  },
+  {
+    "id": 384,
+    "question": "Who did Samsara and Bodhi both know?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "Nicky wakes up after sacrificing himself to [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 385,
+    "question": "Why did Bodhi leap down the waterfall?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "Nicky falls in love with [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 386,
+    "question": "Which ordeal does Bodhi have to redo?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "John and Peter died because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 387,
+    "question": "How long does it take Utah to find Bodhi again?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "Cassius posed as a referee on [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 388,
+    "question": "Who gets shot by Utah?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "[[CANDIDATE_ANSWER]] drinks from Nicky's flask."
+  },
+  {
+    "id": 389,
+    "question": "Where does Utah find Bodhi?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "[[CANDIDATE_ANSWER]] are the names of Satan's three sons."
+  },
+  {
+    "id": 390,
+    "question": "How does Utah get accepted into the circle?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "When Hell's gate is frozen for too long, [[CANDIDATE_ANSWER]] happens to Satan."
+  },
+  {
+    "id": 391,
+    "question": "How do the criminals escape the skyscraper heist?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "Nicky sins to get back to Hell after his brothers are captured by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 392,
+    "question": "What is the 4th extreme ordeal?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "[[CANDIDATE_ANSWER]] bites Adrian's head off when he turns into a bat."
+  },
+  {
+    "id": 393,
+    "question": "Who saves Utah when he faints while surfing?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "The talking bulldog's name is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 394,
+    "question": "What is the initiation Utah must face?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "[[CANDIDATE_ANSWER]] is Satan's favorite son."
+  },
+  {
+    "id": 395,
+    "question": "Whose parents die in an avalanche?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "Nicky falls in love with [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 396,
+    "question": "Who planted the explosives at the gold mine?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "[[CANDIDATE_ANSWER]] is fighting for something."
+  },
+  {
+    "id": 397,
+    "question": "Whose assets does the FBI freeze?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "[[CANDIDATE_ANSWER]] are John and Peter."
+  },
+  {
+    "id": 398,
+    "question": "How does Grommet die?",
+    "context_id": "35592c2abea624d315c5171d67ab5e14794ca071",
+    "question_template": "Adrian does [[CANDIDATE_ANSWER]] in Hell, after he and Nicky are killed by the train."
+  }
+]

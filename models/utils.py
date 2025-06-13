@@ -23,9 +23,9 @@ async def dispatch_openai_chat_requests(
     top_p: float,
     stop_words: list[str]
 ) -> list[str]:
-  client = AsyncOpenAI()
-  async_responses = [
-        await client.chat.completions.create(
+    client = AsyncOpenAI()
+    async_responses = [
+        client.chat.completions.create(
             model=model,
             messages=x,
             temperature=temperature,
@@ -35,7 +35,7 @@ async def dispatch_openai_chat_requests(
         )
         for x in messages_list
     ]
-  return await asyncio.gather(*async_responses)
+    return await asyncio.gather(*async_responses)
 
 async def dispatch_openai_prompt_requests(
     messages_list: list[list[dict[str,Any]]],
@@ -97,7 +97,7 @@ class OpenAIModel:
         return generated_text
 
     def generate(self, input_string, temperature = 0.0):
-        if self.model_name in ['gpt-4o', 'gpt-4o-mini']:
+        if self.model_name in ['gpt-4o', 'gpt-4o-mini', 'gpt-4.1-mini']:
             return self.chat_generate(input_string, temperature)
         else:
             raise Exception("Model name not recognized")
@@ -116,7 +116,7 @@ class OpenAIModel:
         return [x.choices[0].message.content.strip() for x in predictions]
 
     def batch_generate(self, messages_list, temperature = 0.0):
-        if self.model_name in ['gpt-4o', 'gpt-4o-mini']:
+        if self.model_name in ['gpt-4o', 'gpt-4o-mini', 'gpt-4.1-mini']:
             return self.batch_chat_generate(messages_list, temperature)
         else:
             raise Exception("Model name not recognized")

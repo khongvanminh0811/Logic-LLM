@@ -1,16 +1,19 @@
 import backoff  # for exponential backoff
 import openai
+from openai import OpenAI, AsyncOpenAI
 import os
 import asyncio
 from typing import Any
 
-@backoff.on_exception(backoff.expo, openai.error.RateLimitError)
+@backoff.on_exception(backoff.expo, openai.RateLimitError)
 def completions_with_backoff(**kwargs):
     return openai.Completion.create(**kwargs)
 
-@backoff.on_exception(backoff.expo, openai.error.RateLimitError)
+@backoff.on_exception(backoff.expo, openai.RateLimitError)
 def chat_completions_with_backoff(**kwargs):
-    return openai.ChatCompletion.create(**kwargs)
+    client = OpenAI()
+    return client.chat.completions.create(**kwargs)
+
 
 async def dispatch_openai_chat_requests(
     messages_list: list[list[dict[str,Any]]],
@@ -20,20 +23,9 @@ async def dispatch_openai_chat_requests(
     top_p: float,
     stop_words: list[str]
 ) -> list[str]:
-    """Dispatches requests to OpenAI API asynchronously.
-    
-    Args:
-        messages_list: List of messages to be sent to OpenAI ChatCompletion API.
-        model: OpenAI model to use.
-        temperature: Temperature to use for the model.
-        max_tokens: Maximum number of tokens to generate.
-        top_p: Top p to use for the model.
-        stop_words: List of words to stop the model from generating.
-    Returns:
-        List of responses from OpenAI API.
-    """
+    client = AsyncOpenAI()
     async_responses = [
-        openai.ChatCompletion.acreate(
+        client.chat.completions.create(
             model=model,
             messages=x,
             temperature=temperature,
@@ -53,8 +45,9 @@ async def dispatch_openai_prompt_requests(
     top_p: float,
     stop_words: list[str]
 ) -> list[str]:
+    client = AsyncOpenAI()
     async_responses = [
-        openai.Completion.acreate(
+        client.chat.completions.create(
             model=model,
             prompt=x,
             temperature=temperature,
@@ -69,8 +62,7 @@ async def dispatch_openai_prompt_requests(
     return await asyncio.gather(*async_responses)
 
 class OpenAIModel:
-    def __init__(self, API_KEY, model_name, stop_words, max_new_tokens) -> None:
-        openai.api_key = API_KEY
+    def __init__(self, model_name, stop_words, max_new_tokens) -> None:
         self.model_name = model_name
         self.max_new_tokens = max_new_tokens
         self.stop_words = stop_words
@@ -87,7 +79,7 @@ class OpenAIModel:
                 top_p = 1.0,
                 stop = self.stop_words
         )
-        generated_text = response['choices'][0]['message']['content'].strip()
+        generated_text = response.choices[0].message.content.strip()
         return generated_text
     
     # used for text/code-davinci
@@ -102,13 +94,11 @@ class OpenAIModel:
             presence_penalty = 0.0,
             stop = self.stop_words
         )
-        generated_text = response['choices'][0]['text'].strip()
+        generated_text =  response.choices[0].text.strip()
         return generated_text
 
     def generate(self, input_string, temperature = 0.0):
-        if self.model_name in ['text-davinci-002', 'code-davinci-002', 'text-davinci-003']:
-            return self.prompt_generate(input_string, temperature)
-        elif self.model_name in ['gpt-4', 'gpt-3.5-turbo']:
+        if self.model_name in ['gpt-4o', 'gpt-4o-mini', 'gpt-4.1-mini']:
             return self.chat_generate(input_string, temperature)
         else:
             raise Exception("Model name not recognized")
@@ -124,7 +114,7 @@ class OpenAIModel:
                     open_ai_messages_list, self.model_name, temperature, self.max_new_tokens, 1.0, self.stop_words
             )
         )
-        return [x['choices'][0]['message']['content'].strip() for x in predictions]
+        return [x.choices[0].message.content.strip() for x in predictions]
     
     def batch_prompt_generate(self, prompt_list, temperature = 0.0):
         predictions = asyncio.run(
@@ -132,12 +122,10 @@ class OpenAIModel:
                     prompt_list, self.model_name, temperature, self.max_new_tokens, 1.0, self.stop_words
             )
         )
-        return [x['choices'][0]['text'].strip() for x in predictions]
+        return [x.choices[0].text.strip() for x in predictions]
 
     def batch_generate(self, messages_list, temperature = 0.0):
-        if self.model_name in ['text-davinci-002', 'code-davinci-002', 'text-davinci-003']:
-            return self.batch_prompt_generate(messages_list, temperature)
-        elif self.model_name in ['gpt-4', 'gpt-3.5-turbo']:
+        if self.model_name in ['gpt-4o', 'gpt-4o-mini', 'gpt-4.1-mini']:
             return self.batch_chat_generate(messages_list, temperature)
         else:
             raise Exception("Model name not recognized")
@@ -153,5 +141,5 @@ class OpenAIModel:
             frequency_penalty = 0.0,
             presence_penalty = 0.0
         )
-        generated_text = response['choices'][0]['text'].strip()
+        generated_text = response.choices[0].text.strip()
         return generated_text

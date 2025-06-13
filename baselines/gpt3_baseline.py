@@ -1,5 +1,6 @@
 import json
 import os
+import openai
 from tqdm import tqdm
 from collections import OrderedDict
 from typing import Dict, List, Tuple
@@ -15,20 +16,20 @@ class GPT3_Reasoning_Graph_Baseline:
         self.model_name = args.model_name
         self.save_path = args.save_path
         self.demonstration_path = args.demonstration_path
+        self.label_phrase = args.label_phrase
         self.mode = args.mode
 
-        self.openai_api = OpenAIModel(args.api_key, args.model_name, args.stop_words, args.max_new_tokens)
+        self.openai_api = OpenAIModel(args.model_name, args.stop_words, args.max_new_tokens)
         self.prompt_creator = self.prompt_LSAT
-        self.label_phrase = 'The correct option is:'
     
     def prompt_LSAT(self, in_context_example, test_example):
         full_prompt = in_context_example
-        context = test_example['context'].strip()
+        context = test_example['summary'].strip()
         question = test_example['question'].strip()
-        options = '\n'.join([opt.strip() for opt in test_example['options']])
+        # options = '\n'.join([opt.strip() for opt in test_example['options']])
         full_prompt = full_prompt.replace('[[CONTEXT]]', context)
         full_prompt = full_prompt.replace('[[QUESTION]]', question)
-        full_prompt = full_prompt.replace('[[OPTIONS]]', options)
+        full_prompt = full_prompt.replace('[[OPTIONS]]', '')
         return full_prompt
 
     def load_in_context_examples(self):
@@ -37,7 +38,7 @@ class GPT3_Reasoning_Graph_Baseline:
         return in_context_examples
 
     def load_raw_dataset(self, split):
-        with open(os.path.join(self.data_path, self.dataset_name, f'{split}.json')) as f:
+        with open(os.path.join(self.data_path, self.dataset_name, f'{split}.json'), encoding="utf-8") as f:
             raw_dataset = json.load(f)
         return raw_dataset
 
@@ -107,7 +108,7 @@ class GPT3_Reasoning_Graph_Baseline:
                         print('Error in generating example: ', sample['id'])
 
         # save outputs        
-        with open(os.path.join(self.save_path, f'{self.mode}_{self.dataset_name}_{self.split}_{self.model_name}.json'), 'w') as f:
+        with open(os.path.join(self.save_path, f'{self.mode}_{self.dataset_name}_{self.split}_{self.model_name}.json'), 'w', encoding='utf-8') as f:
             json.dump(outputs, f, indent=2, ensure_ascii=False)
     
     def update_answer(self, sample, output):
@@ -133,10 +134,14 @@ def parse_args():
     parser.add_argument('--stop_words', type=str, default='------')
     parser.add_argument('--mode', type=str)
     parser.add_argument('--max_new_tokens', type=int)
+    parser.add_argument('--label_phrase', type=str, default='The correct option is:')
     args = parser.parse_args()
     return args
 
 if __name__ == '__main__':
     args = parse_args()
+    os.environ["OPENAI_API_KEY"] = args.api_key
+    openai.api_key = os.environ["OPENAI_API_KEY"]
+
     gpt3_problem_reduction = GPT3_Reasoning_Graph_Baseline(args)
     gpt3_problem_reduction.batch_reasoning_graph_generation(batch_size=10)

@@ -1,0 +1,49 @@
+You are given a context and a question. Your task is :
+- Think step by step to determine the correct answer of the question based on the best match and logical consistency with the question. 
+- Make the answer as short as possible.
+- Explain your thought process in the Reasoning section.
+
+Format:
+Context:
+
+Question:
+
+###
+Correct Answer:
+
+Reasoning:
+(Explain your thought process: how you interpreted the question, how each candidate relates to it, and how you selected the best answer)
+
+Example:
+------
+Context:
+Marie Curie was a physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize and remains the only person to win Nobel Prizes in two different scientific fields.
+
+Question:
+Who was the first woman to win a Nobel Prize?
+
+###
+Reasoning:
+The question asks for the identity of the first woman to win a Nobel Prize. The sentence "She was the first woman to win a Nobel Prize" directly states this fact and refers to "Marie Curie" from the previous sentence. Other candidate answers describe her profession and achievements but don't directly answer the question.
+
+Correct Answer:
+Marie Curie
+------
+Context:
+Ricky Verona (Jose Pablo Cantillo), an ambitious small-time criminal uses the opportunity to conspire with Carlito against Chelios; Verona will kill Chelios so the Triads do not retaliate, and then take Chelios's place as Carlito's new hired gun. The morning after Don Kim's death, while Chelios sleeps in his apartment, Verona, his brother Alex (Jay Xcala), and several henchmen break in and inject Chelios with a Chinese synthetic drug which inhibits the flow of adrenaline, slowing the heart and eventually killing the victim. Chelios wakes to find a recording left by Verona showing what he has done. In anger, Chelios smashes his TV and heads out.
+
+Question:
+How does the drug Chelios is injected with eventually kill people?
+
+###
+Reasoning:
+The question asks how the drug injected into Chelios ultimately causes death. In the context, it is explained that the drug is a "Chinese synthetic drug which inhibits the flow of adrenaline, slowing the heart and eventually killing the victim." This sentence directly describes the drug's effect and its lethal mechanism. It connects clearly to the question by identifying both the physiological effect (inhibition of adrenaline and slowing of the heart) and the outcome (death). This makes it the best and most complete answer to the question.
+
+Correct Answer:
+Slowing the heart and eventually killing the victim
+------
+Context:
+[[CONTEXT]]
+
+Question: 
+[[QUESTION]]

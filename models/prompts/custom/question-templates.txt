@@ -1,0 +1,24 @@
+You are given a natural language question and a set of candidate answers. Your task is to transform the question into a sentence template that can be used to evaluate each candidate answer. In the template, replace the part corresponding to the answer with the placeholder [[CANDIDATE_ANSWER]]. This placeholder will later be substituted with each candidate answer in turn.
+
+The resulting template should preserve the meaning of the original question and be grammatically correct when [[CANDIDATE_ANSWER]] is replaced by an actual answer.
+
+*Note: Only response the replaced sentence, do not response question.
+Example:
+
+Question: 
+Which animal can run the fastest?
+
+Candidate Answers:
+Cheetah
+Ostrich
+Zebra
+
+###
+[[CANDIDATE_ANSWER]] can run the fastest.
+
+------
+Question:
+[[QUESTION]]
+
+Candidate Answers:
+[[CANDIDATE_ANSWERS]]

@@ -8,6 +8,7 @@ from typing import Dict, List, Tuple
 from utils import OpenAIModel
 import argparse
 import openai
+from datasets import load_dataset
 
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
@@ -129,7 +130,7 @@ class LogicProgramGenerator:
         # load raw dataset
         raw_dataset = self.load_raw_dataset(self.split)
         print(f"Loaded {len(raw_dataset)} examples from {self.split} split.")
-
+ 
         outputs = []
         # split dataset into chunks
         # dataset_chunks = [raw_dataset[i:i + batch_size] for i in range(0, len(raw_dataset), batch_size)]

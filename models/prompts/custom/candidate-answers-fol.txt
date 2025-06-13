@@ -1,0 +1,91 @@
+You are given a paragraph, along with a set of predicates and premises in first order logic form that have been extracted from that paragraph.  Your task is to use the provided predicates and premises to construct First-Order Logic (FOL) premises that accurately represent the conclusion sentence. 
+
+A predicate expresses either:
+- A relationship between two or more entities (e.g., WorksIn(John, New York)), or
+- A trait or attribute of a single entity (e.g., IsInsomniac(John)).
+These predicates form the atomic building blocks of FOL expressions.
+
+The grammar of the FOL formular is defined as follows:
+1. logical conjunction of expr1 and expr2: expr1 ∧ expr2
+2. logical disjunction of expr1 and expr2: expr1 ∨ expr2
+3. logical exclusive disjunction of expr1 and expr2: expr1 ⊕ expr2
+4. logical negation of expr1: ¬expr1
+5. expr1 implies expr2: expr1 → expr2
+6. expr1 if and only if expr2: expr1 ↔ expr2
+7. logical universal quantification: ∀x
+8. logical existential quantification: ∃x
+
+*Note: 
+- The structure of FOL extracted from conclusion sentence must reuse the premises given.
+- Output format must only contain the FOL form of conclusion sentence.
+- If you can not extract to a corresponding FOL form, leave answer None. 
+Example
+------
+Paragraph:
+Dr. Crusher discovers that Shinzon is aging rapidly due to being a clone and the only possible means to stop it is a transfusion of Picard's own blood. Shinzon kidnaps Picard from the Enterprise, as well as B-4, having planted the android on the nearby planet to lure Picard to Romulus. However, Data reveals he has swapped places with B-4, rescues Picard, and returns to the Enterprise. They have now seen enough of the Scimitar to know that Shinzon plans to use the warship to invade the Federation using its thalaron radiation generator as a weapon, with the eradication of all life on Earth being his first priority.
+
+Predicates:
+Clone(x) ::: x is a clone
+AgingRapidly(x) ::: x is aging rapidly
+RequiresTransfusionFrom(x, y) ::: x requires a transfusion from y
+Kidnaps(x, y) ::: x kidnaps y
+Planted(x, y) ::: x planted y (some object) on a location
+LuredTo(x, y) ::: x was lured to y
+SwappedPlaces(x, y) ::: x swapped places with y
+Rescued(x, y) ::: x rescued y
+ReturnedTo(x, y) ::: x returned to y
+PlansToUseFor(x, y) ::: x plans to use y
+Invade(x, y) ::: x invades y 
+ThreatTo(x, y) ::: x is a threat to y
+
+Premises:
+Clone(shinzon) ∧ AgingRapidly(shinzon) ∧ RequiresTransfusionFrom(shinzon, picard) ::: Shinzon is aging rapidly due to being a clone and requires a transfusion from Picard.
+Kidnaps(shinzon, picard) ∧ Kidnaps(shinzon, b4) ∧ Planted(shinzon, b4) ∧ LuredTo(picard, romulus) ::: Shinzon kidnaps Picard and B-4, after planting B-4 on the nearby planet to lure Picard to Romulus.
+SwappedPlaces(data, b4) ∧ Rescued(data, picard) ∧ ReturnedTo(data, enterprise) ::: Data swapped places with B-4, rescued Picard, and returned to the Enterprise.
+PlansToUseFor(shinzon, thalaron_generator) -> Eradicate(earth)::: Shinzon plans to use its thalaron radiation generator to eradicate all life on Earth.
+Invade(shinzon, federation) → ThreatTo(federation) ::: The Scimitar is a threat to the Federation because Shinzon plans to use the warship to invade the Federation
+
+Conclusion sentence: Earth is endangered by Shinzon's plans to use the thalaron radiation generator.
+###
+PlansToUseFor(shinzon, thalaron_generator) → Eradicate(earth)
+------
+Paragraph:
+Days after being trapped, Ralston considers using his pocket knife to cut himself free, but finds the dull blade unable to cut bone. With no water, he is forced to drink his own urine. His vlogs then becomes desperate and depressed. He hallucinates about escape, relationships, and past experiences, including a former lover (ClĂŠmence PoĂŠsy), family (Lizzy Caplan, Treat Williams, Kate Burton), and the hikers he met earlier. He starts seeing the boulder that has trapped him as his destiny.
+
+Predicates:
+Trapped(x) ::: x is trapped
+Dull(blade) ::: the blade is dull
+CutBone(y) ::: use tool y to cut bone
+FreeHimself(x) ::: x free himself
+HasNo(x, y) ::: x does not have y
+Drinks(x, y) ::: x drinks substance y
+Feels(x, y) ::: x feels emotion y
+HallucinatesAbout(x, y) ::: x hallucinates about y
+Includes(x, y) ::: hallucination x includes y
+SeesAs(x, y, z) ::: x sees y as z
+SymbolOf(x, y) ::: x is a symbol of y
+Traps(x, y) ::: x traps y
+
+Premises:
+Trapped(ralston) ::: Ralston is trapped.
+Dull(blade) -> ¬CutBone(dull_blade) ∧ ¬FreeHimself(x) ::: Ralston considers using his pocket knife, but the dull blade cannot cut bone.
+HasNo(ralston, water) ∧ Drinks(ralston, urine)::: With no water, Ralston drinks his own urine.
+Feels(ralston, desperation) ∧ Feels(ralston, depression) ::: Ralston feels desperation and depression.
+HallucinatesAbout(ralston, escape) ∧ HallucinatesAbout(ralston, relationships) ∧ HallucinatesAbout(ralston, past_experiences) ::: Ralston hallucinates about escape, relationships, and past experiences.
+Includes(past_experiences, former_lover) ∧ Includes(past_experiences, family) ∧ Includes(past_experiences, hikers) ::: His hallucinations about past experiences include his former lover, family, and hikers.
+
+Conclusion sentence: Ralston considers using his pocket knife to cut himself free, but finds the dull blade unable to cut bone.
+###
+Dull(blade) -> ¬CutBone(dull_blade) 
+------
+Paragraph:
+[[PARAGRAPH]]
+
+Predicates:
+[[PREDICATES]]
+
+Premises:
+[[PREMISES]]
+
+Conclusion sentence: 
+[[CONCLUSION_SENTENCE]]

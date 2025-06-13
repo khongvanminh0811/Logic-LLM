@@ -13,11 +13,11 @@ class FOL_Formula:
         def handler(signum, frame):
             raise Exception("Timeout!")
 
-        # Set the signal handler and a 5-second alarm
-        signal.signal(signal.SIGALRM, handler)
-        signal.alarm(60)
+        # # Set the signal handler and a 5-second alarm
+        # signal.signal(signal.SIGALRM, handler)
+        # signal.alarm(60)
         try:
-            tree = self.parser.parse_text_FOL_to_tree(str_fol)
+            tree = self.parser.parse_text_FOL_to_tree(str_fol)  
         except Exception as exc:
             tree = None
             self.is_valid = False

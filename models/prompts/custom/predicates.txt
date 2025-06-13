@@ -1,0 +1,49 @@
+You are given a sentence along with a set of entities that have been extracted from a paragraph containing that sentence. Your task is to identify and extract predicates that describe facts or relationships about the entities, suitable for representing in a First-Order Logic (FOL) structure.
+
+Each entity in the entities set is assigned a unique ID.
+Entities that belong to a group share a common character in their ID, followed by an underscore and a number. The entity with the number 0 serves as the group representative and can be used to refer to all entities in that group. 
+Ungrouped entities have an ID consisting of only the character.
+Example of entity IDs: people: a_0, Miss Delmar: a_1, Arabella Mason: a_2, Captain Delmar: a_3, Ben Keene: a_4, Percival Keene: a_5, place: b_0, Madeline Hall: b_1, Southampton: b_2, de Versely family: c
+
+A predicate expresses either:
+- A relationship between two or more entities (e.g., WorksIn(John, New York)), or
+- A trait or attribute of a single entity (e.g., IsInsomniac(John)).
+
+These predicates form the atomic building blocks of FOL expressions.
+
+Guidelines:
+- You should use the given entities set when defining predicates. 
+- If you identify a predicate involving an entity that is not listed, assigne an unique ID for that entity (ensuring it does not conflict with any existing IDs) and include it under the "New Entities:" section.
+
+Output Format:
+Predicates: predicate1(entity1), predicate2(entity2), predicate3(entity3, entity4),...
+New Entities: new_entity1: id, new_entity2: id,...
+
+Here are some examples of finding predicates in a sentence:
+Example 1:  
+Input Sentence: A tall man loves cheese
+Entities: tall man: a
+Predicates: IsTall(a), LovesCheese(a) 
+New Entities:
+
+Example 2: 
+Input Sentence: Smacking children stops bad behavior 
+Entities: Children: x
+Predicates: IsSmacked(x), HasBadBehavior(x)
+New Entities:
+ 
+Example 3: 
+Input Sentence: Giving 10% of your income to the Church will free a child's soul from Limbo into Heaven.
+Entities:  Your income: a, church: b
+Predicates: IsGiven(a,b), IsInLimbo(c), IsInHeaven(c)
+New Entities: child's soul: c
+
+Example 4: 
+Input Sentence: A man in a black shirt has a skateboard.
+Entities: man: a
+Predicates: IsInBlackShirt(a), HasSkateboard(a)
+New Entities:
+------
+Input Sentence: [[SENTENCE]]
+
+Entities: [[ENTITIES]]

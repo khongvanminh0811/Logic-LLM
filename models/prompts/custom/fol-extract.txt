@@ -1,0 +1,116 @@
+You are given a paragraph, along with a set of refering expressions and rules that have been extracted from that paragraph.  Your task is to use the provided refering expressions and rules to construct First-Order Logic (FOL) formulas that accurately represent the information in the paragraph.
+
+The refering expression can be a noun phrase, pronoun, or proper name that refers to a distinct object or concept with identifiable properties. Therefore, it could become an entity.
+Each refering expressionin the entities set is assigned a unique ID.
+Refering expressions that belong to a group share a common character in their ID, followed by an underscore and a number. The refering expression with the number 0 serves as the group representative and can be used to refer to all others in that group. 
+Ungrouped refering expressions have an ID consisting of only the character.
+Example of IDs: people: a_0, Miss Delmar: a_1, Arabella Mason: a_2, Captain Delmar: a_3, Ben Keene: a_4, Percival Keene: a_5, place: b_0, Madeline Hall: b_1, Southampton: b_2, de Versely family: c
+
+A predicate expresses either:
+- A relationship between two or more entities (e.g., WorksIn(John, New York)), or
+- A trait or attribute of a single entity (e.g., IsInsomniac(John)).
+These predicates form the atomic building blocks of FOL expressions.
+
+The grammar of the FOL formular is defined as follows:
+1. logical conjunction of expr1 and expr2: expr1 ∧ expr2
+2. logical disjunction of expr1 and expr2: expr1 ∨ expr2
+3. logical exclusive disjunction of expr1 and expr2: expr1 ⊕ expr2
+4. logical negation of expr1: ¬expr1
+5. expr1 implies expr2: expr1 → expr2
+6. expr1 if and only if expr2: expr1 ↔ expr2
+7. logical universal quantification: ∀x
+8. logical existential quantification: ∃x
+
+Output Format:
+Predicates:
+predicate1 ::: Explain about predicate1
+predicate2 ::: Explain about predicate2
+...
+Premises:
+premises1 ::: Explain about premises1
+premises2 ::: Explain about premises2
+...
+------
+Context:
+All people who regularly drink coffee are dependent on caffeine. People either regularly drink coffee or joke about being addicted to caffeine. No one who jokes about being addicted to caffeine is unaware that caffeine is a drug. Rina is either a student and unaware that caffeine is a drug, or neither a student nor unaware that caffeine is a drug. If Rina is not a person dependent on caffeine and a student, then Rina is either a person dependent on caffeine and a student, or neither a person dependent on caffeine nor a student.
+Refering expressions:
+People: a_0, Rina: a_1, Substances: b_0, caffeine: b_1, coffee: b_2, Roles: c_0, student: c_1, person dependent on caffeine: c_2
+Rules:
+If a person regularly drinks coffee, then the person is dependent on caffeine.
+If a person jokes about being addicted to caffeine, then the person is aware that caffeine is a drug.
+###
+Predicates:
+Dependent(a_0) ::: a person dependent on caffeine.
+Drinks(a_0) ::: a personregularly drinks coffee.
+Jokes(a_0) ::: a person jokes about being addicted to caffeine.
+Unaware(a_0) ::: a person is unaware that caffeine is a drug.
+Student(a_0) ::: a person is a student.
+
+Premises:
+∀a_0 (Drinks(a_0) → Dependent(a_0)) ::: All people who regularly drink coffee are dependent on caffeine.
+∀a_0 (Drinks(a_0) ⊕ Jokes(a_0)) ::: People either regularly drink coffee or joke about being addicted to caffeine.
+∀a_0 (Jokes(a_0) → ¬Unaware(a_0)) ::: No one who jokes about being addicted to caffeine is unaware that caffeine is a drug. 
+(Student(a_1) ∧ Unaware(a_1)) ⊕ ¬(Student(a_1) ∨ Unaware(a_1)) ::: Rina is either a student and unaware that caffeine is a drug, or neither a student nor unaware that caffeine is a drug. 
+¬(Dependent(a_1) ∧ Student(a_1)) → (Dependent(a_1) ∧ Student(a_1)) ⊕ ¬(Dependent(a_1) ∨ Student(a_1)) ::: If Rina is not a person dependent on caffeine and a student, then Rina is either a person dependent on caffeine and a student, or neither a person dependent on caffeine nor a student.
+------
+Context:
+Miroslav Venhoda was a Czech choral conductor who specialized in the performance of Renaissance and Baroque music. Any choral conductor is a musician. Some musicians love music. Miroslav Venhoda published a book in 1946 called Method of Studying Gregorian Chant.
+Refering expressions:
+People: a_0, Miroslav Venhoda: a_1, Profession: b_0, choral conductor: b_1, musician: b_2, Music Style: c_0, Renaissance music: c_1, Baroque music: c_2, Gregorian Chant: c_3, Method of Studying Gregorian Chant: d, Czech: e
+Rules:
+If a person is a choral conductor, then the person is a musician.
+###
+Predicates:
+Czech(x) ::: x is a Czech person.
+ChoralConductor(x) ::: x is a choral conductor.
+Musician(x) ::: x is a musician.
+Love(x, y) ::: x loves y.
+Author(x, y) ::: x is the author of y.
+Book(x) ::: x is a book.
+Publish(x, y) ::: x is published in year y.
+Specialize(x, y) ::: x specializes in y.
+Premises:
+Czech(miroslav) ∧ ChoralConductor(miroslav) ∧ Specialize(miroslav, renaissance) ∧ Specialize(miroslav, baroque) ::: Miroslav Venhoda was a Czech choral conductor who specialized in the performance of Renaissance and Baroque music.
+∀x (ChoralConductor(x) → Musician(x)) ::: Any choral conductor is a musician.
+∃x (Musician(x) ∧ Love(x, music)) ::: Some musicians love music.
+Book(methodOfStudyingGregorianChant) ∧ Author(miroslav, methodOfStudyingGregorianChant) ∧ Publish(methodOfStudyingGregorianChant, year1946) ::: Miroslav Venhoda published a book in 1946 called Method of Studying Gregorian Chant.
+Conclusion:
+Love(miroslav, music) ::: Miroslav Venhoda loved music.
+∃y ∃x (Czech(x) ∧ Author(x, y) ∧ Book(y) ∧ Publish(y, year1946)) ::: A Czech person wrote a book in 1946.
+¬∃x (ChoralConductor(x) ∧ Specialize(x, renaissance)) ::: No choral conductor specialized in the performance of Renaissance.
+------
+Context: 
+Naturalists have observed that a group of birds usually have strict hierarchies, and birds with high status bully birds with low status. The darker the feathers on the head and the thicker the breast feather stripes, the higher the rank status and vice versa. Naturalists have also observed that the older the bird, the darker the color of the feathers on the head and the thicker the stripes of the breast feathers. This shows that the status of birds in a group is gradually established through long-term common life.
+Refering expressions:
+people: a_0, naturalists: a_1, bird: b, Bird Features: c_0, feathers on the head: c_1, breast feather stripes: c_2, Group Behavior: d_0, strict hierarchies: d_1, long-term common life: d_2, Status Levels: e_0, high status: e_1, low status: e_2, higher rank status: e_3, lower rank status: e_4 
+Rules:
+If a bird is older, then the bird has darker feathers on the head and thicker stripes on the breast feathers.
+If a bird has darker feathers on the head and thicker stripes on the breast feathers, then the bird has higher rank status.
+If a bird has higher rank status, then the bird bullies birds with lower rank status. 
+###
+Predicates:
+Older(x) ::: x is an older bird
+DarkerHeadFeathers(x) ::: x has darker feathers on the head
+ThickerBreastStripes(x) ::: x has thicker breast feather stripes
+HigherRank(x) ::: x has higher rank status
+LowerRank(x) ::: x has lower rank status
+Bullies(x, y) ::: x bullies y
+InStrictHierarchy(x) ::: x is part of a strict hierarchy
+InGroup(x, g) ::: x is in group g
+LongTermCommonLife(x, g) ::: x has long-term common life in group g
+StatusGraduallyEstablished(g) ::: status is gradually established in group g
+
+Premises:
+∀x (Older(x) → (DarkerHeadFeathers(x) ∧ ThickerBreastStripes(x))) ::: If a bird is older, then the bird has darker head feathers and thicker breast stripes
+∀x ((DarkerHeadFeathers(x) ∧ ThickerBreastStripes(x)) → HigherRank(x)) ::: If a bird has darker head feathers and thicker breast stripes, then it has higher rank status
+∀x ∀y ((HigherRank(x) ∧ LowerRank(y)) → Bullies(x, y)) ::: If a bird has higher rank status, it bullies birds with lower rank status
+∀x ∀g (InGroup(x, g) → InStrictHierarchy(x)) ::: Birds in a group usually have strict hierarchies
+∀g (∀x (InGroup(b, g) ∧ LongTermCommonLife(x, g)) → StatusGraduallyEstablished(g)) ::: Status of birds in a group is gradually established through long-term common lifec
+------
+Context: 
+[[CONTEXT]]
+Refering expressions:
+[[ENTITIES]]
+Rules:
+[[RULES]]
+###

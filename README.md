@@ -1,4 +1,4 @@
-# Logic-LM
+<!-- # Logic-LM
 Data and Codes for ["LOGIC-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning"](https://arxiv.org/abs/2305.12295) (Findings of EMNLP 2023). 
 
 Authors: **Liangming Pan, Alon Albalak, Xinyi Wang, William Yang Wang**. 
@@ -25,7 +25,7 @@ The datasets we used are preprocessed and stored in the `./data` folder. We eval
 - [ProofWriter](https://allenai.org/data/proofwriter): Deductive resoning dataset. We use the depth-5 subset of the OWA version. To reduce overall experimentation costs, we randomly sample 600 examples in the test set and ensure a balanced label distribution.
 - [FOLIO](https://github.com/Yale-LILY/FOLIO): First-Order Logic reasoning dataset. We use the entire FOLIO test set for evaluation, consisting of 204 examples.
 - [LogicalDeduction](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/logical_deduction): Constraint Satisfaction Problems (CSPs). We use the full test set consisting of 300 examples.
-- [AR-LSAT](https://github.com/zhongwanjun/AR-LSAT): Analytical Reasoning (AR) problems, containing all analytical logic reasoning questions from the Law School Admission Test from 1991 to 2016. We use the test set which has 230 multiple-choice questions. 
+- [AR-LSAT](https://github.com/zhongwanjun/AR-LSAT): Analytical Reasoning (AR) problems, containing all analytical logic reasoning questions from the Law School Admission Test from 1991 to 2016. We use the test set which has 230 multiple-choice questions.  -->
 
 ## Baselines
 
@@ -103,7 +103,7 @@ python models/evaluation.py \
     --backup "The basic mode (random) or CoT-Logic collabration mode (LLM)"
 ```
 
-## Self-Refinement
+<!-- ## Self-Refinement
 
 After generating the logic programs without self-refinement, run the following commands for self-refinement:
 
@@ -147,4 +147,4 @@ Please cite the paper in the following format if you use this dataset during you
 The codes for the SMT solver are modified from [SatLM](https://github.com/xiye17/sat-lm). 
 
 ## Q&A
-If you encounter any problem, please either directly contact the [Liangming Pan](liangmingpan@ucsb.edu) or leave an issue in the github repo.
+If you encounter any problem, please either directly contact the [Liangming Pan](liangmingpan@ucsb.edu) or leave an issue in the github repo. -->

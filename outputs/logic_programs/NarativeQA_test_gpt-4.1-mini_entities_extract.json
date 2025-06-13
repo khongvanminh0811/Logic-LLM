@@ -1,0 +1,2781 @@
+{
+  "04d0a3d15a1e39a94524a3958e433a88ca01fdf9": [
+    {
+      "id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+      "paragraph_id": 0,
+      "entities": [
+        "People: King Charles I, Colonel Beverley, Edward, Humphrey, Alice, Edith, Jacob Armitage, Parliamentary soldiers  ",
+        "Places: London, New Forest, Arnwood, isolated cottage  ",
+        "Groups: four orphan children (Edward, Humphrey, Alice, Edith)"
+      ]
+    },
+    {
+      "id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Armitage, Edward, Humphrey, Pablo, Corbould, Heatherstone, Patience, Jacob Armitage  ",
+        "Groups: the children, Edward's family  ",
+        "Places: New Forest, farmstead, cottage, Royal land"
+      ]
+    },
+    {
+      "id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Edward, King Charles II, Heatherstone, Patience, Edward's sisters, Edward's brother  ",
+        "Places: New Forest, France, Arnwood estate, Battle of Worcester  ",
+        "Groups: Royalists"
+      ]
+    }
+  ],
+  "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea": [
+    {
+      "id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Herbert Wace, Dane Kempton, Jack London, Anna Strunsky  ",
+        "Groups: The Crowd  ",
+        "Concepts: philosophy of love and sex, series of letters  ",
+        "Location: San Francisco  ",
+        "Time period: late 19th century"
+      ]
+    },
+    {
+      "id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Kempton, Wace  ",
+        "Concepts: feeling, emotion, love, Darwinian terms"
+      ]
+    },
+    {
+      "id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+      "paragraph_id": 2,
+      "entities": [
+        "People: speaker, Hester Stebbins"
+      ]
+    },
+    {
+      "id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Russ Kingman  ",
+        "Organizations: Buffalo Commercial  ",
+        "Groups: the public, the writers  ",
+        "Works: the book  ",
+        "Locations: London"
+      ]
+    },
+    {
+      "id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+      "paragraph_id": 4,
+      "entities": [
+        "Organizations: The New York Times  ",
+        "People: scientist, poet, unnamed author, Wace, Kempton  ",
+        "Concepts: sex problem, story, discussion, topic"
+      ]
+    },
+    {
+      "id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+      "paragraph_id": 5,
+      "entities": [
+        "People: Joseph Noel, George Sterling, Herbert Wace  ",
+        "Place: London  ",
+        "Concepts: London's portion of the book, spiritual misprint, typographical error, vocabulary, letters, encyclopedia, conscientious sophomore"
+      ]
+    },
+    {
+      "id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+      "paragraph_id": 6,
+      "entities": [
+        "People: Jack London, Bessie, Strunsky, younger Strunsky, biographers  ",
+        "Groups: The Crowd, socialists  ",
+        "Places: San Francisco  ",
+        "Works: The Kempton-Wace Letters"
+      ]
+    },
+    {
+      "id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+      "paragraph_id": 7,
+      "entities": [
+        "People: London, Strunsky, London's first wife, London's second wife  ",
+        "Publications: The Masses, memoir  ",
+        "Concepts: Mother-Woman, Mate-Woman"
+      ]
+    }
+  ],
+  "09333c7d604bd412e6aef5d3e56b046ed301c5e5": [
+    {
+      "id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Dr Watson, Holmes, Mrs Hudson",
+        "Disease: rare disease"
+      ]
+    },
+    {
+      "id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Holmes, Watson  ",
+        "Concepts: illness, specialist, extreme worry, nonsense, infectiousness"
+      ]
+    },
+    {
+      "id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Watson, Holmes  ",
+        "Places: Holmes’s room  ",
+        "Objects: several objects, items, Holmes’s things"
+      ]
+    },
+    {
+      "id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Holmes, Watson, Mr Culverton Smith  ",
+        "Places: 13 Lower Burke Street, Baker Street  ",
+        "Object: gaslight"
+      ]
+    },
+    {
+      "id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Watson, Smith, Sherlock Holmes  ",
+        "Places: Smith's address, Baker Street"
+      ]
+    },
+    {
+      "id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+      "paragraph_id": 5,
+      "entities": [
+        "People: Smith, Holmes, Watson, Victor  ",
+        "Object: little ivory box, sharp spring  ",
+        "Illness"
+      ]
+    },
+    {
+      "id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+      "paragraph_id": 6,
+      "entities": [
+        "People: Holmes, Smith, Inspector Morton, Culverton Smith, Holmes’s nephew, Sherlock Holmes, Watson  ",
+        "Objects: gas, match, cigarette, gaslight  ",
+        "Locations: behind the screen"
+      ]
+    },
+    {
+      "id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+      "paragraph_id": 7,
+      "entities": [
+        "People: Holmes, Smith, Watson, Holmes' nephew  ",
+        "Objects: little box, mail  ",
+        "Concepts: feigned illness, ruse, disease's infectious nature"
+      ]
+    }
+  ],
+  "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d": [
+    {
+      "id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Andy Kaufman  ",
+        "Character: \"foreign man\"  ",
+        "Places: Great Neck, New York  ",
+        "Objects: phonograph record, film projector  ",
+        "Time: 1957"
+      ]
+    },
+    {
+      "id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Kaufman  ",
+        "Audience  ",
+        "Character: \"foreign man\"  ",
+        "Object: rhinestone jacket  ",
+        "Concepts: comedy, children's songs, conventional jokes, Elvis impersonation, song"
+      ]
+    },
+    {
+      "id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Kaufman, George Shapiro, Latka Gravas  ",
+        "TV Series: Taxi"
+      ]
+    },
+    {
+      "id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Shapiro, Tony Clifton, Andy, Kaufman, Bob Zmuda, Paul Giamatti  ",
+        "Characters: villain character Tony Clifton  ",
+        "Places: nightclub, backstage, Taxi (TV show)"
+      ]
+    },
+    {
+      "id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Kaufman, Shapiro, Latka, Clifton  ",
+        "Places: Saturday Night Live, college campuses, Taxi set, studio lot  ",
+        "Works: The Great Gatsby, theater  ",
+        "Audience"
+      ]
+    },
+    {
+      "id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+      "paragraph_id": 5,
+      "entities": [
+        "People: Kaufman, Lynne Margulies  ",
+        "Group: women wrestled by Kaufman (hired actresses)"
+      ]
+    },
+    {
+      "id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+      "paragraph_id": 6,
+      "entities": [
+        "People: Kaufman, Jerry Lawler, Andy, Shapiro, audience members, David Letterman  ",
+        "Organizations: ABC's Fridays, NBC's Late Night with David Letterman, Saturday Night Live, Taxi  ",
+        "Events: wrestling match, feud, appearance on ABC's Fridays, appearance on NBC's Late Night with David Letterman"
+      ]
+    },
+    {
+      "id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+      "paragraph_id": 7,
+      "entities": [
+        "People: Kaufman, Lynne, Zmuda, Shapiro, friends, loved ones  ",
+        "Places: comedy club, Carnegie Hall, Philippines  ",
+        "Concepts: rare form of lung cancer, medical \"miracle\", psychic surgery, infected organs, scam, milk and cookies, sing-along, video, funeral"
+      ]
+    },
+    {
+      "id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+      "paragraph_id": 8,
+      "entities": [
+        "People: Tony Clifton, Andy Kaufman, Zmuda  ",
+        "Places: The Comedy Store  ",
+        "Event: Andy Kaufman's tribute, final credits  ",
+        "Performance: \"I Will Survive\""
+      ]
+    }
+  ],
+  "0c1274df8299049d4959ef8a1ea23a6a68e26f6e": [
+    {
+      "id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Stanley Jobson, Melissa, Holly, Ginger Knowles, Gabriel Shear  ",
+        "Places: Los Angeles  ",
+        "Programs: FBI's Carnivore program, multi-headed worm \"hydra\"  ",
+        "Concepts: parole, restraining order, government server, government slush funds"
+      ]
+    },
+    {
+      "id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Stanley, Gabriel, J. Edgar Hoover, Ginger, Holly, J.T. Roberts, Axl Torvalds, Senator Reisman  ",
+        "Groups: Black Cell, terrorists  ",
+        "Organizations: FBI, DEA  ",
+        "Objects: hydra  ",
+        "Locations: United States"
+      ]
+    },
+    {
+      "id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Stanley, Gabriel, Melissa, Melissa's husband, Holly, Roberts, sniper, police, FBI agents, Gabriel's men, other agents  ",
+        "Organizations: Worldbanc  ",
+        "Locations: Worldbanc branch, coffee shop, street  ",
+        "Objects: hydra, ball-bearing-based explosives, Claymore mines, bomb  ",
+        "Film: Dog Day Afternoon"
+      ]
+    },
+    {
+      "id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Gabriel, Stanley, Holly, Ginger  ",
+        "Vehicles: bus, helicopter, S-64 Aircrane  ",
+        "Locations: bank, Monte Carlo bank, local airport, roof of a local skyscraper  ",
+        "Objects: hydra, bombs, rocket-propelled grenade  ",
+        "Group: Gabriel's men, hostages"
+      ]
+    },
+    {
+      "id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Roberts, Stanley, Gabriel, Ginger, Holly  ",
+        "Places: Monte Carlo, US, sea  ",
+        "Objects: corpse, bulletproof vest, yacht  ",
+        "Events: destruction of the yacht, misdirection scenario"
+      ]
+    }
+  ],
+  "145200abf14baeffa646797dfbfa58861cb4b079": [
+    {
+      "id": "145200abf14baeffa646797dfbfa58861cb4b079",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Carl Fredricksen, Charles Muntz, Ellie  ",
+        "Places: Paradise Falls, clubhouse, neighborhood, cliff, restored house, zoo  ",
+        "Objects: giant exotic bird, toy balloons, cart"
+      ]
+    },
+    {
+      "id": "145200abf14baeffa646797dfbfa58861cb4b079",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Carl, Ellie, Russell, Dug  ",
+        "Animals: Kevin (flightless bird), Dug (Golden Retriever)  ",
+        "Places: house, neighborhood, retirement home, tepui, Paradise Falls, mesa  ",
+        "Objects: mailbox, helium balloons, special collar  ",
+        "Groups: construction worker, Wilderness Explorer"
+      ]
+    },
+    {
+      "id": "145200abf14baeffa646797dfbfa58861cb4b079",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Charles Muntz, Carl, Russell  ",
+        "Animals: Alpha (doberman), Kevin, Dug  ",
+        "Locations: Carl's house, falls  ",
+        "Group: pack of aggressive dogs"
+      ]
+    },
+    {
+      "id": "145200abf14baeffa646797dfbfa58861cb4b079",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Carl, Ellie, Russell, Kevin, Muntz, Dug, Alpha  ",
+        "Objects: scrapbook, photos, note, balloons, furniture, possessions, dirigible, airship, house, balloon lines  ",
+        "Places: Carl’s home, clouds"
+      ]
+    },
+    {
+      "id": "145200abf14baeffa646797dfbfa58861cb4b079",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Carl, Russell, Kevin, Ellie, Dug  ",
+        "Places: city, cliff, Paradise Falls  ",
+        "Objects: dirigible, final badge, grape soda cap, ice cream, Carl's house  ",
+        "Events: promise between Carl and Ellie"
+      ]
+    }
+  ],
+  "1528f4c003dde308ae74bdec458466765944ca6a": [
+    {
+      "id": "1528f4c003dde308ae74bdec458466765944ca6a",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Paul Barnell, Margaret, Mafia hitmen, Paul Barnell's missing brother  ",
+        "Objects: body, corpse, life-insurance policy  ",
+        "Locations: dumpster"
+      ]
+    },
+    {
+      "id": "1528f4c003dde308ae74bdec458466765944ca6a",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Ted Waters, Margaret, Tiffany, local police, hitmen  ",
+        "Roles: insurance agent, girlfriend, hostage  ",
+        "Locations: (none specified)  ",
+        "Other entities: body, corpse, payment, firm"
+      ]
+    },
+    {
+      "id": "1528f4c003dde308ae74bdec458466765944ca6a",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Paul, Raymond, Ted, Margaret  ",
+        "Money: million dollar insurance payment  ",
+        "Objects: body"
+      ]
+    },
+    {
+      "id": "1528f4c003dde308ae74bdec458466765944ca6a",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Paul, Raymond, Margaret, Ted, Tiffany, Tim Nelson, insurance agent, hit-men  ",
+        "Objects: insurance money, pistol, jacket  ",
+        "Locations: tropical vacation"
+      ]
+    }
+  ],
+  "18a67c48f4afdee5d95afd681e6e1787471b5f30": [
+    {
+      "id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Conan  ",
+        "Places: Aquilonian capital, Aquilonia  ",
+        "Works: The Scarlet Citadel, Hour of the Dragon  ",
+        "Events: battle, monster-infested dungeon, riot, foreign occupation, hazardous quest  ",
+        "Concepts: alternative King, unexpected ally"
+      ]
+    },
+    {
+      "id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Conan, Valerius, Numedides, Zenobia, group of conspirators, Xaltotun  ",
+        "Places: Aquilonia, Nemedia, Acheron  ",
+        "Groups: Aquilonian army, army of Nemedia"
+      ]
+    },
+    {
+      "id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Conan  ",
+        "Object: Heart of Ahriman, throne  ",
+        "Place: Hyboria  ",
+        "Other: wizard, quest"
+      ]
+    },
+    {
+      "id": "18a67c48f4afdee5d95afd681e6e1787471b5f30",
+      "paragraph_id": 3,
+      "entities": [
+        "People: He, Zenobia"
+      ]
+    }
+  ],
+  "1b548ec72908f9447446bdb24e8c179df19a8999": [
+    {
+      "id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Palamon, Arcite, Theseus, Creon, Princess Emily, Hippolyta  ",
+        "Places: Athens, Theseus's castle, palace garden, courtyard, tower  ",
+        "Groups: cousins and knights (Palamon, Arcite)"
+      ]
+    },
+    {
+      "id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Arcite, Palamon, Theseus, Pirithoos, Emily  ",
+        "Locations: Athens, grove  ",
+        "Other: prison, jailer, exile, love, fortune"
+      ]
+    },
+    {
+      "id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Palamon, Arcite, Emily, Theseus  ",
+        "Deities: Venus, Diana, Mars  ",
+        "Groups: Palamon's 100 men, Arcite's 100 men"
+      ]
+    },
+    {
+      "id": "1b548ec72908f9447446bdb24e8c179df19a8999",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Palamon, Arcite, Theseus, Emily  ",
+        "Objects: sword, horse, oak tree, stone, river  ",
+        "Concepts: First Mover, primum movens, unmoved mover, Aristotelian philosophy, Great Chain of Love, kyndely enclyning, natural inclination, Medieval cosmology, death, good name, reputation, honour, feat of arms  ",
+        "Groups: classes of medieval society"
+      ]
+    }
+  ],
+  "21813f2122fca16d05e89d44f4521f7da8a8f3b7": [
+    {
+      "id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Daisy Fuller, Caroline, Benjamin Button  ",
+        "Places: New Orleans, New Orleans hospital  ",
+        "Event: Hurricane Katrina  ",
+        "Time: 2005"
+      ]
+    },
+    {
+      "id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Thomas Button, Queenie, Mr. \"Tizzy\" Weathers, boy, baby's mother  ",
+        "Places: nursing home, porch  ",
+        "Time: November 11, 1918"
+      ]
+    },
+    {
+      "id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Benjamin, Daisy, Daisy's grandmother, Mike Clark, Thomas Button, George Balanchine  ",
+        "Places: New Orleans, nursing home, New York City  ",
+        "Objects: crutches, wheelchair, tugboat  ",
+        "Time periods: 1925, Thanksgiving 1930, Autumn 1936  ",
+        "Events: Benjamin learning to walk, Benjamin meeting Daisy, Benjamin accepting tugboat work, Daisy joining dance company"
+      ]
+    },
+    {
+      "id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Benjamin, Elizabeth Abbott, British Trade Minister, Mike, another crewman  ",
+        "Groups: U.S. Navy ships, American troops, German submarine, crew of the tugboat  ",
+        "Places: Murmansk, Pearl Harbor, United States  ",
+        "Events: World War II, attack on Pearl Harbor  ",
+        "Vessels: tugboat, sunken U.S. transport"
+      ]
+    },
+    {
+      "id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Benjamin, Queenie, Daisy, Thomas Button  ",
+        "Places: New Orleans  ",
+        "Organizations: button company  ",
+        "Time: May 1945"
+      ]
+    },
+    {
+      "id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+      "paragraph_id": 5,
+      "entities": [
+        "People: Benjamin, Daisy  ",
+        "Places: New York, Paris  ",
+        "Events: automobile accident in Paris, Daisy's dancing career end"
+      ]
+    },
+    {
+      "id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+      "paragraph_id": 6,
+      "entities": [
+        "People: Daisy, Benjamin, Queenie, Caroline  ",
+        "Places: New Orleans  ",
+        "Events: spring 1962, spring 1968, 1967, 1970s  ",
+        "Concepts: reverse aging, ballet studio, bank account book"
+      ]
+    },
+    {
+      "id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+      "paragraph_id": 7,
+      "entities": [
+        "People: Benjamin, Daisy, Daisy's husband, Daisy's daughter  ",
+        "Places: Benjamin's hotel"
+      ]
+    },
+    {
+      "id": "21813f2122fca16d05e89d44f4521f7da8a8f3b7",
+      "paragraph_id": 8,
+      "entities": [
+        "People: Daisy, Benjamin, Caroline, social workers  ",
+        "Events: Hurricane Katrina  ",
+        "Locations: condemned building, hospital, nursing home  ",
+        "Time periods: 1990, 1997, spring of 2003"
+      ]
+    }
+  ],
+  "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e": [
+    {
+      "id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Mirabell, Fainall, Waitwell, Foible, Lady Wishfort, Millamant, Witwoud, Petulant, footman  ",
+        "Places: chocolate house  ",
+        "Money: £6000 of Millamant's inheritance"
+      ]
+    },
+    {
+      "id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Mrs. Fainall, Mrs. Marwood, Fainall, Mirabell, Lady Wishfort, Millamant, newly wed servants  ",
+        "Places: St. James’ Park"
+      ]
+    },
+    {
+      "id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Lady Wishfort, Foible, Sir Rowland, Mirabell, Waitwell, Mrs. Fainall, Mrs. Marwood, Fainall  ",
+        "Places: Lady Wishfort's home"
+      ]
+    },
+    {
+      "id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Mirabell, Millamant, Mrs. Fainall, Lady Wishfort, Sir Wilfull Witwoud, Sir Rowland"
+      ]
+    },
+    {
+      "id": "29b3a0b4e9bd807c59912ec69f4617e1fa5c6a3e",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Lady Wishfort, Fainall, Waitwell, Mrs. Fainall, Foible, Mirabell, Mrs. Marwood, Millamant  ",
+        "Contract: marriage contract of the Fainalls  ",
+        "Money: £6000 inheritance  ",
+        "Concepts: plot, blackmail, fortune, honour"
+      ]
+    }
+  ],
+  "2c5f448df18172babaac38806e1fb699a8baf65b": [
+    {
+      "id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+      "paragraph_id": 0,
+      "entities": [
+        "feline siblings: Mittens, Tom Kitten, Moppet  ",
+        "People: Mrs. Tabitha Twitchit  ",
+        "clothing: pinafores, tuckers, elegant uncomfortable clothes  ",
+        "furniture: chest of drawers"
+      ]
+    },
+    {
+      "id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Tabitha, Moppet, Mittens, Tom, Tom's sisters  ",
+        "Animals: kittens, Sally Henny Penny, Puddle-Ducks  ",
+        "Places: garden, pigsty, dirty ash pit, garden wall  ",
+        "Objects: hot buttered toast, frocks, pinafores, grass stains, ferns, buttons, hat, party"
+      ]
+    },
+    {
+      "id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+      "paragraph_id": 2,
+      "entities": [
+        "Puddle-ducks: Jemima Puddle-duck, Rebeccah, Moppet  ",
+        "Puddle-duck: Mr. Drake Puddle-duck  ",
+        "Kittens: Tom, three children  ",
+        "People: Tabitha  ",
+        "Places: road, wall, house  ",
+        "Clothing"
+      ]
+    },
+    {
+      "id": "2c5f448df18172babaac38806e1fb699a8baf65b",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Tabitha, Tom, author  ",
+        "Animals: kittens, Puddle-ducks  ",
+        "Places: bedroom, pond, upstairs  ",
+        "Event: tea party"
+      ]
+    }
+  ],
+  "35592c2abea624d315c5171d67ab5e14794ca071": [
+    {
+      "id": "35592c2abea624d315c5171d67ab5e14794ca071",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Johnny Utah, Jeff  ",
+        "Objects: motorbikes, lone stone column  ",
+        "Location: steep ridgeline"
+      ]
+    },
+    {
+      "id": "35592c2abea624d315c5171d67ab5e14794ca071",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Utah, Pappas, criminals, men  ",
+        "Places: Mumbai, Mexico, Cave of Swallows, France  ",
+        "Events: skyscraper heist, similar heist, Ozaki 8, three ordeals, fourth ordeal  ",
+        "Concepts: FBI agent candidate, parachute escape, diamond theft, unloading millions of dollars, rare sea wave phenomenon, tall tube wave, extreme ordeals, forces of nature"
+      ]
+    },
+    {
+      "id": "35592c2abea624d315c5171d67ab5e14794ca071",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Utah, Bodhi, Roach, Chowder, Grommet, Samsara  ",
+        "Locations: wave, yacht, abandoned Paris train station, Alps, cliffs, snow peaks  ",
+        "Events/Activities: initiation fight, wingsuit flying (\"The Life of Wind\"), snowboarding through a steep wall of snow"
+      ]
+    },
+    {
+      "id": "35592c2abea624d315c5171d67ab5e14794ca071",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Samsara, Bodhi, Ono Ozaki, Samsara's parents  ",
+        "Animals: humpback whales  ",
+        "Objects: Ono Ozaki's boat, whaling ship  ",
+        "Events: third ordeal, avalanche accident"
+      ]
+    },
+    {
+      "id": "35592c2abea624d315c5171d67ab5e14794ca071",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Bodhi, Utah, Grommet, Roach, Samsara  ",
+        "Organizations: FBI  ",
+        "Locations: gold mine, Italian bank, mountain top  ",
+        "Objects: explosives, bike  ",
+        "Group: Bodhi's sponsors, group"
+      ]
+    },
+    {
+      "id": "35592c2abea624d315c5171d67ab5e14794ca071",
+      "paragraph_id": 5,
+      "entities": [
+        "People: Utah, Bodhi, Grommet, Johnny  ",
+        "Locations: Angel Falls, Venezuela, Pacific  ",
+        "Events: solo rock climbing ordeal, fourth ordeal, last ordeal, giant wave  ",
+        "Organizations: FBI"
+      ]
+    }
+  ],
+  "35891de62bab83d5b312ddeb835c7e0b245e3282": [
+    {
+      "id": "35891de62bab83d5b312ddeb835c7e0b245e3282",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Dean Keaton, Keyser  ",
+        "Places: San Pedro Bay, ship"
+      ]
+    },
+    {
+      "id": "35891de62bab83d5b312ddeb835c7e0b245e3282",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Arkosh Kovash, Roger \"Verbal\" Kint, Dave Kujan, Keaton, Michael McManus, Fred Fenster, Todd Hockney  ",
+        "Places: New York City  ",
+        "Ship"
+      ]
+    },
+    {
+      "id": "35891de62bab83d5b312ddeb835c7e0b245e3282",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Verbal, Keaton, Redfoot, Kobayashi, Keyser Söze, Hockney, the other criminals  ",
+        "Groups: corrupt cops, smugglers, thieves, Argentinian drug dealers  ",
+        "Locations: New York, California  ",
+        "Objects/Concepts: hijacking charge, police convoy, stolen jewels, heroin, $91 million worth of cocaine, ship"
+      ]
+    },
+    {
+      "id": "35891de62bab83d5b312ddeb835c7e0b245e3282",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Kujan, Verbal, Jack Baer, Söze  ",
+        "Groups: Hungarian criminals, underlings  ",
+        "Concepts: underworld legend, fearsome urban legend, spook story"
+      ]
+    },
+    {
+      "id": "35891de62bab83d5b312ddeb835c7e0b245e3282",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Verbal, Fenster, Kobayashi, McManus, Hockney, Keaton, unseen person, man locked aboard the ship, loved ones of the group  ",
+        "Groups: Argentinian gangsters, Hungarian gangsters, the group  ",
+        "Objects: ship"
+      ]
+    },
+    {
+      "id": "35891de62bab83d5b312ddeb835c7e0b245e3282",
+      "paragraph_id": 5,
+      "entities": [
+        "People: Verbal, Kujan, Keaton, Arturo Marquez, Edie Finneran  ",
+        "Groups: Argentinians, Söze's Hungarian rivals  ",
+        "Roles: lawyer, girlfriend, drug dealer, murder victim  ",
+        "Concepts: heist, prosecution, court, bond"
+      ]
+    },
+    {
+      "id": "35891de62bab83d5b312ddeb835c7e0b245e3282",
+      "paragraph_id": 6,
+      "entities": [
+        "People: Kujan, Verbal, Kovash, Kobayashi, Söze  ",
+        "Places: California  ",
+        "Objects: police sketch artist's rendering of Söze, car, bulletin board"
+      ]
+    }
+  ],
+  "42b6d4260bbc83d7d8343779d34e96a067dfaad4": [
+    {
+      "id": "42b6d4260bbc83d7d8343779d34e96a067dfaad4",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Luke Skywalker, Han Solo, Jabba the Hutt, Princess Leia, Lando Calrissian, Chewbacca, C-3PO, R2-D2, Boba Fett, Yoda, Darth Vader, Anakin Skywalker, Obi-Wan Kenobi  ",
+        "Places: Jabba's palace, Tatooine, Great Pit of Carkoon, Sarlacc pit, Dagobah  ",
+        "Groups: Rebel Alliance"
+      ]
+    },
+    {
+      "id": "42b6d4260bbc83d7d8343779d34e96a067dfaad4",
+      "paragraph_id": 1,
+      "entities": [
+        "Groups:  ",
+        "People: Rebels, Empire, Emperor, Han, Luke, Leia, Vader, Imperial troops, Ewoks, strike team, squadron of starfighters  ",
+        "Locations: second Death Star, forest moon of Endor, Endor  ",
+        "Vehicles: stolen Imperial shuttle  ",
+        "Concepts: energy shield, dark side of the Force, shield generator  ",
+        "",
+        "Entities:  ",
+        "Leia's sister, Luke's companions"
+      ]
+    },
+    {
+      "id": "42b6d4260bbc83d7d8343779d34e96a067dfaad4",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Vader, Luke, the Emperor, Han, Lando  ",
+        "Groups: Rebel fleet, Imperial forces, strike team, Ewoks, Imperial fleet  ",
+        "Places: new Death Star, Endor, Death Star reactor shaft  ",
+        "Objects: Millennium Falcon, shield generator, Vader's prosthetic right hand, Vader's mask"
+      ]
+    },
+    {
+      "id": "42b6d4260bbc83d7d8343779d34e96a067dfaad4",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Lando, Luke, Leia, Han, Obi-Wan, Yoda, Anakin  ",
+        "Groups: Imperial fleet, Alliance fleet, Rebel ships, Rebels  ",
+        "Locations: Death Star, Death Star's core, Endor  ",
+        "Objects: shuttle, Falcon, funeral pyre, father's body"
+      ]
+    }
+  ],
+  "46e4a4aa0f4ba89cf4d4972f1b9f6657f56e8f63": [
+    {
+      "id": "46e4a4aa0f4ba89cf4d4972f1b9f6657f56e8f63",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Conan, Aram Baksh, elderly desert nomad, naked woman, deranged lover, high priest  ",
+        "Groups: Darfarian slaves, Darfarian cannibals, nomads and beggars, people of the city  ",
+        "Places: Suq, Zamboula, city walls, Zamboulan streets  ",
+        "Objects/Concepts: cheap tavern, small chamber, trick lock, love potion, \"fresh meat\""
+      ]
+    },
+    {
+      "id": "46e4a4aa0f4ba89cf4d4972f1b9f6657f56e8f63",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Conan, Baal-pteor, Nafertari, Jungir Khan, High priest, the woman"
+      ]
+    },
+    {
+      "id": "46e4a4aa0f4ba89cf4d4972f1b9f6657f56e8f63",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Conan, Aram Baksh, Jungir  ",
+        "Groups: hungry cannibals  ",
+        "Objects: gold, magic ring  ",
+        "Places: city"
+      ]
+    }
+  ],
+  "4e6e052732e90a9c127f6502feddee1a17301c14": [
+    {
+      "id": "4e6e052732e90a9c127f6502feddee1a17301c14",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Lucy Snowe, Mrs. Bretton, John Graham Bretton, Paulina Home, Polly, Polly's father  ",
+        "Places: Bretton, England"
+      ]
+    },
+    {
+      "id": "4e6e052732e90a9c127f6502feddee1a17301c14",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Lucy, Mrs. Bretton, Polly, Miss Marchmont  ",
+        "Attributes: family tragedy, caregiver, rheumatic crippled woman, quiet lifestyle"
+      ]
+    },
+    {
+      "id": "4e6e052732e90a9c127f6502feddee1a17301c14",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Miss Marchmont, Lucy, Miss Marchmont's dead lover  ",
+        "Time: evening of dramatic weather changes, next morning"
+      ]
+    },
+    {
+      "id": "4e6e052732e90a9c127f6502feddee1a17301c14",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Lucy, Mme. Beck, Mme. Beck's three children  ",
+        "Places: English countryside, London, Labassecour, Villette, Hégers' Brussels pensionnat  ",
+        "Roles: bonne, teacher, staff, students"
+      ]
+    },
+    {
+      "id": "4e6e052732e90a9c127f6502feddee1a17301c14",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Dr. John, John Graham Bretton, Ginevra Fanshawe, Lucy  ",
+        "Place: school"
+      ]
+    },
+    {
+      "id": "4e6e052732e90a9c127f6502feddee1a17301c14",
+      "paragraph_id": 5,
+      "entities": [
+        "People: Polly, Paulina Home de Bassompierre, Polly's father, Graham  ",
+        "Titles: Count, de Bassompierre"
+      ]
+    },
+    {
+      "id": "4e6e052732e90a9c127f6502feddee1a17301c14",
+      "paragraph_id": 6,
+      "entities": [
+        "People: Lucy, M. Paul Emanuel, Mme. Beck"
+      ]
+    },
+    {
+      "id": "4e6e052732e90a9c127f6502feddee1a17301c14",
+      "paragraph_id": 7,
+      "entities": [
+        "People: Mme. Beck, Père Silas, M. Paul, Lucy, M. Paul's long-dead fiancée, relatives of M. Paul's long-dead fiancée  ",
+        "Groups: conspiring antagonists  ",
+        "Places: West Indies, plantation  ",
+        "Institutions: day school, pensionnat (boarding school)"
+      ]
+    },
+    {
+      "id": "4e6e052732e90a9c127f6502feddee1a17301c14",
+      "paragraph_id": 8,
+      "entities": [
+        "People: Lucy, Alfred de Hamal, Ginevra  ",
+        "Entities: nun, ghost of a nun, nun's habit, disguise, vow of chastity, school's grounds, novel, gothic novel"
+      ]
+    },
+    {
+      "id": "4e6e052732e90a9c127f6502feddee1a17301c14",
+      "paragraph_id": 9,
+      "entities": [
+        "People: Lucy, M. Paul, M. Emanuel  ",
+        "Places: West Indies  ",
+        "Concepts: Villette, destroying angel of tempest, storm, return journey, happy ending"
+      ]
+    },
+    {
+      "id": "4e6e052732e90a9c127f6502feddee1a17301c14",
+      "paragraph_id": 10,
+      "entities": [
+        "People: Brontë  ",
+        "Concepts: ambiguity of the ending, little puzzle"
+      ]
+    }
+  ],
+  "5328457f649b51410906d4d23b915f5147bee4ed": [
+    {
+      "id": "5328457f649b51410906d4d23b915f5147bee4ed",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Marie Clifton, Jay Clifton, Dr. Chad Johnson, Kristen Richards, Marie's late mother, anonymous rapist  ",
+        "Objects: mother diamond, daughter diamond  ",
+        "Places: Marie Clifton's school  ",
+        "Events: sexual education seminar"
+      ]
+    },
+    {
+      "id": "5328457f649b51410906d4d23b915f5147bee4ed",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Jay, Elena Sandoval, Marie, Detective Michael Morrison, Richards, Chad  ",
+        "Places: Marie's swim-meet, Marie's eighteenth birthday party, construction site  ",
+        "Other: court"
+      ]
+    },
+    {
+      "id": "5328457f649b51410906d4d23b915f5147bee4ed",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Marie, Elena, Jay, Chad  ",
+        "Objects: diamonds, will"
+      ]
+    },
+    {
+      "id": "5328457f649b51410906d4d23b915f5147bee4ed",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Jay, Elena, Richards, Morrison, Marie, Chad, Kristen  ",
+        "Places: Elena's trailer  ",
+        "Events: court session, Kristen's rape, prison"
+      ]
+    },
+    {
+      "id": "5328457f649b51410906d4d23b915f5147bee4ed",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Chad, Richards, Morrison, Marie, Elena, diamond buyer  ",
+        "Objects: diamonds, tire iron  ",
+        "Locations: woods"
+      ]
+    },
+    {
+      "id": "5328457f649b51410906d4d23b915f5147bee4ed",
+      "paragraph_id": 5,
+      "entities": [
+        "People: Richards, Morrison, Elena, Marie, Chad  ",
+        "Places: construction site  ",
+        "Objects: diamonds, gun, safe  ",
+        "Events: task, confession, chase, shooting"
+      ]
+    },
+    {
+      "id": "5328457f649b51410906d4d23b915f5147bee4ed",
+      "paragraph_id": 6,
+      "entities": [
+        "People: Richards, Elena, Jay, Kristen  ",
+        "Relationships: mother and daughter (Richards and Elena), daughter (Elena to Richards and Elena)  ",
+        "Events: rape of Kristen by Jay, plan pulled off by Richards, Elena, and Jay  ",
+        "Other: credits, scenes"
+      ]
+    }
+  ],
+  "55ac84541ede6e0f1106b2e4ab01a2bac2f21e39": [
+    {
+      "id": "55ac84541ede6e0f1106b2e4ab01a2bac2f21e39",
+      "paragraph_id": 0,
+      "entities": [
+        "Places: Spencer Island, California coast, San Francisco, Stockton  ",
+        "People: William W. Kolderup, J. R. Taskinar  ",
+        "Organizations: US Government  ",
+        "Money: four million dollars"
+      ]
+    },
+    {
+      "id": "55ac84541ede6e0f1106b2e4ab01a2bac2f21e39",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Godfrey, Kolderup, Phina, Captain Turcott, Professor T. Artelett  ",
+        "Ships: Dream"
+      ]
+    },
+    {
+      "id": "55ac84541ede6e0f1106b2e4ab01a2bac2f21e39",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Godfrey, Tartlet, Carefinotu, Phina  ",
+        "Places: deserted island, San Francisco  ",
+        "Ship: Dream  ",
+        "Group: marooned group"
+      ]
+    }
+  ],
+  "5e34e97ac8ff6cfb0f6e6e2ddcb4c23e55ea1c78": [
+    {
+      "id": "5e34e97ac8ff6cfb0f6e6e2ddcb4c23e55ea1c78",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Nordau  ",
+        "Places: Europe, France, Paris, London  ",
+        "Concepts: Degeneration, fin de siècle, traditional views of custom and morality, decadence, world-weariness, wilful rejection of moral boundaries, fashionable society, art  ",
+        "Groups: French periodicals and books, elements of society"
+      ]
+    },
+    {
+      "id": "5e34e97ac8ff6cfb0f6e6e2ddcb4c23e55ea1c78",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Nordau  ",
+        "Concepts: fin de siècle, cultural phenomenon, illness"
+      ]
+    },
+    {
+      "id": "5e34e97ac8ff6cfb0f6e6e2ddcb4c23e55ea1c78",
+      "paragraph_id": 2,
+      "entities": [
+        "Groups:  ",
+        "Art and literature: contemporary art, poetry, mystic works, symbolic works, decadent works  ",
+        "People: men who write mystic, symbolic and decadent works, admirers, physician  ",
+        "Diseases: degeneration, hysteria, neurasthenia  ",
+        "Society: fashionable society  ",
+        "",
+        "Other entities: fin-de-siècle disposition, life, conduct, attitude, tastes, aesthetic instincts"
+      ]
+    },
+    {
+      "id": "5e34e97ac8ff6cfb0f6e6e2ddcb4c23e55ea1c78",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Oscar Wilde, Henrik Ibsen, Richard Wagner, Friedrich Nietzsche, Hannah Arendt, Nordau  ",
+        "Books: The Origins of Totalitarianism  ",
+        "Groups: artists, writers, thinkers, unusual or exotic types or individuals, criminals, Gypsies, Turks  ",
+        "Concepts: society, human beings, degeneration, art, social criticism, late 19th Century French society"
+      ]
+    },
+    {
+      "id": "5e34e97ac8ff6cfb0f6e6e2ddcb4c23e55ea1c78",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Nordau, Freud, Jung, Howard Fertig  ",
+        "Concepts: physical factors, physiognomic factors, mechanical factors, symbolic approach, mythic approach, mental aberrations, mental malfunctions, human psyche  ",
+        "Places: New York"
+      ]
+    }
+  ],
+  "5f4f9df9f707d382b33c73db83b316a60599a6ea": [
+    {
+      "id": "5f4f9df9f707d382b33c73db83b316a60599a6ea",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Precogs, would-be murderers  ",
+        "Organizations: PreCrime police, Federal government  ",
+        "Places: Washington, D.C.  ",
+        "Time: April 2054  ",
+        "Concepts: murderers, murders, virtual reality, controversial program"
+      ]
+    },
+    {
+      "id": "5f4f9df9f707d382b33c73db83b316a60599a6ea",
+      "paragraph_id": 1,
+      "entities": [
+        "People: John Anderton, Sean, Lara, Danny Witwer, Dr. Iris Hineman, Leo Crow, Agatha  ",
+        "Groups: Precogs  ",
+        "Concepts: PreCrime Captain, United States Department of Justice agent, PreCrime technology, PreCrime program, minority report, manhunt, alternate future, system's credibility, drug addict"
+      ]
+    },
+    {
+      "id": "5f4f9df9f707d382b33c73db83b316a60599a6ea",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Anderton, Agatha, Leo Crow, Ann Lively, hooded figure  ",
+        "Groups: Precogs  ",
+        "Places/Systems: black market doctor, city-wide optical recognition system, PreCrime  ",
+        "Other: risky eye transplant, minority report"
+      ]
+    },
+    {
+      "id": "5f4f9df9f707d382b33c73db83b316a60599a6ea",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Anderton, Agatha, Crow, Sean, Lara, Lively  ",
+        "Locations: Crow's apartment, Lara's house, city  ",
+        "Groups: children (photos of children)"
+      ]
+    },
+    {
+      "id": "5f4f9df9f707d382b33c73db83b316a60599a6ea",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Witwer, Crow, Anderton, Lively, Lamar Burgess  ",
+        "Organizations: PreCrime, Precogs  ",
+        "Objects: Anderton's gun  ",
+        "Events: Crow's death, Lively's murder, Witwer's murder"
+      ]
+    },
+    {
+      "id": "5f4f9df9f707d382b33c73db83b316a60599a6ea",
+      "paragraph_id": 5,
+      "entities": [
+        "People: Lara, Burgess, Anderton, warden  ",
+        "Objects: brain device  ",
+        "Places: prison"
+      ]
+    },
+    {
+      "id": "5f4f9df9f707d382b33c73db83b316a60599a6ea",
+      "paragraph_id": 6,
+      "entities": [
+        "People: Agatha, Burgess, Lara, Anderton, Lively  ",
+        "Organizations/Systems: PreCrime  ",
+        "Events: PreCrime celebratory banquet, murder of Lively, attempt on Lively's life"
+      ]
+    },
+    {
+      "id": "5f4f9df9f707d382b33c73db83b316a60599a6ea",
+      "paragraph_id": 7,
+      "entities": [
+        "People: Burgess, Anderton, Lara  ",
+        "Groups: prisoners, Precogs  ",
+        "Places: isolated island  ",
+        "Systems: PreCrime system  ",
+        "Other entities: new child"
+      ]
+    }
+  ],
+  "60510bf4be495aeb1b4640a7a058b4ae7c04b884": [
+    {
+      "id": "60510bf4be495aeb1b4640a7a058b4ae7c04b884",
+      "paragraph_id": 0,
+      "entities": [
+        "People: McTeague, Marcus Schouler, Trina Sieppe, Mrs Sieppe  ",
+        "Places: Polk Street, San Francisco  ",
+        "Groups: poor miner's family"
+      ]
+    },
+    {
+      "id": "60510bf4be495aeb1b4640a7a058b4ae7c04b884",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Mrs Sieppe, Trina, McTeague, Marcus, Trina's uncle  ",
+        "Places: San Francisco  ",
+        "Objects: $15,000 investment, locked trunk, small wooden figures of Noah's animals and his Ark, McTeague's dental practice  ",
+        "Group: Trina's family, the couple (Trina and McTeague)"
+      ]
+    },
+    {
+      "id": "60510bf4be495aeb1b4640a7a058b4ae7c04b884",
+      "paragraph_id": 2,
+      "entities": [
+        "People: McTeague, Marcus, Trina, Trina's uncle  ",
+        "Places: city hall, poorer quarters  ",
+        "Objects: gold coins, domestic savings"
+      ]
+    },
+    {
+      "id": "60510bf4be495aeb1b4640a7a058b4ae7c04b884",
+      "paragraph_id": 3,
+      "entities": [
+        "People: McTeague, Trina, Marcus  ",
+        "Places: Death Valley, Mexico, mining community  ",
+        "Objects: hoard of gold, $15,000, whisky, water"
+      ]
+    }
+  ],
+  "72ddeff1fe6bb9841d1c1da4b3031001bf6b1f58": [
+    {
+      "id": "72ddeff1fe6bb9841d1c1da4b3031001bf6b1f58",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Time Traveller, narrator, weekly dinner guests  ",
+        "Places: Richmond, Surrey, Victorian England  ",
+        "Objects: tabletop model machine, time machine, machine capable of carrying a person through time  ",
+        "Concepts: time, fourth dimension"
+      ]
+    },
+    {
+      "id": "72ddeff1fe6bb9841d1c1da4b3031001bf6b1f58",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Time Traveller  ",
+        "Groups: Eloi  ",
+        "Places: A.D. 802,701  ",
+        "Buildings: large and futuristic yet slowly deteriorating buildings  ",
+        "Concepts: Time Traveller's device, small communities, frugivorous diet, peaceful communist society, humanity conquering nature with technology, environment where strength and intellect are no longer advantageous to survival"
+      ]
+    },
+    {
+      "id": "72ddeff1fe6bb9841d1c1da4b3031001bf6b1f58",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Time Traveller  ",
+        "Groups: Morlocks, Eloi  ",
+        "Objects: time machine, time machine's levers  ",
+        "Places: nearby structure with heavy doors, Morlock tunnels, above-ground paradise  ",
+        "Concepts: machinery and industry, Sphinx, darkness underground, night, livestock and ranchers, lords and servants, spirit of humanity, intelligence of humanity, physical fitness of humanity, danger, real challenges"
+      ]
+    },
+    {
+      "id": "72ddeff1fe6bb9841d1c1da4b3031001bf6b1f58",
+      "paragraph_id": 3,
+      "entities": [
+        "People: The Traveller, Weena  ",
+        "Groups: Eloi, Morlocks  ",
+        "Places: museum, forest  ",
+        "Objects: machine, matches, crude weapon, small fire, forest fire"
+      ]
+    },
+    {
+      "id": "72ddeff1fe6bb9841d1c1da4b3031001bf6b1f58",
+      "paragraph_id": 4,
+      "entities": [
+        "Groups:  ",
+        "Morlocks, Traveller, menacing reddish crab-like creatures, enormous butterflies, last living things on dying Earth, simple lichenous vegetation",
+        "",
+        "Entities:  ",
+        "Sphinx, time machine, levers, Earth, blood-red beaches, sun"
+      ]
+    },
+    {
+      "id": "72ddeff1fe6bb9841d1c1da4b3031001bf6b1f58",
+      "paragraph_id": 5,
+      "entities": [
+        "People: The Time Traveller, Weena, original narrator, disbelieving visitors  ",
+        "Places: Victorian time, laboratory, Time Traveller's house  ",
+        "Objects: machine, two strange white flowers  ",
+        "Events: dinner, another journey, waiting period of three years"
+      ]
+    }
+  ],
+  "7f1cb0e615795ed6be5d96ea3f13ce62921d8835": [
+    {
+      "id": "7f1cb0e615795ed6be5d96ea3f13ce62921d8835",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Guy Haines, Anne Morton, Miriam, Bruno Anthony, Bruno Anthony's father, senator  ",
+        "Objects: monogrammed cigarette lighter  ",
+        "Locations: train"
+      ]
+    },
+    {
+      "id": "7f1cb0e615795ed6be5d96ea3f13ce62921d8835",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Guy, Miriam, Anne, Bruno  ",
+        "Places: amusement park, Magic Isle  ",
+        "Objects: Bruno's house key, map to Bruno's father's bedroom, pistol"
+      ]
+    },
+    {
+      "id": "7f1cb0e615795ed6be5d96ea3f13ce62921d8835",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Guy, Miriam  ",
+        "Groups: police, officers  ",
+        "Objects: train  ",
+        "Events: murder"
+      ]
+    },
+    {
+      "id": "7f1cb0e615795ed6be5d96ea3f13ce62921d8835",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Guy, Bruno, Anne, Barbara, Miriam, Senator Morton  ",
+        "Places: Senator Morton's house"
+      ]
+    },
+    {
+      "id": "7f1cb0e615795ed6be5d96ea3f13ce62921d8835",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Guy, Bruno, Mr. Anthony, Miriam"
+      ]
+    },
+    {
+      "id": "7f1cb0e615795ed6be5d96ea3f13ce62921d8835",
+      "paragraph_id": 5,
+      "entities": [
+        "People: Anne, Bruno, Bruno's mother, Guy  ",
+        "Objects: stolen cigarette lighter  ",
+        "Places: amusement park  ",
+        "Events: tennis match, murder"
+      ]
+    },
+    {
+      "id": "7f1cb0e615795ed6be5d96ea3f13ce62921d8835",
+      "paragraph_id": 6,
+      "entities": [
+        "People: Guy, Bruno, police officer, worker, carousel operator  ",
+        "Places: Forest Hills, amusement park, Magic Isle, storm drain  ",
+        "Objects: Guy's lighter, carousel, control panel"
+      ]
+    }
+  ],
+  "8b5a5e185f5a7d9f240a38d396205831967418ff": [
+    {
+      "id": "8b5a5e185f5a7d9f240a38d396205831967418ff",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Plantagenet Palliser, Lady Glencora, Duke of Omnium, children of the Duke of Omnium  ",
+        "Roles: Prime Minister  ",
+        "Events: death of Lady Glencora, fall of government"
+      ]
+    },
+    {
+      "id": "8b5a5e185f5a7d9f240a38d396205831967418ff",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Lady Glencora, Mary, Frank Tregear, Lord Silverbridge, Mrs. Finn, the Duke  ",
+        "Groups: Mary and Frank (couple)"
+      ]
+    },
+    {
+      "id": "8b5a5e185f5a7d9f240a38d396205831967418ff",
+      "paragraph_id": 2,
+      "entities": [
+        "People: The Duke, Lord Silverbridge, Lady Mabel Grex, Isabel Boncassen, Gerald  ",
+        "Places: Cambridge, Derby  ",
+        "Groups: Duke's two sons (Lord Silverbridge, Gerald)"
+      ]
+    },
+    {
+      "id": "8b5a5e185f5a7d9f240a38d396205831967418ff",
+      "paragraph_id": 3,
+      "entities": [
+        "People: The Duke, son, daughter, three children (collective)  ",
+        "Government"
+      ]
+    }
+  ],
+  "8bed193f6ba9d1e50cc86f0b56531dc33bb8d409": [
+    {
+      "id": "8bed193f6ba9d1e50cc86f0b56531dc33bb8d409",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Cynthia, Ed Pekurny, Ray Pekurny, main producers  ",
+        "Organizations: True TV  ",
+        "TV show: Ed TV"
+      ]
+    },
+    {
+      "id": "8bed193f6ba9d1e50cc86f0b56531dc33bb8d409",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Ed, Ray, Shari, Cynthia  ",
+        "Groups: cameramen, viewers  ",
+        "Other: Ed TV"
+      ]
+    },
+    {
+      "id": "8bed193f6ba9d1e50cc86f0b56531dc33bb8d409",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Ed, Jay Leno, Jill, Shari, Ray, Cynthia  ",
+        "Animals: Jill's cat  ",
+        "Places: The Tonight Show, Jill's house, park  ",
+        "Events: dinner, football game"
+      ]
+    },
+    {
+      "id": "8bed193f6ba9d1e50cc86f0b56531dc33bb8d409",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Ed, Ed's father (Dennis Hopper), Ed's mother, Al (Martin Landau), doctor"
+      ]
+    },
+    {
+      "id": "8bed193f6ba9d1e50cc86f0b56531dc33bb8d409",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Ed, Shari, Shari's brother, producers, main camera man, camera man  ",
+        "Places: women's bathroom, movie theater  ",
+        "Concepts: contract, show, disguise, wig, sunglasses, family, birthday"
+      ]
+    },
+    {
+      "id": "8bed193f6ba9d1e50cc86f0b56531dc33bb8d409",
+      "paragraph_id": 5,
+      "entities": [
+        "People: Ed, Cynthia, main producer, producers  ",
+        "Money: $10,000  ",
+        "Concepts: \"dirt\" (on the producers), secret, erection  ",
+        "Show"
+      ]
+    },
+    {
+      "id": "8bed193f6ba9d1e50cc86f0b56531dc33bb8d409",
+      "paragraph_id": 6,
+      "entities": [
+        "People: Ed, Shari, TV news panelists  ",
+        "Places: Ed's apartment  ",
+        "Groups: camera crew"
+      ]
+    }
+  ],
+  "907e3c83c161299b8f178e98399d4e2cc0dcd57f": [
+    {
+      "id": "907e3c83c161299b8f178e98399d4e2cc0dcd57f",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Colin Clark, Laurence Olivier, Hugh Perceval, Vivien Leigh, Marilyn Monroe, Arthur Miller, Arthur P. Jacobs  ",
+        "Places: London, England  ",
+        "Film: The Prince and the Showgirl"
+      ]
+    },
+    {
+      "id": "907e3c83c161299b8f178e98399d4e2cc0dcd57f",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Marilyn, Marilyn's husband, Milton H. Greene, Paula Strasberg, Olivier, Sybil Thorndike, Colin, Lucy  ",
+        "Groups: paparazzi, crew, other actors"
+      ]
+    },
+    {
+      "id": "907e3c83c161299b8f178e98399d4e2cc0dcd57f",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Marilyn, Olivier, Colin, Arthur, Vivien, Milton, Lucy  ",
+        "Places: Parkside House  ",
+        "Objects: Arthur's notebook, new play, character, scene, set, crew"
+      ]
+    },
+    {
+      "id": "907e3c83c161299b8f178e98399d4e2cc0dcd57f",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Colin, Marilyn, Owen Morshead, Roger Smith, Arthur, Olivier, Lucy, doctor  ",
+        "Places: Windsor Castle, Eton College, River Thames, Parkside, local pub, airport"
+      ]
+    }
+  ],
+  "9292406d5193d3402195df7e5647fd168da2d15a": [
+    {
+      "id": "9292406d5193d3402195df7e5647fd168da2d15a",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Adam Lerner, Rachael, Kyle  ",
+        "Places: Seattle  ",
+        "Professions: public radio journalist, artist, co-worker, best friend"
+      ]
+    },
+    {
+      "id": "9292406d5193d3402195df7e5647fd168da2d15a",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Adam, Diane, Richard, Rachael, Kyle, two women  ",
+        "Animal: Skeletor  ",
+        "Medical condition: schwannoma neurofibrosarcoma, Alzheimer's  ",
+        "Location: hospital, art gallery, bar  ",
+        "Concepts: chemotherapy, Internet, illness, diagnosis, survival chances"
+      ]
+    },
+    {
+      "id": "9292406d5193d3402195df7e5647fd168da2d15a",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Adam, Katherine McKay, Alan, Mitch, Adam's mother  ",
+        "Roles: therapist, PhD candidate, cancer patient, older cancer patients  ",
+        "Places: hospital  ",
+        "Objects: car  ",
+        "Concepts: disease, chemotherapy, doctor-patient relationship, rapport, stress, marijuana"
+      ]
+    },
+    {
+      "id": "9292406d5193d3402195df7e5647fd168da2d15a",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Mitch, Adam, Kyle, Katherine  ",
+        "Objects: Kyle's car, book 'Facing Cancer Together'  ",
+        "Locations: bathroom, bookstore"
+      ]
+    },
+    {
+      "id": "9292406d5193d3402195df7e5647fd168da2d15a",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Kyle, Adam, Katherine, Diane, Adam's family, doctor  ",
+        "Places: hospital"
+      ]
+    },
+    {
+      "id": "9292406d5193d3402195df7e5647fd168da2d15a",
+      "paragraph_id": 5,
+      "entities": [
+        "People: Adam, Katherine, Kyle"
+      ]
+    }
+  ],
+  "935775d945bc210b0928bffb6924e06e1ef9a9dd": [
+    {
+      "id": "935775d945bc210b0928bffb6924e06e1ef9a9dd",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Bastian Balthazar Bux, Mr. Coreander, Childlike Empress, Atreyu, Gmork  ",
+        "Places: bookstore, school, school's attic, Fantasia  ",
+        "Forces/Concepts: The Nothing, AURYN, quest"
+      ]
+    },
+    {
+      "id": "935775d945bc210b0928bffb6924e06e1ef9a9dd",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Atreyu, Bastian, two gnomes, Empress  ",
+        "Creatures: Morla the Ancient One, Artax, Falkor  ",
+        "Places: Swamps of Sadness, Southern Oracle, Fantasia  ",
+        "Objects: AURYN, mirror, book"
+      ]
+    },
+    {
+      "id": "935775d945bc210b0928bffb6924e06e1ef9a9dd",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Atreyu, Gmork, Empress, Bastian  ",
+        "Creatures: Falkor  ",
+        "Objects: AURYN  ",
+        "Places: Southern Oracle, Sea of Possibilities, abandoned ruins, Ivory Tower, void, fragments of Fantasia  ",
+        "Concepts: Fantasia, Nothing, humanity's imagination, adult apathy and cynicism"
+      ]
+    },
+    {
+      "id": "935775d945bc210b0928bffb6924e06e1ef9a9dd",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Bastian, Empress, Atreyu  ",
+        "Animals: Falkor, Artax  ",
+        "Places/Concepts: Fantasia, real world, blackness  ",
+        "Objects: AURYN, grain of sand  ",
+        "Other: bullies"
+      ]
+    }
+  ],
+  "999a532b45f030c8f382f0f92fc51b3d12fd821c": [
+    {
+      "id": "999a532b45f030c8f382f0f92fc51b3d12fd821c",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Harring, Betty Elms, Rita Hayworth, Rita  ",
+        "Places: Mulholland Drive, Los Angeles, apartment  ",
+        "Objects: purse, large amount of money, unusual blue key, poster for the film Gilda (1946)  ",
+        "Film: Gilda (1946)"
+      ]
+    },
+    {
+      "id": "999a532b45f030c8f382f0f92fc51b3d12fd821c",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Patrick Fischler, Michael Cooke, Adam Kesher, Camilla Rhodes, The Cowboy, bungling hit man, Adam Kesher's wife  ",
+        "Places: Winkies  ",
+        "Groups: apparent mobsters, three people dead (group)  ",
+        "Concepts: nightmare, horrible figure, line of credit, bank, film, phone numbers, affair"
+      ]
+    },
+    {
+      "id": "999a532b45f030c8f382f0f92fc51b3d12fd821c",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Betty, Rita, Diane Selwyn, Diane, Adam, Camilla Rhodes  ",
+        "Places: Winkies  ",
+        "Film: The Sylvia North Story  ",
+        "Roles: waitress, casting agent, director, audition, friend"
+      ]
+    },
+    {
+      "id": "999a532b45f030c8f382f0f92fc51b3d12fd821c",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Betty, Rita, Diane Selwyn, man on stage, woman singer  ",
+        "Places: Diane Selwyn's apartment, their apartment, Club Silencio  ",
+        "Objects: blue box, blonde wig, key"
+      ]
+    },
+    {
+      "id": "999a532b45f030c8f382f0f92fc51b3d12fd821c",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Diane Selwyn, Betty, Camilla Rhodes, Adam, older red-headed woman, Cowboy, another woman  ",
+        "Places: Diane Selwyn's bedroom, Adam's house, Mulholland Drive, Hollywood  ",
+        "Event: party at Adam's house, audition for The Sylvia North Story"
+      ]
+    },
+    {
+      "id": "999a532b45f030c8f382f0f92fc51b3d12fd821c",
+      "paragraph_id": 5,
+      "entities": [
+        "People: Diane, hit man, Betty, Camilla, man who had the nightmare, woman at the club  ",
+        "Places: Winkies, Diane's apartment, club  ",
+        "Objects: Camilla's photo, large amount of money, blue key, table, bed  ",
+        "Events: job"
+      ]
+    }
+  ],
+  "9bfa931a5513a490a9cc14f4c5062f5edfbc0f32": [
+    {
+      "id": "9bfa931a5513a490a9cc14f4c5062f5edfbc0f32",
+      "paragraph_id": 0,
+      "entities": [
+        "Time: 2 PM, 25 August 1751  ",
+        "Places: British Linen Company, Edinburgh, Scotland  ",
+        "Book: Kidnapped"
+      ]
+    },
+    {
+      "id": "9bfa931a5513a490a9cc14f4c5062f5edfbc0f32",
+      "paragraph_id": 1,
+      "entities": [
+        "People: David Balfour, James Stewart (James of the Glens), William Grant of Prestongrange, Alan Breck, Catriona MacGregor Drummond, James MacGregor Drummond (James More), Rob Roy, Barbara Grant  ",
+        "Places: Bass Rock, Firth of Forth, Scotland  ",
+        "Events: Appin Murder, trial  ",
+        "Groups: polite society"
+      ]
+    },
+    {
+      "id": "9bfa931a5513a490a9cc14f4c5062f5edfbc0f32",
+      "paragraph_id": 2,
+      "entities": [
+        "People: David, Catriona, James More, Ebenezer, Alan Breck  ",
+        "Places: Holland, University of Leyden, Dunkirk, northern France"
+      ]
+    },
+    {
+      "id": "9bfa931a5513a490a9cc14f4c5062f5edfbc0f32",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Davie, man, woman  ",
+        "Groups: women who like the man, women who detest the man"
+      ]
+    },
+    {
+      "id": "9bfa931a5513a490a9cc14f4c5062f5edfbc0f32",
+      "paragraph_id": 4,
+      "entities": [
+        "People: James More, David, Alan, Catriona  ",
+        "Places: Dunkirk, Paris, Scotland, remote inn, shore  ",
+        "Groups: British warship, British"
+      ]
+    }
+  ],
+  "9c05142dcf6d0705d4619800a741d7b337b21116": [
+    {
+      "id": "9c05142dcf6d0705d4619800a741d7b337b21116",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Ross Murdock, Major John Kelgarries, Gordon Ashe  ",
+        "Projects: Operation Retrograde, Rehabilitation  ",
+        "Locations: base under the ice, North Pole  ",
+        "Cultures: Beaker culture, Bronze-Age Europe"
+      ]
+    },
+    {
+      "id": "9c05142dcf6d0705d4619800a741d7b337b21116",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Ross, Ashe, McNeil, two natives  ",
+        "Deities: Lurgha  ",
+        "Places: southern Britain, outpost, general area occupied by the Soviet base  ",
+        "Groups: bomber"
+      ]
+    },
+    {
+      "id": "9c05142dcf6d0705d4619800a741d7b337b21116",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Ross, Ashe, McNeil  ",
+        "Groups: locals, Reds  ",
+        "Places: Baltic Sea, Beaker trading post, ghostland, Soviet base, taboo area, land populated by ghosts"
+      ]
+    },
+    {
+      "id": "9c05142dcf6d0705d4619800a741d7b337b21116",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Ross  ",
+        "Groups: the Reds  ",
+        "Places: base, Soviet base, glacier, crevice, giant globe, ice  ",
+        "Objects: transporter plate, panel, tub, transparent-red gel, trail"
+      ]
+    },
+    {
+      "id": "9c05142dcf6d0705d4619800a741d7b337b21116",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Ross, hostile-looking humanoid  ",
+        "Group: Reds  ",
+        "Objects: Beakerman clothing, skin-tight suit, ship, mechanism, ship’s communication system"
+      ]
+    },
+    {
+      "id": "9c05142dcf6d0705d4619800a741d7b337b21116",
+      "paragraph_id": 5,
+      "entities": [
+        "Groups:  ",
+        "People: Ross, Ashe, McNeil  ",
+        "Groups: The Reds, alien Baldies  ",
+        "Locations: Soviet Bronze-Age base, time-travel building, village, river, Baltic Sea  ",
+        "Objects: time transporter, recording tapes, submarine"
+      ]
+    },
+    {
+      "id": "9c05142dcf6d0705d4619800a741d7b337b21116",
+      "paragraph_id": 6,
+      "entities": [
+        "People: Ross, Ashe, McNeil, Kelgarries, Kelgarries' men  ",
+        "Groups: Baldies, warriors from a barbarian tribe, Americans  ",
+        "Places: river, sea, camp, beach, Earth, Americas  ",
+        "Objects: hastily built uncontrollable raft, alien skinsuit, sub, tapes, alien spaceships  ",
+        "Operation: Operation Retrograde"
+      ]
+    },
+    {
+      "id": "9c05142dcf6d0705d4619800a741d7b337b21116",
+      "paragraph_id": 7,
+      "entities": [
+        "Versions: 2000 version, 1958 version  ",
+        "Person: Norton  ",
+        "Text"
+      ]
+    },
+    {
+      "id": "9c05142dcf6d0705d4619800a741d7b337b21116",
+      "paragraph_id": 8,
+      "entities": [
+        "Time periods: first quarter of the Twenty-First Century, last quarter of the Twentieth Century  ",
+        "Event: the story reset, the action shift"
+      ]
+    },
+    {
+      "id": "9c05142dcf6d0705d4619800a741d7b337b21116",
+      "paragraph_id": 9,
+      "entities": [
+        "Groups:  ",
+        "Countries: The Reds, the Russians, Greater Russia, the Soviet Union"
+      ]
+    },
+    {
+      "id": "9c05142dcf6d0705d4619800a741d7b337b21116",
+      "paragraph_id": 10,
+      "entities": [
+        "Events: first lunar landings, first attempts to put satellites into orbit  ",
+        "Concepts: space travel, public ridicule, infeasibility, impossibility"
+      ]
+    }
+  ],
+  "9d9741c1e26478633f439ec30de0329a5f4c02a7": [
+    {
+      "id": "9d9741c1e26478633f439ec30de0329a5f4c02a7",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Alex Manning, Alex Manning's mother, school counselor, computer company CEO, Alex Manning's friends  ",
+        "Places: Dante's Inferno (video arcade)  ",
+        "Games: Arcade (virtual reality arcade game), home console version of Arcade"
+      ]
+    },
+    {
+      "id": "9d9741c1e26478633f439ec30de0329a5f4c02a7",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Arcade, little boy, mother, game's programmer  ",
+        "Organizations: Vertigo/Tronics, computer company  ",
+        "Groups: teenagers who play the game and lose  ",
+        "Concepts: virtual reality world, human brain cells, game, game's villain"
+      ]
+    },
+    {
+      "id": "9d9741c1e26478633f439ec30de0329a5f4c02a7",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Nick, Alex, programmer, evil little boy  ",
+        "Places: video arcade, virtual prison, virtual world  ",
+        "Other: Arcade"
+      ]
+    },
+    {
+      "id": "9d9741c1e26478633f439ec30de0329a5f4c02a7",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Alex, Albert, donor's soul, Alex's friends  ",
+        "Place/Concept: Dante's Inferno  ",
+        "Film version: original CGI version"
+      ]
+    }
+  ],
+  "a62274041e562a4bfbc5f7c5c7f3aa427c178c9e": [
+    {
+      "id": "a62274041e562a4bfbc5f7c5c7f3aa427c178c9e",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Ellie Dunn, Ellie Dunn’s father, Ellie Dunn’s fiancé, Hesione Hushabye, Captain Shotover, Lady Utterword, Boss Mangan, Hector  ",
+        "Roles: inventor, businessman, husband, daughter  ",
+        "Places: house of Ellie Dunn’s father, Australia, National Gallery  ",
+        "Objects/Concepts: psychic ray, dynamite, lifeboat, weapon of mass destruction, dinner party, stern of a ship"
+      ]
+    },
+    {
+      "id": "a62274041e562a4bfbc5f7c5c7f3aa427c178c9e",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Shotover, Ellie, burglar, Shotover's black Jamaican wife  ",
+        "Groups: Shotover's old crewmen  ",
+        "Concepts: younger generation, romance, charitable assistance, victims"
+      ]
+    },
+    {
+      "id": "a62274041e562a4bfbc5f7c5c7f3aa427c178c9e",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Lady Utterword, Mangan, Ellie, Shotover, Hector, maid, burglar  ",
+        "Groups: English families, ship crew  ",
+        "Places: England, garden  ",
+        "Objects: horses, ship of England, lights, bomb, Shotover's store of dynamite"
+      ]
+    }
+  ],
+  "a9a03a147849d65e6bcaf3cc74c3dd93d0ef88d4": [
+    {
+      "id": "a9a03a147849d65e6bcaf3cc74c3dd93d0ef88d4",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Montresor, Fortunato, unspecified person  ",
+        "Event: Carnival  ",
+        "Clothing: jester's motley"
+      ]
+    },
+    {
+      "id": "a9a03a147849d65e6bcaf3cc74c3dd93d0ef88d4",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Montresor, Fortunato, Luchesi  ",
+        "Places: Montresor's palazzo, wine cellars, catacombs  ",
+        "Wine types: amontillado, Medoc, De Grave, sherry  ",
+        "Object: pipe (of wine)  ",
+        "Montresor's family coat of arms"
+      ]
+    },
+    {
+      "id": "a9a03a147849d65e6bcaf3cc74c3dd93d0ef88d4",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Fortunato, Montresor  ",
+        "Objects: wine bottle, trowel, amontillado  ",
+        "Locations: niche, wall  ",
+        "Groups: masons"
+      ]
+    },
+    {
+      "id": "a9a03a147849d65e6bcaf3cc74c3dd93d0ef88d4",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Montresor, Fortunato, Lady Fortunato  ",
+        "Objects: brick and mortar, chains, burning torch, jester's bells  ",
+        "Places: niche, bones, catacombs"
+      ]
+    },
+    {
+      "id": "a9a03a147849d65e6bcaf3cc74c3dd93d0ef88d4",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Montresor, Fortunato, the murderer  ",
+        "Objects: Fortunato's body, chains  ",
+        "Places: niche"
+      ]
+    }
+  ],
+  "b0ec3188818dc23370cf89bdf260b7eef55f4bab": [
+    {
+      "id": "b0ec3188818dc23370cf89bdf260b7eef55f4bab",
+      "paragraph_id": 0,
+      "entities": [
+        "People: narrator, mining engineer, host, host's wife, host's two sons, host's daughter (Zee), guide  ",
+        "Places: natural chasm, mine, subterranean world, city  ",
+        "Concepts/Objects: exploratory shaft, rope, ancient Egyptian architecture, makeshift dictionary"
+      ]
+    },
+    {
+      "id": "b0ec3188818dc23370cf89bdf260b7eef55f4bab",
+      "paragraph_id": 1,
+      "entities": [
+        "People: hero, narrator, guide, Taee  ",
+        "Group: Vril-ya"
+      ]
+    },
+    {
+      "id": "b0ec3188818dc23370cf89bdf260b7eef55f4bab",
+      "paragraph_id": 2,
+      "entities": [
+        "Groups:  ",
+        "Vril-ya, Ana, spiritually elevated hosts, young Vril-ya children, families",
+        "",
+        "Entities:  ",
+        "narrator, subterranean caverns, tunnels, massive flood, Earth, technologically supported Utopia, all-permeating fluid \"Vril\", extraordinary force"
+      ]
+    },
+    {
+      "id": "b0ec3188818dc23370cf89bdf260b7eef55f4bab",
+      "paragraph_id": 3,
+      "entities": [
+        "Groups:  ",
+        "People: An (men), Gy-ei (women)"
+      ]
+    },
+    {
+      "id": "b0ec3188818dc23370cf89bdf260b7eef55f4bab",
+      "paragraph_id": 4,
+      "entities": [
+        "Groups:  ",
+        "Religion-related concepts: superior being, life, permanence of life  ",
+        "People/Entities: Vril-ya"
+      ]
+    },
+    {
+      "id": "b0ec3188818dc23370cf89bdf260b7eef55f4bab",
+      "paragraph_id": 5,
+      "entities": [
+        "People: narrator, Zee, Zee's father, Taee  ",
+        "Groups: hosts, Vril-ya  ",
+        "Places: chasm, surface of the Earth, underground  ",
+        "Concepts: attire, customs, habitable space, mankind"
+      ]
+    }
+  ],
+  "bf445b279454ae52287f19febc74f258f34c9134": [
+    {
+      "id": "bf445b279454ae52287f19febc74f258f34c9134",
+      "paragraph_id": 0,
+      "entities": [
+        "Planets: Halsey's Planet, six other planets  ",
+        "Ships: generation ship, Ross's ship  ",
+        "People: Ross  ",
+        "Concepts: interstellar colonies, interstellar war, genetic drift, technology"
+      ]
+    },
+    {
+      "id": "bf445b279454ae52287f19febc74f258f34c9134",
+      "paragraph_id": 1,
+      "entities": [
+        "Planets: first planet, second planet, third planet  ",
+        "People: subject, Helena, Bernie"
+      ]
+    },
+    {
+      "id": "bf445b279454ae52287f19febc74f258f34c9134",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Ross, Dr. Sam Jones  ",
+        "Groups: Joneses, little band, cult of total conformity  ",
+        "Planets: Earth, Jones  ",
+        "Concepts: equation on genetic drift, loss of unfixed genes, genetic phenotype, degeneracy of planets"
+      ]
+    },
+    {
+      "id": "bf445b279454ae52287f19febc74f258f34c9134",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Ross  ",
+        "Places: Earth  ",
+        "Groups: degenerate worlds, hidden geniuses, morons  ",
+        "Concepts: navigational problem, FTL drive, isolation"
+      ]
+    }
+  ],
+  "c1325899c4266174c4c64fd055834b07dc28e49c": [
+    {
+      "id": "c1325899c4266174c4c64fd055834b07dc28e49c",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Gandalf, Aragorn, Legolas, Gimli, King Théoden, Merry, Pippin, Saruman, Sauron  ",
+        "Places: Isengard, Minas Tirith, Gondor  ",
+        "Objects: Saruman's palantír, the palantír, the ring"
+      ]
+    },
+    {
+      "id": "c1325899c4266174c4c64fd055834b07dc28e49c",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Frodo Baggins, Samwise Gamgee, Gollum, Witch-king of Angmar, Denethor, Faramir, Pippin, Gandalf, Théoden  ",
+        "Groups: Orc army, Faramir's men, Rohirrim  ",
+        "Places: Minas Morgul, Osgiliath, Mordor, Gondor, cliff face, secret way  ",
+        "Object: Ring, beacon"
+      ]
+    },
+    {
+      "id": "c1325899c4266174c4c64fd055834b07dc28e49c",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Théoden, Aragorn, Elrond, Arwen, Legolas, Gimli  ",
+        "Groups: Dead Men of Dunharrow, Army of the Dead  ",
+        "Objects: Andúril, Narsil  ",
+        "Places: Middle Earth, Paths of the Dead"
+      ]
+    },
+    {
+      "id": "c1325899c4266174c4c64fd055834b07dc28e49c",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Faramir, Denethor, Gandalf, Gothmog, Pippin, Théoden, Éowyn, Merry, Aragorn, Frodo, Sam  ",
+        "Groups: Rohirrim, Orc army, Haradrim, Army of the Dead, captains of Men, the Dead (released from curse), the wounded  ",
+        "Places: Osgiliath, Minas Tirith, Battle of the Pelennor Fields, Houses of Healing, Black Gate, Mount Doom"
+      ]
+    },
+    {
+      "id": "c1325899c4266174c4c64fd055834b07dc28e49c",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Gollum, Frodo, Sam  ",
+        "Creatures: Shelob, Orcs  ",
+        "Objects: Sting (Frodo's sword), The One Ring  ",
+        "Places: Mordor, tunnel, lair, Cirith Ungol"
+      ]
+    },
+    {
+      "id": "c1325899c4266174c4c64fd055834b07dc28e49c",
+      "paragraph_id": 5,
+      "entities": [
+        "People: Aragorn, Frodo, Gollum, Sam, Gandalf, surviving Fellowship members  ",
+        "Groups: Aragorn's army, Hobbits, Sauron's forces, fleeing Orcs, eagles  ",
+        "Places: Mordor, Mount Doom, volcano, Barad-dûr, Minas Tirith  ",
+        "Objects: the Ring"
+      ]
+    },
+    {
+      "id": "c1325899c4266174c4c64fd055834b07dc28e49c",
+      "paragraph_id": 6,
+      "entities": [
+        "People: Aragorn, Arwen, Frodo, Sam, Rosie Cotton, Bilbo, Gandalf, Elves, Hobbits  ",
+        "Places: Gondor, Shire, Middle Earth, Grey Havens  ",
+        "Objects: Red Book of Westmarch"
+      ]
+    }
+  ],
+  "c3ad97ba978bd2f56484be04acb706a6a42d8e00": [
+    {
+      "id": "c3ad97ba978bd2f56484be04acb706a6a42d8e00",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Smith, majestic white-bearded old man, beautiful girl, funeral party  ",
+        "Places: great house, enormous mansion  ",
+        "Objects/Nature: heap of earth and stones, roots of plants, corpse, grave  ",
+        "Concepts: fall, grief"
+      ]
+    },
+    {
+      "id": "c3ad97ba978bd2f56484be04acb706a6a42d8e00",
+      "paragraph_id": 1,
+      "entities": [
+        "People: narrator, Yoletta, old man (Father of the House), new companions  ",
+        "Groups: people of the House, entire human race  ",
+        "Concepts: House, communal houses, English language, language of human beings, Hebrew-like characters, nearest city, beehive, society"
+      ]
+    },
+    {
+      "id": "c3ad97ba978bd2f56484be04acb706a6a42d8e00",
+      "paragraph_id": 2,
+      "entities": [
+        "People: narrator, Yoletta, Father of the House  ",
+        "Group: people in the new society  ",
+        "Animals: animals in their environment  ",
+        "Concepts: new society, lying, solitary confinement, romantic interests, children"
+      ]
+    },
+    {
+      "id": "c3ad97ba978bd2f56484be04acb706a6a42d8e00",
+      "paragraph_id": 3,
+      "entities": [
+        "People: narrator, Mother of the House, Yoletta, Queen, Alpha Male, Alpha Female, Father of the House, Mother of the House (new)  ",
+        "Groups: House (humans of the distant future)"
+      ]
+    },
+    {
+      "id": "c3ad97ba978bd2f56484be04acb706a6a42d8e00",
+      "paragraph_id": 4,
+      "entities": [
+        "People: man, Yoletta  ",
+        "Places: library  ",
+        "Objects: elaborately-carved bottle, potion, liquid"
+      ]
+    },
+    {
+      "id": "c3ad97ba978bd2f56484be04acb706a6a42d8e00",
+      "paragraph_id": 5,
+      "entities": [
+        "People: traveler, mysterious beautiful young girl, elderly protector, Hudson  ",
+        "Literary works: Green Mansions"
+      ]
+    }
+  ],
+  "ccfabbee5a88f09447f3cbba5ea0f86e5c039058": [
+    {
+      "id": "ccfabbee5a88f09447f3cbba5ea0f86e5c039058",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Charley Brewster, Edward \"Evil Ed\" Lee, Adam Johnson, Jane, Jerry Dandrige  ",
+        "Places: suburb of Las Vegas, Nevada, next door (neighbor's house)  ",
+        "Groups: missing students"
+      ]
+    },
+    {
+      "id": "ccfabbee5a88f09447f3cbba5ea0f86e5c039058",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Ed, Jerry, Charley, Peter Vincent  ",
+        "Places: nearby pool, neighborhood, Las Vegas  ",
+        "Concepts: vampire, video recordings, secret rooms"
+      ]
+    },
+    {
+      "id": "ccfabbee5a88f09447f3cbba5ea0f86e5c039058",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Jerry, Charley, Jane, Amy Peterson, Peter, Ed  ",
+        "Places: Charley's house, desert, hospital, Peter's penthouse, club  ",
+        "Objects: minivan, real estate sign stake, holy water"
+      ]
+    },
+    {
+      "id": "ccfabbee5a88f09447f3cbba5ea0f86e5c039058",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Peter, Charley, Jerry, Saint Michael  ",
+        "Objects: stake blessed by Saint Michael  ",
+        "Locations: Jerry's house"
+      ]
+    },
+    {
+      "id": "ccfabbee5a88f09447f3cbba5ea0f86e5c039058",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Charley, Amy, Peter, Jerry  ",
+        "Group: Jerry's victims (vampires)  ",
+        "Places: Jerry's basement, roof, floor above  ",
+        "Objects: flame-retardant suit, stake, weapon, sunlight"
+      ]
+    },
+    {
+      "id": "ccfabbee5a88f09447f3cbba5ea0f86e5c039058",
+      "paragraph_id": 5,
+      "entities": [
+        "People: Charley, Jerry, Charley's mother, Amy, Peter  ",
+        "Places: hospital, Peter's penthouse, new house"
+      ]
+    }
+  ],
+  "cf09f10dcf0a2d000a7d2a0fc776f16a0e5a86be": [
+    {
+      "id": "cf09f10dcf0a2d000a7d2a0fc776f16a0e5a86be",
+      "paragraph_id": 0,
+      "entities": [
+        "Places: Bailey Downs  ",
+        "People: Brigitte Fitzgerald, Ginger Fitzgerald, Trina Sinclair, Sam MacDonald  ",
+        "Groups: teenage sisters (Brigitte Fitzgerald, Ginger Fitzgerald)  ",
+        "Other entities: dog, creature, van, school bully, local drug dealer, rash of dog killings, first period, hospital"
+      ]
+    },
+    {
+      "id": "cf09f10dcf0a2d000a7d2a0fc776f16a0e5a86be",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Ginger, Brigitte, Sam, Jason  ",
+        "Animals: neighbor's dog  ",
+        "Objects: silver ring, monkshood plant  ",
+        "Concepts: werewolf, physical and mental transformations"
+      ]
+    },
+    {
+      "id": "cf09f10dcf0a2d000a7d2a0fc776f16a0e5a86be",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Trina, Ginger, Brigitte, parents  ",
+        "Places: Fitzgerald house, kitchen counter, freezer  ",
+        "Objects: Trina's dog, Trina's fingers, Trina's body, blood, school project"
+      ]
+    },
+    {
+      "id": "cf09f10dcf0a2d000a7d2a0fc776f16a0e5a86be",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Brigitte, Sam, Jason, Ginger, Mr. Wayne, Brigitte's mother  ",
+        "Events: Halloween  ",
+        "Objects: monkshood, cure  ",
+        "Locations: school  ",
+        "Roles: guidance counselor, janitor"
+      ]
+    },
+    {
+      "id": "cf09f10dcf0a2d000a7d2a0fc776f16a0e5a86be",
+      "paragraph_id": 4,
+      "entities": [
+        "People: girls' mother, Trina, Brigitte, Sam, Ginger  ",
+        "Places: Greenhouse Bash, Fitzgerald house  ",
+        "Objects: shovel, van, cure, house"
+      ]
+    },
+    {
+      "id": "cf09f10dcf0a2d000a7d2a0fc776f16a0e5a86be",
+      "paragraph_id": 5,
+      "entities": [
+        "People: Ginger, Sam, Brigitte  ",
+        "Objects: van, syringe, cure  ",
+        "Locations: pantry, downstairs"
+      ]
+    },
+    {
+      "id": "cf09f10dcf0a2d000a7d2a0fc776f16a0e5a86be",
+      "paragraph_id": 6,
+      "entities": [
+        "People: Ginger, Brigitte  ",
+        "Objects: knife, cure  ",
+        "Places: basement, childhood room"
+      ]
+    }
+  ],
+  "daa54dd9f8daecd7bcc6f01f3b360a272d5d97a4": [
+    {
+      "id": "daa54dd9f8daecd7bcc6f01f3b360a272d5d97a4",
+      "paragraph_id": 0,
+      "entities": [
+        "book"
+      ]
+    },
+    {
+      "id": "daa54dd9f8daecd7bcc6f01f3b360a272d5d97a4",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Amory Blaine, Beatrice, Monsignor Darcy, Isabelle Borgé  ",
+        "Places: Midwest, Princeton University, Minneapolis  ",
+        "Events: boarding school, prom  ",
+        "Concepts: romantic relationship, flowery poems"
+      ]
+    },
+    {
+      "id": "daa54dd9f8daecd7bcc6f01f3b360a272d5d97a4",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Amory, Fitzgerald  ",
+        "Groups: army  ",
+        "Places: Long Island, overseas  ",
+        "Events: World War I"
+      ]
+    },
+    {
+      "id": "daa54dd9f8daecd7bcc6f01f3b360a272d5d97a4",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Amory, Rosalind Connage, Monsignor Darcy  ",
+        "Other entities: New York, wealthy man, war, book, lament"
+      ]
+    }
+  ],
+  "e1ac7a600860a99c208b96dccc4e4f870c3108cf": [
+    {
+      "id": "e1ac7a600860a99c208b96dccc4e4f870c3108cf",
+      "paragraph_id": 0,
+      "entities": [
+        "Spaceship: Colonial Marine spaceship Sulaco  ",
+        "Escape pod passengers: Ellen Ripley, Newt, Hicks, Bishop  ",
+        "Alien entity: Alien facehugger  ",
+        "Location: Fiorina \"Fury\" 161  ",
+        "Facility types: foundry facility, penal colony  ",
+        "Inmates: male inmates"
+      ]
+    },
+    {
+      "id": "e1ac7a600860a99c208b96dccc4e4f870c3108cf",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Ripley, Clemens, Harold Andrews, Newt, Hicks, Spike, Golic, Bishop  ",
+        "Groups: colony members, Aliens  ",
+        "Places: Fiorina, prison, facility furnace  ",
+        "Organizations: Weyland-Yutani Corporation  ",
+        "Objects: escape pod, rescue ship, Alien"
+      ]
+    },
+    {
+      "id": "e1ac7a600860a99c208b96dccc4e4f870c3108cf",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Ripley, Clemens, Andrews, Aaron, inmates  ",
+        "Creatures: Alien, Alien Queen embryo, adult Alien  ",
+        "Organizations: Weyland-Yutani  ",
+        "Locations: prison infirmary, ventilation system, escape pod  ",
+        "Objects: flammable toxic waste, medical equipment, biological weapon"
+      ]
+    },
+    {
+      "id": "e1ac7a600860a99c208b96dccc4e4f870c3108cf",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Ripley, Dillon, Morse, inmates  ",
+        "Creature: Alien  ",
+        "Location: foundry's molding facility, mold  ",
+        "Object: embryo, molten lead, fire sprinklers, exoskeleton"
+      ]
+    },
+    {
+      "id": "e1ac7a600860a99c208b96dccc4e4f870c3108cf",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Ripley, Morse, Aaron, Bishop, Bishop's creator, Weyland–Yutani commando team  ",
+        "Creature: baby Alien Queen  ",
+        "Objects: mobile platform, furnace  ",
+        "Location: facility"
+      ]
+    }
+  ],
+  "e62ba8eff570a51d9e5dd256e45012d4d83bfd5f": [
+    {
+      "id": "e62ba8eff570a51d9e5dd256e45012d4d83bfd5f",
+      "paragraph_id": 0,
+      "entities": [
+        "Places: Maison Vauquer, Paris, rue Neuve-Sainte-Geneviève  ",
+        "People: Madame Vauquer, Eugène de Rastignac, Vautrin, Jean-Joachim Goriot, Jean-Joachim Goriot's two daughters  ",
+        "Groups: residents of Maison Vauquer, other boarders"
+      ]
+    },
+    {
+      "id": "e62ba8eff570a51d9e5dd256e45012d4d83bfd5f",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Rastignac, Madame de Beauséant, Delphine, Goriot, Vautrin, Victorine, Victorine's brother  ",
+        "Places: Paris, south of France  ",
+        "Groups: upper class, Rastignac's family"
+      ]
+    },
+    {
+      "id": "e62ba8eff570a51d9e5dd256e45012d4d83bfd5f",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Rastignac, Vautrin, Victorine, Victorine's brother, friend of Vautrin, police  ",
+        "Groups: boarders, high society"
+      ]
+    },
+    {
+      "id": "e62ba8eff570a51d9e5dd256e45012d4d83bfd5f",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Goriot, Rastignac, Goriot's daughter, Goriot's daughter's husband, Anastasie, Anastasie’s husband, Anastasie’s lover  ",
+        "Jewelry: family jewelry  ",
+        "Events: stroke"
+      ]
+    },
+    {
+      "id": "e62ba8eff570a51d9e5dd256e45012d4d83bfd5f",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Goriot, Delphine, Anastasie, Rastignac, Christophe  ",
+        "Groups: Goriot's daughters, paid mourners  ",
+        "Places: Paris"
+      ]
+    }
+  ],
+  "ec25b1507cdc7d59d8b9341d93ff59b649c5752f": [
+    {
+      "id": "ec25b1507cdc7d59d8b9341d93ff59b649c5752f",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Ray Eddy, Ray Eddy's husband, Lila Littlewolf, two sons  ",
+        "Places: North Country of Upstate New York, Akwesasne St. Regis Mohawk Reservation, border crossing to Cornwall Ontario, local bus station, frozen St. Lawrence River  ",
+        "Groups: illegal immigrants from Canada  ",
+        "Objects: double-wide mobile home, car"
+      ]
+    },
+    {
+      "id": "ec25b1507cdc7d59d8b9341d93ff59b649c5752f",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Ray, T.J., Ricky, Lila, Lila's mother-in-law  ",
+        "Objects: popcorn, Tang, torch, water pipe  ",
+        "Places: trailer  ",
+        "Family: family"
+      ]
+    },
+    {
+      "id": "ec25b1507cdc7d59d8b9341d93ff59b649c5752f",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Ray, Lila, Pakistani couple, baby's parents  ",
+        "Places: Indian reservation in the US, Indian reserve in Canada  ",
+        "Objects: duffel bag, infant baby  ",
+        "Other: local law-enforcement, mobile home, smuggling operation, women's route"
+      ]
+    },
+    {
+      "id": "ec25b1507cdc7d59d8b9341d93ff59b649c5752f",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Ray, club owner, two Asian women, four women  ",
+        "Places: strip club, frozen river, Indian reservation  ",
+        "Objects: car, gun, wheel, ice"
+      ]
+    },
+    {
+      "id": "ec25b1507cdc7d59d8b9341d93ff59b649c5752f",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Lila, Ray, Lila's Mohawk husband, T.J., tribal head, trooper  ",
+        "Groups: illegal immigrants, Lila's children  ",
+        "Organizations: police  ",
+        "Objects: trailer home  ",
+        "Locations: woods"
+      ]
+    },
+    {
+      "id": "ec25b1507cdc7d59d8b9341d93ff59b649c5752f",
+      "paragraph_id": 5,
+      "entities": [
+        "People: Lila, T.J., Lila's mother-in-law, T.J.'s jailed mother, younger brother of T.J.  ",
+        "Group: infant son of Lila, strapped in baby of Lila  ",
+        "Places: Eddy trailer, new trailer home  ",
+        "Objects: bicycle-propelled carousel, truck"
+      ]
+    }
+  ],
+  "ee7e2ef2ecfa84682214c65ed178f959eaffb8ea": [
+    {
+      "id": "ee7e2ef2ecfa84682214c65ed178f959eaffb8ea",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Colin Sullivan, Frank Costello  ",
+        "Groups: Massachusetts State Police, Special Investigations Unit  ",
+        "Places: Irish neighborhood of South Boston, Massachusetts  ",
+        "Concepts: organized crime, mole"
+      ]
+    },
+    {
+      "id": "ee7e2ef2ecfa84682214c65ed178f959eaffb8ea",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Billy Costigan, Captain Queenan, Staff Sergeant Dignam  ",
+        "Organizations: police academy, organized crime  ",
+        "Locations: prison  ",
+        "Concepts: fake assault charge, undercover infiltrator, family ties, credibility"
+      ]
+    },
+    {
+      "id": "ee7e2ef2ecfa84682214c65ed178f959eaffb8ea",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Sullivan, Costigan, Madolyn Madden, Costello  ",
+        "Roles: mole, police psychiatrist, informer, \"rat\"  ",
+        "Events: sting operation, probation, romance, relationship"
+      ]
+    },
+    {
+      "id": "ee7e2ef2ecfa84682214c65ed178f959eaffb8ea",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Costigan, Costello, Sullivan, Queenan, Delahunt, Dignam  ",
+        "Groups: Costello's crew members, Costello's men  ",
+        "Places: porn theater, Chinatown, roof of a building, Boston Police Department  ",
+        "Other entities: envelope, personal information, television news"
+      ]
+    },
+    {
+      "id": "ee7e2ef2ecfa84682214c65ed178f959eaffb8ea",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Sullivan, Queenan, Costigan, Costello  ",
+        "Groups: Costello's crew, police force  ",
+        "Objects: Queenan's phone, Queenan's diary, envelope from Costello, police computer system  ",
+        "Locations: cocaine drop-off  ",
+        "Events: gunfight"
+      ]
+    },
+    {
+      "id": "ee7e2ef2ecfa84682214c65ed178f959eaffb8ea",
+      "paragraph_id": 5,
+      "entities": [
+        "People: Sullivan, Madolyn, Costigan, Costello, Costello's attorney, Queenan  ",
+        "Objects: CD, recordings  ",
+        "Locations: building where Queenan died"
+      ]
+    },
+    {
+      "id": "ee7e2ef2ecfa84682214c65ed178f959eaffb8ea",
+      "paragraph_id": 6,
+      "entities": [
+        "People: Costigan, Sullivan, Trooper Brown, Trooper Dignam, Trooper Barrigan, Costello  ",
+        "Places: roof, ground floor, state police headquarters  ",
+        "Object: elevator, gun, handcuffs  ",
+        "Award: Medal of Merit"
+      ]
+    },
+    {
+      "id": "ee7e2ef2ecfa84682214c65ed178f959eaffb8ea",
+      "paragraph_id": 7,
+      "entities": [
+        "People: Costigan, Sullivan, Madolyn, Dignam  ",
+        "Places: gravesite, Sullivan's apartment  ",
+        "Event: Costigan's funeral"
+      ]
+    }
+  ],
+  "ef722cf82033c8e66197209f06a9cb9754be78d9": [
+    {
+      "id": "ef722cf82033c8e66197209f06a9cb9754be78d9",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Rick Deckard, officer Gaff, Bryant  ",
+        "Organizations: Tyrell Corporation  ",
+        "Replicants: four replicants, Nexus-6 models  ",
+        "Locations: Los Angeles, Earth  ",
+        "Time: November 2019"
+      ]
+    },
+    {
+      "id": "ef722cf82033c8e66197209f06a9cb9754be78d9",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Deckard, Holden, Leon, Bryant, Roy Batty, Zhora, Pris  ",
+        "Test: Voight-Kampff test  ",
+        "Group: replicants (Leon, Roy Batty, Zhora, Pris)"
+      ]
+    },
+    {
+      "id": "ef722cf82033c8e66197209f06a9cb9754be78d9",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Deckard, Dr. Eldon Tyrell, Rachael  ",
+        "Organizations: Tyrell Corporation  ",
+        "Models: Nexus-6  ",
+        "Concepts: experimental replicant, false memories, emotional cushion, test"
+      ]
+    },
+    {
+      "id": "ef722cf82033c8e66197209f06a9cb9754be78d9",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Deckard, Roy, Leon, J.F. Sebastian, Tyrell, Rachael, Pris, Tyrell's niece  ",
+        "Places: replicant eye-manufacturing laboratory, Deckard's apartment  ",
+        "Group: replicants"
+      ]
+    },
+    {
+      "id": "ef722cf82033c8e66197209f06a9cb9754be78d9",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Deckard, Leon, Zhora, Bryant, Rachael  ",
+        "Places: Leon's hotel room, strip club, Tyrell Corporation, Deckard's apartment  ",
+        "Objects: photo of Zhora, synthetic snake scale, Deckard's dropped pistol"
+      ]
+    },
+    {
+      "id": "ef722cf82033c8e66197209f06a9cb9754be78d9",
+      "paragraph_id": 5,
+      "entities": [
+        "People: Roy, Pris, Sebastian, Tyrell, Bryant  ",
+        "Disorders: Methuselah Syndrome  ",
+        "Locations: Sebastian's apartment, Tyrell's secure penthouse, elevator  ",
+        "Events: killing of Tyrell, implied killing of Sebastian"
+      ]
+    },
+    {
+      "id": "ef722cf82033c8e66197209f06a9cb9754be78d9",
+      "paragraph_id": 6,
+      "entities": [
+        "People: Deckard, Pris, Roy, Gaff, Rachael, Sebastian  ",
+        "Places: Sebastian's apartment, roof, adjacent roof, apartment block  ",
+        "Objects: tin-foil origami unicorn"
+      ]
+    }
+  ],
+  "f6470b27b43e232e5b4458fb1dd6c194cddb2452": [
+    {
+      "id": "f6470b27b43e232e5b4458fb1dd6c194cddb2452",
+      "paragraph_id": 0,
+      "entities": [
+        "People: elderly World War II veteran, family of the elderly World War II veteran  ",
+        "Places: Normandy American Cemetery and Memorial, Normandy, France  ",
+        "Object: specific gravestone"
+      ]
+    },
+    {
+      "id": "f6470b27b43e232e5b4458fb1dd6c194cddb2452",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Captain John H. Miller, S. Ryan, American soldiers, German infantry, Rangers  ",
+        "Places: Omaha Beach, Normandy  ",
+        "Groups: 2nd Ranger Battalion, German defenses"
+      ]
+    },
+    {
+      "id": "f6470b27b43e232e5b4458fb1dd6c194cddb2452",
+      "paragraph_id": 2,
+      "entities": [
+        "People: General George Marshall, Abraham Lincoln, Private First Class James Francis Ryan, Ryan family mother  ",
+        "Groups: Ryan family brothers  ",
+        "Places: Washington, D.C., U.S. War Department, Normandy  ",
+        "Documents: Abraham Lincoln's Bixby letter"
+      ]
+    },
+    {
+      "id": "f6470b27b43e232e5b4458fb1dd6c194cddb2452",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Miller, Ryan, T/Sgt. Mike Horvath, Private First Class Richard Reiben, Private Stanley Mellish, Private Adrian Caparzo, Private Danny Jackson, medic Irwin Wade, T/5 Timothy Upham  ",
+        "Groups: Miller's company, 101st Airborne Division, 29th Infantry Division  ",
+        "Places: Neuville, front"
+      ]
+    },
+    {
+      "id": "f6470b27b43e232e5b4458fb1dd6c194cddb2452",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Private James Ryan, Miller, Wade, Upham, Reiben, Horvath, \"Steamboat Willie\", friend of Ryan, member of Ryan's regiment  ",
+        "Locations: Vierville, Merderet River, Ramelle  ",
+        "Groups: Ryan's regiment, Ryan's company, group's company, squad, Allied unit"
+      ]
+    },
+    {
+      "id": "f6470b27b43e232e5b4458fb1dd6c194cddb2452",
+      "paragraph_id": 5,
+      "entities": [
+        "People: Miller, Ryan, Ryan's mother, Ryan's brothers  ",
+        "Groups: Miller's squad, paratroopers, Miller's men and accompanying paratroopers  ",
+        "Places: Ramelle, ruined town, bridge  ",
+        "Objects: Molotov cocktails, detonation cords, sticky bombs, socks, TNT"
+      ]
+    },
+    {
+      "id": "f6470b27b43e232e5b4458fb1dd6c194cddb2452",
+      "paragraph_id": 6,
+      "entities": [
+        "Groups:  ",
+        "2nd SS Panzer Division, paratroopers, German soldiers, American armored units",
+        "",
+        "People:  ",
+        "Jackson, Mellish, Horvath, Miller, Upham, Steamboat Willie, Captain Miller",
+        "",
+        "Vehicles:  ",
+        "Tiger tank, American P-51 Mustang",
+        "",
+        "Locations:  ",
+        "bridge"
+      ]
+    },
+    {
+      "id": "f6470b27b43e232e5b4458fb1dd6c194cddb2452",
+      "paragraph_id": 7,
+      "entities": [
+        "People: Reiben, Ryan, Miller, Ryan's wife  ",
+        "Location: Miller's grave"
+      ]
+    }
+  ],
+  "f6fbb458ad9ae228f23e0903109646020e249761": [
+    {
+      "id": "f6fbb458ad9ae228f23e0903109646020e249761",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Bertha Young, Harry, Mr. Norman Knight, Mrs. Norman Knight, Eddie Warren, Pearl Fulton  ",
+        "Groups: dinner party guests: Bertha Young, Harry, Mr. Norman Knight, Mrs. Norman Knight, Eddie Warren, Pearl Fulton"
+      ]
+    }
+  ],
+  "fd282523a8df2592d93d84ab3911e6f24ffb56ab": [
+    {
+      "id": "fd282523a8df2592d93d84ab3911e6f24ffb56ab",
+      "paragraph_id": 0,
+      "entities": [
+        "People: Satan, Adrian, Cassius, Nicky"
+      ]
+    },
+    {
+      "id": "fd282523a8df2592d93d84ab3911e6f24ffb56ab",
+      "paragraph_id": 1,
+      "entities": [
+        "People: Satan, Adrian, Cassius, Nicky  ",
+        "Places: Earth, New York City, Hell  ",
+        "Objects: silver flask  ",
+        "Concepts: throne, balance between good and evil, souls, new Hell"
+      ]
+    },
+    {
+      "id": "fd282523a8df2592d93d84ab3911e6f24ffb56ab",
+      "paragraph_id": 2,
+      "entities": [
+        "People: Nicky, Mr. Beefy, Nicky's father, Todd, Valerie  ",
+        "Places: Earth, Hell, New York"
+      ]
+    },
+    {
+      "id": "fd282523a8df2592d93d84ab3911e6f24ffb56ab",
+      "paragraph_id": 3,
+      "entities": [
+        "People: Nicky, Adrian, Valerie, Cassius, John, Peter, Dana Carvey  ",
+        "Group: brothers: Adrian, Cassius  ",
+        "Role: referee  ",
+        "Event: Harlem Globetrotters game  ",
+        "Object: flask"
+      ]
+    },
+    {
+      "id": "fd282523a8df2592d93d84ab3911e6f24ffb56ab",
+      "paragraph_id": 4,
+      "entities": [
+        "People: Adrian, Nicky, Todd, Nicky's father, Nicky's father's assistants, John, Peter, Mr. Beefy, Valerie, chief of the NYPD  ",
+        "Places: subway station, Hell  ",
+        "Other: Scarface, midnight deadline, train"
+      ]
+    },
+    {
+      "id": "fd282523a8df2592d93d84ab3911e6f24ffb56ab",
+      "paragraph_id": 5,
+      "entities": [
+        "People: Adrian, Adrian's father, Jimmy, Nicky, Holly, Valerie, Cassius, Ozzy Osbourne  ",
+        "Places: Hell, Heaven, Central Park  ",
+        "Objects: mysterious orb, flask, gifts, bat"
+      ]
+    },
+    {
+      "id": "fd282523a8df2592d93d84ab3911e6f24ffb56ab",
+      "paragraph_id": 6,
+      "entities": [
+        "People: Nicky, Valerie, Henry Winkler, Ozzy, Satan, Adrian, Cassius, Adolf Hitler, John, Peter, Zachariah  ",
+        "Places: Hell, Earth, New York  ",
+        "Objects: boulder, flask  ",
+        "group name: Nicky's brothers, John, Peter"
+      ]
+    }
+  ]
+}

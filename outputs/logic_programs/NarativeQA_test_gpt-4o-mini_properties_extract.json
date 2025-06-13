@@ -1,0 +1,193 @@
+[
+  {
+    "id": "6ed5d860df4edd3d32f1aca52ec369f0d21039a0",
+    "paragraph_id": 0,
+    "facts_properties": [
+      "Properties: IsPrivateInvestigator(a_1)  \nNew Entities:",
+      "Properties: IsAttorney(a_1), WorksFor(a_1, a_2)\nNew Entities: wealthy widow: a_3, Mrs. Christian: a_4",
+      "Properties: RecentlyDied(a_1), IsHusbandOf(a_1, a_2)  \nNew Entities: Mrs. Christian: a_2",
+      "Properties: Found(a_0, b_0), ClearingOut(a_0, b_0), HasLateHusband(a_2)\nNew Entities: Daniel Longdale: a_4, 8mm film: b_2, husband's safe: b_3",
+      "Properties: DepictsRealMurder(b_0), IsGirl(b_0)\nNew Entities: girl: b_0",
+      "Properties: WantsToKnow(a_2), DepictsRealMurder(b_0)  \nNew Entities: film: c"
+    ],
+    "rules_properties": [],
+    "entities": [
+      "People: a_0",
+      "Tom: a_1",
+      "Mrs. Mathews: a_2",
+      "Mary Ann: a_3",
+      "Other: b_0",
+      "letter: b_1"
+    ]
+  },
+  {
+    "id": "6ed5d860df4edd3d32f1aca52ec369f0d21039a0",
+    "paragraph_id": 1,
+    "facts_properties": [
+      "Properties: Discovers(a_1, a_3), IsMaryAnn(a_3, a_2)\nNew Entities:",
+      "Properties: Visits(a_1, a_2)  \nNew Entities: Janet Mathews: c",
+      "Properties: Searches(Tom, b_0), HasPermission(Mrs. Mathews, Tom)\nNew Entities: house: c",
+      "Properties: Finds(a_1, b_1), IsIn(a_1, b_0), HasDiary(a_3)\nNew Entities: house: b_0, diary: b_1",
+      "Properties: WentTo(Mary Ann, Hollywood), WantsToBecome(Mary Ann, film star)  \nNew Entities:",
+      "Properties: Asks(a_1, a_2), WantsToKnow(a_2, truth)\nNew Entities: truth: c",
+      "Properties: WantsToKnow(a_2, c), IsDaughter(a_3, a_2)\nNew Entities:",
+      "Properties: Reads(a_1, b_1), ContainsNoteFor(b_1, a_2)\nNew Entities: diary: c",
+      "Properties: LeavesDiary(a_1, a_2)  \nNew Entities:",
+      "Properties: Leaves(Tom, house)  \nNew Entities: house: c"
+    ],
+    "rules_properties": [
+      "Properties: WantsToKnow(a_2, truth), IsAbout(truth, what_happened_to(a_3))\nNew Entities:"
+    ],
+    "entities": [
+      "People: a_0",
+      "Tom: a_1",
+      "Mrs. Mathews: a_2",
+      "Mary Ann: a_3",
+      "Other: b_0",
+      "letter: b_1"
+    ]
+  },
+  {
+    "id": "6ed5d860df4edd3d32f1aca52ec369f0d21039a0",
+    "paragraph_id": 2,
+    "facts_properties": [
+      "Properties: Penetrates(a_1, b_0), IsInHollywood(a_1)\nNew Entities: illegal pornography: c",
+      "Properties: IsEmployee(a_1, Max California) \nNew Entities: Max California: d",
+      "Properties: ReceivesHelp(Tom, MaxCalifornia)  \nNew Entities: MaxCalifornia: c",
+      "Properties: Contacts(a_1, a_4), IsSleazy(a_4)  \nNew Entities: Eddie Poole: a_4",
+      "Properties: Leads(a_1, a_0), Leads(a_2, a_0), Leads(a_3, a_0), Leads(a_0, b_0)\nNew Entities: Eddie Poole: a_4, Max California: a_5, director Dino Velvet: a_6",
+      "Properties: Directs(a_1, b_0), ProducesViolentFilms(b_0)\nNew Entities: Dino Velvet: a_4, pornographic films: b_2",
+      "Properties: StarsInFilm(a_1, b_0), IsMasked(a_1), IsKnownAs(a_1, \"Machine\")\nNew Entities: masked man: a_4",
+      "Properties: PretendsToBe(a_1, b_0), IsInterestedIn(a_1, b_1), CommissionsFilm(a_1, b_0)\nNew Entities: hardcore bondage film: b_2",
+      "Properties: AgreesTo(Tom, b_1)  \nNew Entities: Dino Velvet: a_4, commission: b_2",
+      "Properties: ArrangesMeeting(a_1, b_2), IsInNewYorkCity(b_2)\nNew Entities: Dino Velvet: a_4, meeting: b_2"
+    ],
+    "rules_properties": [
+      "Properties: MotivatedBy(a_1, Desire), AimsToGain(a_1, MoreEvidence)\nNew Entities:"
+    ],
+    "entities": [
+      "People: a_0",
+      "Tom: a_1",
+      "Mrs. Mathews: a_2",
+      "Mary Ann: a_3",
+      "Other: b_0",
+      "letter: b_1"
+    ]
+  },
+  {
+    "id": "6ed5d860df4edd3d32f1aca52ec369f0d21039a0",
+    "paragraph_id": 3,
+    "facts_properties": [
+      "Properties: AppearsAt(Tom, b_0)  \nNew Entities: Attorney Longdale: c",
+      "Properties: Contracts(a_0, a_1), Procures(a_0, b_0)\nNew Entities: snuff film: b_0",
+      "Properties: Told(a_0, a_1), MightComeLookingFor(a_1, b_0)\nNew Entities: Velvet: c",
+      "Properties: Realizes(a_0, b_1), IsAuthentic(b_1)\nNew Entities: snuff film: b_2",
+      "Properties: Knows(a_0), IsAtRisk(a_0)  \nNew Entities:",
+      "Properties: Produces(a_0, b_1), IsBound(b_1), IsBeaten(b_1), HasMax(b_1)\nNew Entities: Max: c",
+      "Properties: Abducted(a_0, a_1), Forced(a_0, a_1, b_1), HasSurvivingCopy(b_1)\nNew Entities: Max: c, illegal film: d",
+      "Properties: Delivers(a_1, b_1), IsSurvivingCopy(b_1), IsIllegalFilm(b_1)  \nNew Entities: surviving copy of the illegal film: b_1",
+      "Properties: Kills(a_0, a_4)  \nNew Entities: Max: a_4",
+      "Properties: Beats(a_0, a_1)  \nNew Entities:",
+      "Properties: Burns(Tom, b_1), Burns(Mrs. Mathews, b_1), Burns(Mary Ann, b_1)  \nNew Entities: Velvet: c_1, Machine: c_2, film: c_3",
+      "Properties: Tells(a_1, a_2), Tells(a_1, a_3), Paid(a_0, $1 million, b_1)\nNew Entities: Christian: c, film: d",
+      "Properties: WantedChristian(a_1, film), HasEnoughMoney(a_1), CanMakePossible(a_1, film)\nNew Entities: film: c",
+      "Properties: ReceivedLessThan(a_0, a_1), ReceivedLessThan(a_0, a_2), ReceivedLessThan(a_0, a_3), ReceivedLessThan(a_0, b_0), ReceivedLessThan(a_0, b_1), ReceivedLessThan(a_1, a_2), ReceivedLessThan(a_1, a_3), ReceivedLessThan(a_1, b_0), ReceivedLessThan(a_1, b_1), ReceivedLessThan(a_2, a_3), ReceivedLessThan(a_2, b_0), ReceivedLessThan(a_2, b_1), ReceivedLessThan(a_3, b_0), ReceivedLessThan(a_3, b_1)\nNew Entities: Christian: c",
+      "Properties: KeptMajorPortion(a_0, b_1)  \nNew Entities: money: b",
+      "Properties: Killed(a_0), Killed(a_1), Killed(a_2), Killed(a_3)  \nNew Entities: Velvet: c_1, Longdale: c_2",
+      "Properties: Wounds(a_1, b_0), Escapes(a_1)\nNew Entities: Machine: c,"
+    ],
+    "rules_properties": [
+      "Properties: HasDesire(a_1), IsLinkedToFinancialCapability(a_1)  \nNew Entities: snuff film: c"
+    ],
+    "entities": [
+      "People: a_0",
+      "Tom: a_1",
+      "Mrs. Mathews: a_2",
+      "Mary Ann: a_3",
+      "Other: b_0",
+      "letter: b_1"
+    ]
+  },
+  {
+    "id": "6ed5d860df4edd3d32f1aca52ec369f0d21039a0",
+    "paragraph_id": 4,
+    "facts_properties": [
+      "Properties: Calls(a_1, a_2), Tells(a_1, a_2, d) \nNew Entities: discoveries: d",
+      "Properties: Recommends(a_1, b_0)  \nNew Entities: police: b_2",
+      "Properties: AgreesToGo(a_0, b_0)  \nNew Entities: Mrs. Christian: a_4, police: b_2",
+      "Properties: ArrivesAt(a_1, a_2)  \nNew Entities: Mrs. Christian's estate: c",
+      "Properties: IsTold(a_1, a_2), CommittedSuicide(a_2), HeardNews(a_2)\nNew Entities: Mrs. Christian: a_2",
+      "Properties: LeftEnvelopes(Mrs. Christian, c), LeftEnvelopes(Mrs. Christian, a_1)\nNew Entities: Mrs. Christian: d",
+      "Properties: Contains(b_0, a_1)  \nNew Entities: Tom's payment: c",
+      "Properties: Contains(b_1, c), Reads(b_1, \"Try to forget us\")\nNew Entities: note: c"
+    ],
+    "rules_properties": [
+      "Properties: CommittedSuicide(a_2), HeardNews(a_2, b_1)  \nNew Entities: Mrs. Christian: a_4"
+    ],
+    "entities": [
+      "People: a_0",
+      "Tom: a_1",
+      "Mrs. Mathews: a_2",
+      "Mary Ann: a_3",
+      "Other: b_0",
+      "letter: b_1"
+    ]
+  },
+  {
+    "id": "6ed5d860df4edd3d32f1aca52ec369f0d21039a0",
+    "paragraph_id": 5,
+    "facts_properties": [
+      "Properties: SeeksJustice(a_1, a_3), IsMurdered(a_3)  \nNew Entities:",
+      "Properties: TracksDown(a_1, a_2)  \nNew Entities: Eddie: c",
+      "Properties: Takes(a_1, b_0)  \nNew Entities: shooting location: b_0",
+      "Properties: TriesToKill(a_1, a_2)\nNew Entities: Eddie: c",
+      "Properties: ShowsNoRemorse(Eddie), HasRoleIn(Eddie, murder)\nNew Entities: Eddie: d",
+      "Properties: Taunts(Eddie, a_1), IsUnableToGoThroughWithKilling(a_1)  \nNew Entities: Eddie: c",
+      "Properties: Calls(Eddie, a_2), Tells(Eddie, a_2, c), IsAbout(c, a_3)\nNew Entities: daughter's fate: c",
+      "Properties: IsDevastated(Janet), IsAbout(Janet, daughter's fate), IsTruth(her daughter's fate)\nNew Entities: daughter's fate: c",
+      "Properties: Asks(Eddie, Janet), RequestsPermission(Eddie, Janet), Punishes(Eddie, ThoseResponsible), IsResponsible(ThoseResponsible, Murder)\nNew Entities: ThoseResponsible: c, Murder: d",
+      "Properties: GivesPermission(a_1, a_2)  \nNew Entities: Eddie: a_4",
+      "Properties: Returns(a_1), PistolWhips(a_1, a_2), CausesDeath(a_1, a_2)\nNew Entities: Eddie: c",
+      "Properties: Burns(a_1, b_0), HasBody(a_1, b_0), HasPornography(b_0, b_1)\nNew Entities: Eddie's body: b_0, pornography: b_1",
+      "Properties: Traces(a_1, b_1)\nNew Entities: Machine: c",
+      "Properties: Attacks(a_1, b_0), IsAtHome(a_1)  \nNew Entities: Machine: c, Tom's home: d",
+      "Properties: Unmasks(a_1, b_0), Reveals(a_1, a_4), IsBald(a_4), WearsGlasses(a_4)\nNew Entities: bald bespectacled man: a_4, George: a_5",
+      "Properties: Tells(a_0, a_1), HasNoUlteriorMotive(a_0), HasSadisticActions(a_0)\nNew Entities: George: a_0, ulterior motive: c, sadistic actions: d",
+      "Properties: EnjoysActions(a_1)  \nNew Entities: George: c",
+      "Properties: StrugglesWith(a_1, a_2)\nNew Entities: George: c",
+      "Properties: Kills(a_1, a_2)  \nNew Entities:"
+    ],
+    "rules_properties": [
+      "Properties: SeeksJustice(a_1), IsMurdered(a_3), Kills(a_1, b_0), IsInvolvedInMurder(b_0, a_3)\nNew Entities: murdered girl: a_3",
+      "Properties: ShowsNoRemorse(a_0), Taunts(a_0, a_1)  \nNew Entities: Eddie: c, Actions: d",
+      "Properties: HasNoUlteriorMotive(a_1), HasSadisticActions(a_1)\nNew Entities: George: a_6"
+    ],
+    "entities": [
+      "People: a_0",
+      "Tom: a_1",
+      "Mrs. Mathews: a_2",
+      "Mary Ann: a_3",
+      "Other: b_0",
+      "letter: b_1"
+    ]
+  },
+  {
+    "id": "6ed5d860df4edd3d32f1aca52ec369f0d21039a0",
+    "paragraph_id": 6,
+    "facts_properties": [
+      "Properties: ReturnsTo(Tom, a_0)\nNew Entities:",
+      "Properties: Receives(a_1, b_1), From(a_1, a_2)  \nNew Entities:",
+      "Properties: Thanks(a_2, a_1), Killed(a_1, b_0), Responsible(b_0)\nNew Entities: men: b_0",
+      "Properties: CaresAbout(a_2, a_3), CaresAbout(a_1, a_3), OnlyCaresAbout(a_2, a_3), OnlyCaresAbout(a_1, a_3)\nNew Entities:"
+    ],
+    "rules_properties": [],
+    "entities": [
+      "People: a_0",
+      "Tom: a_1",
+      "Mrs. Mathews: a_2",
+      "Mary Ann: a_3",
+      "Other: b_0",
+      "letter: b_1"
+    ]
+  }
+]

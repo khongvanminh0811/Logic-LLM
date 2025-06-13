@@ -13,7 +13,6 @@ outputs/self_refine
 models/symbolic_solvers/swipl
 models/__pycache__/
 *.sh
-baselines/results/
 models/symbolic_solvers/pyke_solver/.cache_program
 models/symbolic_solvers/z3_solver/.cache_program
 

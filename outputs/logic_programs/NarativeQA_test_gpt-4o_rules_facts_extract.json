@@ -1,0 +1,42 @@
+[
+  {
+    "id": "014de1a8802c05ff64efa047e9290fb7fccea2b4",
+    "paragraph_id": 0,
+    "facts": [
+      "The book was reviewed in 1908.",
+      "The review summarizes the plot of the story.",
+      "The plot of the story is light.",
+      "The review is overenthusiastic."
+    ],
+    "rules": []
+  },
+  {
+    "id": "053c75f420da5b13619eff42645f4e13882435b7",
+    "paragraph_id": 1,
+    "facts": [
+      "A young New Yorker is rich.",
+      "A young New Yorker hears a woman's voice singing divinely from his window on a night of fog and mist.",
+      "The young New Yorker falls in love with the voice.",
+      "The young New Yorker falls downstairs in a hurry to see the singer.",
+      "By the time the young New Yorker reaches the street, the singer has vanished.",
+      "Only a policeman remains when the young New Yorker reaches the street.",
+      "The young New Yorker is Mr. Hillard.",
+      "Mr. Hillard meets the young, adventurous singer again under mystifying circumstances.",
+      "Mr. Hillard and the singer dine together.",
+      "The singer comes in a mask.",
+      "The scene shifts to Italy.",
+      "An American comic opera company is stranded at Venice.",
+      "The beautiful singer becomes the prima donna of the American comic opera company.",
+      "The soubrette is Kitty Killigrew.",
+      "Kitty Killigrew is involved in a subplot.",
+      "Amusing things happen at Venice.",
+      "Thrilling things happen at Monte Carlo.",
+      "The climax is reached at Florence.",
+      "The curtain goes down on happy lovers at Bellaggio."
+    ],
+    "rules": [
+      "What the voice has begun, the mask puts the finishing touches to.",
+      "Mr. Hillard is full forty fathoms deep in love and curiosity."
+    ]
+  }
+]

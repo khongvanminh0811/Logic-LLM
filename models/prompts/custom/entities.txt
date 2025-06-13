@@ -1,0 +1,118 @@
+You are given a paragraph along with a set of facts and rules that have been extracted from it. Your task is to identify and extract entities from the paragraph for use in a first-order logic (FOL) structure.
+
+Definition:
+An entity can be a noun phrase, pronoun, or proper name that refers to a distinct object or concept with identifiable properties.
+
+Guidelines:
+- Answer should not have any comments or explainations, just the extracted entities
+- Do not skip any sentence in the paragraph; every sentence must be considered.
+- If multiple expressions refer to the same real-world object, event, or concept (e.g., synonyms, pronouns, or rephrasings), extract a single unified entity to represent them.
+- If there is a group or collection of related objects or events that naturally form a single category, define a collective entity to represent the group.
+
+The extracted entities should be organized as follows:
+
+group name: entity1, entity2, entity3, ...
+group name: entity4, entity5, ...
+entity6, entity7, ... (other entities that do not belong to any group)
+
+Notes: group should have more than 2 entities
+
+Here are some examples of finding entities:
+Context: 
+At Madeline Hall, an old mansion-house near Southampton belonging to the wealthy de Versely family, lives an elderly spinster Miss Delmar, the aunt of the earl de Versely and Captain Delmar. Miss Delmar invites Arabella Mason, the daughter of a deceased, well-liked steward to stay with her as a lower-class guest in the house. Captain Delmar is known to visit his aunt at Madeline Hall frequently, accompanied by his valet Ben Keene, who is also a private marine. Captain Delmar eventually suggests that Ben should propose to Arabella, and the two marry in secret, to the frustration of Miss Delmar and Arabella's mother. The captain is able to smooth over the situation with his aunt, even after it is discovered that Arabella was six months pregnant at the time of the marriage. She later gives birth to a boy, who takes the Captain's Christian name and Ben's surname--the titular Percival Keene.
+
+Facts: 
+Madeline Hall is an old mansion-house near Southampton.  
+Madeline Hall belongs to the wealthy de Versely family.  
+Miss Delmar is an elderly spinster.  
+Miss Delmar lives at Madeline Hall.  
+Miss Delmar is the aunt of the earl de Versely.  
+Miss Delmar is the aunt of Captain Delmar.  
+Arabella Mason is the daughter of a deceased, well-liked steward.  
+Miss Delmar invites Arabella Mason to stay at Madeline Hall as a lower-class guest. 
+Captain Delmar visits Miss Delmar at Madeline Hall frequently.  
+Captain Delmar is accompanied by Ben Keene.  
+Ben Keene is Captain Delmar’s valet.  
+Ben Keene is a private marine.  
+Captain Delmar suggests that Ben Keene should propose to Arabella Mason.  
+Ben Keene and Arabella Mason marry in secret.  
+Miss Delmar is frustrated by the secret marriage.  
+The mother of Arabella Mason is frustrated by the secret marriage.  
+Captain Delmar smooths over the situation with Miss Delmar.  
+Arabella Mason was six months pregnant at the time of the marriage.  
+Arabella Mason gives birth to Percival Keene.  
+
+Rules:  
+Percival Keene born to Arabella Mason and Ben Keene takes the Christian name of Captain Delmar and the surname of Ben Keene.
+
+Entities:
+People: Miss Delmar, Arabella Mason, Captain Delmar, Ben Keene, Arabella's mother, steward, The earl de Versely, Percival Keene
+Places: Madeline Hall, Southampton 
+de Versely family
+
+------
+Context: 
+John LeTour, a 40-year-old New Yorker, is one of two delivery men for Ann, who supplies an exclusive clientele in the banking and financing sector with drugs. While Ann contemplates switching to the cosmetics business, LeTour, who suffers from insomnia, has lost his perspective in life.
+
+Facts:
+John LeTour is a 40-year-old New Yorker.
+John LeTour is one of two delivery men for Ann.
+Ann supplies drugs to an exclusive clientele.
+The exclusive clientele is in the banking and financing sector.
+Ann is contemplating switching to the cosmetics business.
+John LeTour suffers from insomnia.
+
+Rules:
+John LeTour has lost his perspective in life.
+
+Entities:
+People: John LeTour, Ann
+Role: delivery man, clientele
+Business: cosmetics, drug delivery, Banking and financing
+New York, insomnia, drug
+------
+Context:
+Teenager Grace MacLean (Scarlett Johansson) and her best friend Judith (Kate Bosworth) go out early one winter's morning to ride their horses, Pilgrim and Gulliver. As they ride up an icy slope, Gulliver slips and hits Pilgrim. Both horses fall, dragging the girls onto a road and colliding with a truck. Judith and Gulliver are killed, while Grace and Pilgrim are both severely injured. Grace, left with a partially amputated right leg, is bitter and withdrawn after the accident. Meanwhile, Pilgrim is traumatized and uncontrollable to the extent that it is suggested he be put down. Grace's mother, Annie (Kristin Scott Thomas), a strong-minded and workaholic magazine editor, refuses to allow Pilgrim to be put down, sensing that somehow Grace's recovery is linked with Pilgrim's.
+
+Facts:
+Grace MacLean is a teenager.
+Grace MacLean's best friend is Judith.
+Grace MacLean and Judith go out early one winter's morning to ride horses.
+Grace MacLean rides a horse named Pilgrim.
+Judith rides a horse named Gulliver.
+Gulliver slips and hits Pilgrim while riding up an icy slope.
+Pilgrim and Gulliver fall.
+Pilgrim and Gulliver drag Grace MacLean and Judith onto a road.
+Pilgrim and Gulliver collide with a truck.
+Judith and Gulliver is killed.
+Grace MacLean and Pilgrim is severely injured.
+Grace MacLean has a partially amputated right leg.
+Grace MacLean is bitter after the accident.
+Grace MacLean is withdrawn after the accident.
+Pilgrim is traumatized.
+Pilgrim is uncontrollable.
+It is suggested that Pilgrim be put down.
+Annie is the mother of Grace MacLean.
+Annie is a strong-minded magazine editor.
+Annie is a workaholic.
+Annie refuses to allow Pilgrim to be put down.
+Annie senses that Grace MacLean's recovery is linked with Pilgrim's.
+
+Rules:
+
+Entities:
+People: Grace MacLean, Judith, Annie
+Horse: Pilgrim, Gulliver
+Location: icy slope, road
+road
+------
+Context:
+[[CONTEXT]]
+
+Facts:
+[[FACTS]]
+
+Rules:
+[[RULES]]
+
+Entities:

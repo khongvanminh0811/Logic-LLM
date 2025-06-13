@@ -1,0 +1,962 @@
+[
+  {
+    "id": 0,
+    "question": "What is the title of this story?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Cynthia decided to drop Ray from the show because of [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 1,
+    "question": "Who saves the 4 orphans; Edward, Humphrey, Alice and Edith?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Shari left Ed because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 2,
+    "question": "Where did Jacob hide the 4 orphans?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "[[CANDIDATE_ANSWER]] helped Ed in airing off the show."
+  },
+  {
+    "id": 3,
+    "question": "What is the name of the hostile Puritan gamekeeper?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "The name of the TV show that Ed is the star of is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 4,
+    "question": "Who been awarded the old Arnwood estate?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Ed squishes [[CANDIDATE_ANSWER]] by falling off of a table."
+  },
+  {
+    "id": 5,
+    "question": "Why were Edward's sisters sent away?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Ed finds that [[CANDIDATE_ANSWER]] is cheating on their girlfriend."
+  },
+  {
+    "id": 6,
+    "question": "Who eventually falls in love with Edward?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Ed apologizes to Shari and then reveals [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 7,
+    "question": "What relation do Edward and his siblings pretend to be towards Jacob Armitage?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Ed meets [[CANDIDATE_ANSWER]] on the Tonight Show."
+  },
+  {
+    "id": 8,
+    "question": "What was Edward's job title while working for Heatherstone?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Ed is at the hospital because of [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 9,
+    "question": "Who are the four orphan children of the Arnwood house?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Ed gets the show to stop airing by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 10,
+    "question": "Who rescues the children from fire at Arnwood?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Ed sees [[CANDIDATE_ANSWER]] while at the theater."
+  },
+  {
+    "id": 11,
+    "question": "Who does Edward work for as a secretary?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Ed doesn't just quit the show because of [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 12,
+    "question": "Where are Humphrey live after Edward leaves?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Ray is Ed's brother."
+  },
+  {
+    "id": 13,
+    "question": "After Edward leaves who raises his sisters Alice and Edith?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "The idea of True TV was thought up by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 14,
+    "question": "What is the name of the antagonist Puritan gamekeeper?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "[[CANDIDATE_ANSWER]] is decided to be the subject of the show."
+  },
+  {
+    "id": 15,
+    "question": "When does the story begin?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "The show gets interesting on [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 16,
+    "question": "What is believed to have happen to Edward, Humphrey, Alice and Edith?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Ed locks out [[CANDIDATE_ANSWER]] from the room."
+  },
+  {
+    "id": 17,
+    "question": "Who does Edward love?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Cynthia brings Jill to the park because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 18,
+    "question": "Who does Edward feel betrayed by and why?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "[[CANDIDATE_ANSWER]] prevents Ed from doing anything about the show at the funeral."
+  },
+  {
+    "id": 19,
+    "question": "Where does Jacob Armitage hide the four orphan children when he saves them from the fire?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Ed follows Shari to [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 20,
+    "question": "What are the children disquised as by Jacob Armitage?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "The camera man decides to stay with [[CANDIDATE_ANSWER]] next."
+  },
+  {
+    "id": 21,
+    "question": "Who takes charge of the children after Armitage's death?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Ed gets the show to end by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 22,
+    "question": "What is Pablo rescued from?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "TV news panelists predict that [[CANDIDATE_ANSWER]] about the show."
+  },
+  {
+    "id": 23,
+    "question": "What is the name of Heatherstone's daughter?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Cynthia's new idea for a TV show is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 24,
+    "question": "What is Heatherstone's daughter rescued from by Armitage?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Ed visits Shari because of [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 25,
+    "question": "What two things cause Edward distress and forces him to flee to France?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "After Ed reveals his feelings to Shari during the visit, [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 26,
+    "question": "Why did Heatherstone acquire the Arnwood estate?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Shari is abused by viewers because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 27,
+    "question": "What job did Edward do for Heatherstone?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "[[CANDIDATE_ANSWER]] visits Ed in the park when he's playing football with Ray and his friends."
+  },
+  {
+    "id": 28,
+    "question": "Who was originally defeated that caused the soldiers to first search for the New Forest?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Right before Jill and Ed are about to have sex, [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 29,
+    "question": "What king has just been defeated when the story begins?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Ed's father dies [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 30,
+    "question": "Who lives in Arnwood?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Shari wears [[CANDIDATE_ANSWER]] to the funeral of Ed's father."
+  },
+  {
+    "id": 31,
+    "question": "Who are the orphans in the house saved by?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Ed will give $100,000 to [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 32,
+    "question": "Who does Jacob disguise the children as?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "[[CANDIDATE_ANSWER]] encouraged Laurence Olivier to hire Colin Clark to work on the project The Prince and The Showgirl."
+  },
+  {
+    "id": 33,
+    "question": "Who do the children rescue from a trap?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Colin Clark and Laurence Olivier met when [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 34,
+    "question": "Who wants to harm the family?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Marilyn Monroe is the star of The Prince and The Showgirl."
+  },
+  {
+    "id": 35,
+    "question": "Who does Edward work for?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Olivier is upset with Marilyn Monroe because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 36,
+    "question": "What is Edward's job?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Marilyn Monroe goes skinny dipping with [[CANDIDATE_ANSWER]] in this story."
+  },
+  {
+    "id": 37,
+    "question": "Who joins the army of King Charles II?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "[[CANDIDATE_ANSWER]] catches Colin Clark and Marilyn Monroe skinny dipping together."
+  },
+  {
+    "id": 38,
+    "question": "Who acquired the estate for Edward?",
+    "context_id": "04d0a3d15a1e39a94524a3958e433a88ca01fdf9",
+    "question_template": "Colin Clark and Marilyn Monroe go on [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 39,
+    "question": "Which named critic gave a positive review of the novel?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "The production of The Prince and The Showgirl takes place at [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 40,
+    "question": "In what format is the novel written?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "[[CANDIDATE_ANSWER]] is Marilyn Monroe's acting coach."
+  },
+  {
+    "id": 41,
+    "question": "Why did the New York Times give the novel a bad review?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Marilyn Monroe is married to [[CANDIDATE_ANSWER]] in this story."
+  },
+  {
+    "id": 42,
+    "question": "In what way was Wace's view on love different than Kempton's?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "[[CANDIDATE_ANSWER]] defends Marilyn when Olivier tries to make her apologize for being late."
+  },
+  {
+    "id": 43,
+    "question": "What literary group were both London and Strunsky apart of?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "[[CANDIDATE_ANSWER]] is the production that Colin traveled to England to be a part of."
+  },
+  {
+    "id": 44,
+    "question": "Of the two witters of the novel which one did George Stirling give a negative review?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "[[CANDIDATE_ANSWER]] encourages Olivier to give Colin a job on the set."
+  },
+  {
+    "id": 45,
+    "question": "What kind of relationship do biographer believe London have with Strunsky?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Lucy’s occupation is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 46,
+    "question": "What kind of relationship did Bessie believe London had with Strunsky?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Olivier was initially frustrated with Marilyn because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 47,
+    "question": "When did Strunsky publish her memoris?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "The name of the production that Olivier is making is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 48,
+    "question": "How many wives is London have?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Marilyn is in pain the night after she had locked herself in her room because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 49,
+    "question": "How would you describe Herbert Wace's character?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Lucy breaks up with Colin because of his growing infatuation for [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 50,
+    "question": "How would you describe Dane Kempton's character?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Marilyn is crying when Arthur finds her on the staircase after hearing an argument because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 51,
+    "question": "What subject were the two men discussing in their letters?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Colin Clark did [[CANDIDATE_ANSWER]] after graduating from university."
+  },
+  {
+    "id": 52,
+    "question": "What character does Jack London play?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Colin knew Olivier because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 53,
+    "question": "What character does Anna Strunsky play?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Colin impresses Olivier by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 54,
+    "question": "What does Wace believe love revolves around?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Marilyn brings [[CANDIDATE_ANSWER]] with her to London."
+  },
+  {
+    "id": 55,
+    "question": "What does Wace believe is NOT needed in a relationship?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Olivier became frustrated with Marilyn because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 56,
+    "question": "What types of women does Jack London describe?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Lucy holds the position of [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 57,
+    "question": "How did critics respond to the letters?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Marilyn left the set early because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 58,
+    "question": "How is the novel structured?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Marilyn had [[CANDIDATE_ANSWER]] when Colin found her crying."
+  },
+  {
+    "id": 59,
+    "question": "What is the name of the radical San Francisco literary group?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Lucy breaks up with Colin because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 60,
+    "question": "Who writes Herbert Wace's letters?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Marilyn and Colin went together to [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 61,
+    "question": "What are the perpectives of the two letters?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "[[CANDIDATE_ANSWER]] is Adam's best friend."
+  },
+  {
+    "id": 62,
+    "question": "Who writes Dane Kempton's letters?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "[[CANDIDATE_ANSWER]] is Adam's girlfriend at the beginning of the story."
+  },
+  {
+    "id": 63,
+    "question": "Which of the Letters makes the case for feeling and emotion?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Rachael's profession is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 64,
+    "question": "Why is the public's interest initially piqued by the letters?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Kyle sees Rachael kissing [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 65,
+    "question": "Why are biographers intrigued by the Kempton-Wace Letters?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Adam and Rachael break up when [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 66,
+    "question": "What happens to Jack London's marriage with Bessie?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Adam finds Kyle's copy of Facing Cancer Together [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 67,
+    "question": "In what year did London die?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "Adam meets Katherine through [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 68,
+    "question": "What is the title of Strunsky's memoirs?",
+    "context_id": "06b1c16f9343dfe145570e28e0fe81ddc66cf1ea",
+    "question_template": "[[CANDIDATE_ANSWER]] dies in the story."
+  },
+  {
+    "id": 69,
+    "question": "What did Watson believe was wrong with Holmes?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "[[CANDIDATE_ANSWER]] has Alzheimer's in the story."
+  },
+  {
+    "id": 70,
+    "question": "What did Smith send to Holmes to try and infect him?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Adam Lerner's career is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 71,
+    "question": "What was the signal for Inspector Morton to enter the room?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Adam discovers [[CANDIDATE_ANSWER]] when he goes to his doctor to investigate back pain."
+  },
+  {
+    "id": 72,
+    "question": "How did Holmes feel when Watson touched the items in his room?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Adam's chances of survival, which he discovers online, are [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 73,
+    "question": "Who did Mr. Smith kill before?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Adam takes his mom's offer of care by rejecting it in favor of [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 74,
+    "question": "Who is Morton?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Rachael reacts to Adam's chemo treatments by being [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 75,
+    "question": "Why did Watson hide behind a screen?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Kyle discovers [[CANDIDATE_ANSWER]] when attending an art gallery."
+  },
+  {
+    "id": 76,
+    "question": "How long did Watson starve himself so that he would look sick?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "[[CANDIDATE_ANSWER]] is Katherine McKay."
+  },
+  {
+    "id": 77,
+    "question": "Why was Dr. Watson called to attend to Holmes?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "[[CANDIDATE_ANSWER]] helps Adam understand his mother's perspective on the disease."
+  },
+  {
+    "id": 78,
+    "question": "What does Holmes first instruct Dr. Watson to do in fighting this illness?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "[[CANDIDATE_ANSWER]] is involved in Kyle's car the night before his surgery."
+  },
+  {
+    "id": 79,
+    "question": "What does Dr. Watson do that aggravates Holmes?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Adam realizes [[CANDIDATE_ANSWER]] in Kyle's bathroom."
+  },
+  {
+    "id": 80,
+    "question": "What does Holmes ask Dr. Watson to do at 6 p.m.?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Adam's job is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 81,
+    "question": "What happens when Dr. Watson gets to 13 Lower Burke Street?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Adam breaks up with Rachael because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 82,
+    "question": "What does Dr. Watson overhear back at Holmes residence?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Kyle is secretly showing his support for Adam by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 83,
+    "question": "How did Holmes possibly contract this illness?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Rachael gets Adam [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 84,
+    "question": "What was the intention of Holmes in having Mr. Smith lighting the gaslight to full?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Adam has [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 85,
+    "question": "What else does Holmes request from Mr. Smith?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Adam and Katherine begin to develop a friendship when [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 86,
+    "question": "What is the secret Holmes kept hidden from everyone as he investigated this case?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Adam finds [[CANDIDATE_ANSWER]] in Kyle's bathroom that proves he cares."
+  },
+  {
+    "id": 87,
+    "question": "Why was Watson called to Baker Street?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Kyle uses Adam's illness for [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 88,
+    "question": "Why does Homes get upset with Watson?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "[[CANDIDATE_ANSWER]] finds out about Rachael's affair first."
+  },
+  {
+    "id": 89,
+    "question": "Where does Homes instruct Watson to go?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Adam finally gets rid of his cancer by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 90,
+    "question": "Who is Watson supposed to give Holmes' message to?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Bastian seeks refuge in [[CANDIDATE_ANSWER]] at the beginning of the story."
+  },
+  {
+    "id": 91,
+    "question": "What is Watson supposed to do after deliviering holmes meassage?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "The world being devoured by \"The Nothing\" is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 92,
+    "question": "Why won't Homes allow Watson to examine him?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Atreyu is forced to leave his horse, Artax, in [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 93,
+    "question": "What was Holmes purpose in pretending he was dying?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Atreyu sees [[CANDIDATE_ANSWER]] in the mirror that reveals the true self."
+  },
+  {
+    "id": 94,
+    "question": "What was the signal for Inspector Morton to come in?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Atreyu loses [[CANDIDATE_ANSWER]] in the Sea of Possibilities."
+  },
+  {
+    "id": 95,
+    "question": "What evidence did Smith put in his pocket?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "The purpose of the AURYN is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 96,
+    "question": "Why did Holmes ask Watson to retuen to Baker street?",
+    "context_id": "09333c7d604bd412e6aef5d3e56b046ed301c5e5",
+    "question_template": "Fantasia is representative of [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 97,
+    "question": "Where is Andy Kaufman from?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "The Empress asks Bastian to [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 98,
+    "question": "Who was George Shapiro to Andy Kaufman?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "What is left of Fantasia when Bastian awakens in blackness with the Empress is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 99,
+    "question": "What role did Andy Kaufman play on the sitcom \"Taxi\" ?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Bastian brings [[CANDIDATE_ANSWER]] back to the real world to fight off his bullies."
+  },
+  {
+    "id": 100,
+    "question": "Who was Tony Clifton?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "The name of the land described in the book is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 101,
+    "question": "What wrestler did Andy Kaufman have a romantic relationship with?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "The force devouring Fantasia is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 102,
+    "question": "Who is Bob Zmuda to Andy Kaufman?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Atreyu is tasked to find the cure for the Childlike Empress's illness."
+  },
+  {
+    "id": 103,
+    "question": "What fatal disease was Andy Kaufman diagnosed with?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "The name of Atreyu's medallion is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 104,
+    "question": "On what show did Andy Kaufman throw a drink at Jerry Lawler?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "The Nothing summons [[CANDIDATE_ANSWER]] to stop Atreyu."
+  },
+  {
+    "id": 105,
+    "question": "What was Jerry Lawler's occupation?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Atreyu loses [[CANDIDATE_ANSWER]] in the Swamp of Sadness."
+  },
+  {
+    "id": 106,
+    "question": "What was Andy Kaufman's dream venue?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Morla is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 107,
+    "question": "In addition to singing kids' songs, why does Kaufman's nightclub act fail?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Atreyu sees [[CANDIDATE_ANSWER]] in the mirror that shows his true self."
+  },
+  {
+    "id": 108,
+    "question": "What singer does Kaufman impersonate via his \"foreign man\" character?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "The Gmork says that Fantasia represents [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 109,
+    "question": "On what television sitcom does Kaufman accept a role?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Bastion wishes for [[CANDIDATE_ANSWER]] at the end."
+  },
+  {
+    "id": 110,
+    "question": "How does Kaufman feel about sitcoms?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "The Nothing represents [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 111,
+    "question": "Appearances on which comedy show increase Kaufman's fame?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "[[CANDIDATE_ANSWER]] is responsible for spreading the Nothing."
+  },
+  {
+    "id": 112,
+    "question": "What novel does Kaufman read aloud to purposely aggravate his audience?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "[[CANDIDATE_ANSWER]] recreates Fantasia."
+  },
+  {
+    "id": 113,
+    "question": "When Kaufman becomes a wrestler, what limitation does he set?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Atreyu's direct task is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 114,
+    "question": "What does Kaufman refuse to do on a live ABC show?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Atreyu is suggested by Morla to seek the answers she lacks in [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 115,
+    "question": "As a result of a wrestling injury, what does Kaufman have to wear?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Morla lives in [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 116,
+    "question": "What invitation does Kaufman extend to the audience after his Carnegie Hall perfomance?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "[[CANDIDATE_ANSWER]] saves Atreyu from the Swamp of Sadness when he gives in to the exhaustion."
+  },
+  {
+    "id": 117,
+    "question": "What was Kaufman diagnosed with?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Bastian wishes for [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 118,
+    "question": "Which show is Kaufman on when he refuses to speak his lines?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "[[CANDIDATE_ANSWER]] protects Atreyu on his quest."
+  },
+  {
+    "id": 119,
+    "question": "What is Kaufman's dream venue?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "The Southern Oracle says that [[CANDIDATE_ANSWER]] will save the Empress."
+  },
+  {
+    "id": 120,
+    "question": "How is Andy banned from Saturday Night Live?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Bastian enters a bookstore at the beginning of the story because of [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 121,
+    "question": "Where does Kaufman meet Lynne?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Atreyu loses [[CANDIDATE_ANSWER]] in the swamp."
+  },
+  {
+    "id": 122,
+    "question": "How does Kaufman feel about Taxi?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "[[CANDIDATE_ANSWER]] is what Fantasia is."
+  },
+  {
+    "id": 123,
+    "question": "Where does Kaufman go for a medical miracle?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "[[CANDIDATE_ANSWER]] is destroying Fantasia."
+  },
+  {
+    "id": 124,
+    "question": "Who informs Kaufman that Taxi was cancelled?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Atreyu is given [[CANDIDATE_ANSWER]] at the beginning of his quest."
+  },
+  {
+    "id": 125,
+    "question": "Who gets in fight with Lawler on David Letterman's show?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Atreyu must travel [[CANDIDATE_ANSWER]] to reach the Southern Oracle."
+  },
+  {
+    "id": 126,
+    "question": "What sport does Kaufman decide to become a professional of?",
+    "context_id": "0bd270c8c46f84a4abd99d65e2f17a9e11a7f76d",
+    "question_template": "Bastian can save the empress by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 127,
+    "question": "What Stanley Jobson did served time in jail for?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "The amount of Fantasia left after Bastian calls out the Empress's new name is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 128,
+    "question": "What did Gabriel Shear want to hire Stanley Jobson for?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Atreyu sees [[CANDIDATE_ANSWER]] at the shore of the abandoned ruins."
+  },
+  {
+    "id": 129,
+    "question": "Who is Holly?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Bastian wishes for [[CANDIDATE_ANSWER]] after saving Fantasia."
+  },
+  {
+    "id": 130,
+    "question": "What was Black Cell created for?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Bastian left a note for Mr. Coreander because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 131,
+    "question": "How did Gabriel Shear frame Stanley Jobson to force him to participate in the bank heist?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Atreyu was given the task to discover the cure by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 132,
+    "question": "What job does Stanley Jobsonâs ex-wife Melissa actually have?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Atreya finds the adviser Morla in [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 133,
+    "question": "What was Stanley Jobson going to use to steal the money for Gabriel Shear?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "When Bastian lets out a scream, [[CANDIDATE_ANSWER]] happens."
+  },
+  {
+    "id": 134,
+    "question": "What Ginger Knowles truly is?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "The Southern Oracle tells Atreyu to save the Empress by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 135,
+    "question": "In what bank did the heist occur?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "[[CANDIDATE_ANSWER]] is a type of creature."
+  },
+  {
+    "id": 136,
+    "question": "What does Stanley have to do to get Holly back?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "[[CANDIDATE_ANSWER]] is represented by The Nothing."
+  },
+  {
+    "id": 137,
+    "question": "Who is Ginger working with?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "The grain of sand that the Empress has is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 138,
+    "question": "Where do Stanley and Holly go?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Bastian sees [[CANDIDATE_ANSWER]] while flying on Falkor's back."
+  },
+  {
+    "id": 139,
+    "question": "Which characters are hackers?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Atreyu killed Gmork."
+  },
+  {
+    "id": 140,
+    "question": "What does Stanley use to shoot down the helicopter?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Rita adopts this particular assumed name because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 141,
+    "question": "Who Created Black Cell?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "[[CANDIDATE_ANSWER]] is the reason why \"Rita\" has forgotten her own name."
+  },
+  {
+    "id": 142,
+    "question": "What happened to Melissa?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Adam Kesher casts unknown Camilla Rhodes as Sylvia North because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 143,
+    "question": "What does Black Cell do?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Rita and Betty find [[CANDIDATE_ANSWER]] in Diane Selwyn's apartment."
+  },
+  {
+    "id": 144,
+    "question": "Why didn't Gabriel kill Ginger?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Diane claimed she had come to Hollywood because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 145,
+    "question": "Who gets the money in the end?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Diane goes to the party on Mulholland Drive because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 146,
+    "question": "Why was Stanley in jail?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Diane is upset to see Camilla kissing other people because [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 147,
+    "question": "Who oversees Black Cell?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Diane will know when the hit man has killed Camilla by [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 148,
+    "question": "Who does Gabriel kidnap that forces Stanley to continue to work for him?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Diane asks what the blue key will open, but the hit man just laughs when he hears [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 149,
+    "question": "Why did Senator Reisman attempt to assassinate Gabriel?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "The name of the theater that \"Rita\" and Betty visit is [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 150,
+    "question": "Who does Ginger really work for in the story?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Betty finds [[CANDIDATE_ANSWER]] in Rita's purse at the beginning of the story."
+  },
+  {
+    "id": 151,
+    "question": "Who shoots Ginger?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "The 'mobsters' insist Adam cast [[CANDIDATE_ANSWER]] in a leading role."
+  },
+  {
+    "id": 152,
+    "question": "How does Gabriel escape the bank robbery?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "The man on stage at Club Silencio explains [[CANDIDATE_ANSWER]] in several different languages."
+  },
+  {
+    "id": 153,
+    "question": "Who shoots down the helicopter?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Much of the story takes place in [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 154,
+    "question": "At the end of the story, who has custody of Holly?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "[[CANDIDATE_ANSWER]] appears in Diane's doorway, saying \"Time to wake up.\""
+  },
+  {
+    "id": 155,
+    "question": "What happens in Monte Carlo?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "[[CANDIDATE_ANSWER]] finds a blue box that matches the key from Rita's purse."
+  },
+  {
+    "id": 156,
+    "question": "Why is Stanley forbidden to use a computer?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Diane auditioned for [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 157,
+    "question": "In the early part of the story, why is Stanley unable to visit his daughter Holly?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "[[CANDIDATE_ANSWER]] suffers hallucinations and kills herself."
+  },
+  {
+    "id": 158,
+    "question": "In Los Angeles, Gabriel tests Stanley's hacking skills by having Stanley crack a secure government server in under 1 minute, while presented with what two distractions?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "Rita got inspiration for her name from [[CANDIDATE_ANSWER]]."
+  },
+  {
+    "id": 159,
+    "question": "What is the name of the secret organization that J Edgar Hoover created to launch retalitory attacks against terrorists?",
+    "context_id": "0c1274df8299049d4959ef8a1ea23a6a68e26f6e",
+    "question_template": "[[CANDIDATE_ANSWER]] lives on Mulholland Drive."
+  }
+]
